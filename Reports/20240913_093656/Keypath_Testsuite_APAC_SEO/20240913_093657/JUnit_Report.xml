@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Keypath_Testsuite_APAC_SEO" time="140.44" tests="3" failures="0" errors="0">
+   <testsuite name="Keypath_Testsuite_APAC_SEO" tests="3" failures="0" errors="0" time="140.44" skipped="0" timestamp="13-09-2024T09:37:04" hostname="madhansivaraj - 192.168.8.116" id="Test Suites/Keypath_Testsuite_APAC_SEO">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/madhansivaraj/git/Keypath_Automation_Testing_Mster/Reports/20240913_093656/Keypath_Testsuite_APAC_SEO/20240913_093657"/>
+         <property name="logFiles" value="/Users/madhansivaraj/git/Keypath_Automation_Testing_Mster/Reports/20240913_093656/Keypath_Testsuite_APAC_SEO/20240913_093657/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="madhansivaraj - 192.168.8.116"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.116"/>
+         <property name="sessionId" value="de4fb1c633a2b8246413293a2ffd22d1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs" time="73.508" classname="Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs" status="PASSED">
+         <system-out><![CDATA[13-09-2024T09:37:04 - [TEST_CASE][PASSED] - Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs: Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs
+
+13-09-2024T09:37:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Resuable_Testcases/Navigate_URL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Resuable_Testcases/Navigate_URL' successfully
+
+13-09-2024T09:37:04 - [TEST_CASE][PASSED] - Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Resuable_Testcases/Navigate_URL: Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Resuable_Testcases/Navigate_URL
+
+13-09-2024T09:37:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-09-2024T09:37:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-09-2024T09:37:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-09-2024T09:37:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-09-2024T09:37:06 - [TEST_STEP][PASSED] - navigateToUrl(University_MBS): Navigate to 'https://key:path@dev-mbs-mkt.pantheonsite.io/' successfully
+
+13-09-2024T09:37:37 - [MESSAGE][PASSED] - Navigate to 'https://key:path@dev-mbs-mkt.pantheonsite.io/' successfully
+
+13-09-2024T09:37:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-09-2024T09:37:37 - [MESSAGE][PASSED] - Current window maximized
+
+13-09-2024T09:37:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Resuable_Testcases/Navigate_URL' successfully
+
+13-09-2024T09:37:37 - [TEST_STEP][PASSED] - buttonObject = findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/List_DegreePrograms"): null
+
+13-09-2024T09:37:38 - [TEST_STEP][PASSED] - mouseOver(buttonObject): Object: 'Object Repository/APAC_University/MBS_University/Degree Program/List_DegreePrograms' is hovered
+
+13-09-2024T09:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Degree Program/List_DegreePrograms' is hovered
+
+13-09-2024T09:37:40 - [TEST_STEP][PASSED] - list1 = findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_ListOne"): null
+
+13-09-2024T09:37:40 - [TEST_STEP][PASSED] - list2 = findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listtwo"): null
+
+13-09-2024T09:37:40 - [TEST_STEP][PASSED] - list3 = findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listthree"): null
+
+13-09-2024T09:37:40 - [TEST_STEP][PASSED] - list4 = findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listfour"): null
+
+13-09-2024T09:37:40 - [TEST_STEP][PASSED] - lists = [list1, list2, list3, list4]: null
+
+13-09-2024T09:37:40 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+13-09-2024T09:37:40 - [TEST_STEP][PASSED] - randomListIndex = rand.nextInt(lists.size()): null
+
+13-09-2024T09:37:40 - [TEST_STEP][PASSED] - selectedList = lists.get(randomListIndex): null
+
+13-09-2024T09:37:40 - [TEST_STEP][PASSED] - waitForElementVisible(selectedList, 10): Object 'Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listthree' is visible
+
+13-09-2024T09:37:41 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listthree' is visible
+
+13-09-2024T09:37:41 - [TEST_STEP][PASSED] - listItems = findWebElements(selectedList, 30): Found web elements by test object Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listthree
+
+13-09-2024T09:37:41 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listthree
+
+13-09-2024T09:37:41 - [TEST_STEP][PASSED] - if (listItems.size() > 0): null
+
+13-09-2024T09:37:41 - [TEST_STEP][PASSED] - randomItemIndex = rand.nextInt(listItems.size()): null
+
+13-09-2024T09:37:41 - [TEST_STEP][PASSED] - randomItem = listItems.get(randomItemIndex): null
+
+13-09-2024T09:37:41 - [TEST_STEP][PASSED] - randomItem.click(): null
+
+13-09-2024T09:37:51 - [TEST_STEP][PASSED] - FirstName = keyPathPackage.customKeywords.generateRandomFirstName(): keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+13-09-2024T09:37:51 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+13-09-2024T09:37:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/Field_Firstname"), FirstName): Text 'Michale' is set on object 'Object Repository/APAC_University/MBS_University/Degree Program/Field_Firstname'
+
+13-09-2024T09:37:55 - [MESSAGE][PASSED] - Text 'Michale' is set on object 'Object Repository/APAC_University/MBS_University/Degree Program/Field_Firstname'
+
+13-09-2024T09:37:55 - [TEST_STEP][PASSED] - LastName = keyPathPackage.customKeywords.generateRandomLastName(): keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+13-09-2024T09:37:55 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+13-09-2024T09:37:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/Field_Lastname"), LastName): Text 'Testing Bruen' is set on object 'Object Repository/APAC_University/MBS_University/Degree Program/Field_Lastname'
+
+13-09-2024T09:37:56 - [MESSAGE][PASSED] - Text 'Testing Bruen' is set on object 'Object Repository/APAC_University/MBS_University/Degree Program/Field_Lastname'
+
+13-09-2024T09:37:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/Button_NextStep2")): Object: 'Object Repository/APAC_University/MBS_University/Degree Program/Button_NextStep2' is clicked on
+
+13-09-2024T09:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Degree Program/Button_NextStep2' is clicked on
+
+13-09-2024T09:37:56 - [TEST_STEP][PASSED] - dropdown = findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Bachelor_Experience"): null
+
+13-09-2024T09:37:56 - [TEST_STEP][PASSED] - options = ["yes", "no"]: null
+
+13-09-2024T09:37:56 - [TEST_STEP][PASSED] - randomOption = options[Random().nextInt(length)]: null
+
+13-09-2024T09:37:56 - [TEST_STEP][PASSED] - selectOptionByValue(dropdown, randomOption, true): All options with value 'no' are selected in object 'Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Bachelor_Experience'  using regular expression
+
+13-09-2024T09:38:02 - [MESSAGE][PASSED] - All options with value 'no' are selected in object 'Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Bachelor_Experience'  using regular expression
+
+13-09-2024T09:38:02 - [TEST_STEP][PASSED] - if (randomOption.equals("no")): All options with index in [1] are selected on object 'Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Workexperience'
+
+13-09-2024T09:38:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-09-2024T09:38:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-09-2024T09:38:05 - [TEST_STEP][PASSED] - WorkExperience = findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Workexperience"): null
+
+13-09-2024T09:38:05 - [TEST_STEP][PASSED] - selectOptionByIndex(WorkExperience, 1): All options with index in [1] are selected on object 'Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Workexperience'
+
+13-09-2024T09:38:06 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Workexperience'
+
+13-09-2024T09:38:06 - [TEST_STEP][PASSED] - startdate = findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Startdate"): null
+
+13-09-2024T09:38:06 - [TEST_STEP][PASSED] - selectOptionByIndex(startdate, keyPathPackage.customKeywords.selectRandomOptionFromDropdown()): All options with index in [2] are selected on object 'Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Startdate'
+
+13-09-2024T09:38:06 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomOptionFromDropdown is PASSED
+
+13-09-2024T09:38:07 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Startdate'
+
+13-09-2024T09:38:07 - [TEST_STEP][PASSED] - Enquiryreason = findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Enquiry"): null
+
+13-09-2024T09:38:07 - [TEST_STEP][PASSED] - selectOptionByIndex(Enquiryreason, keyPathPackage.customKeywords.selectRandomOptionFromDropdown()): All options with index in [2] are selected on object 'Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Enquiry'
+
+13-09-2024T09:38:07 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomOptionFromDropdown is PASSED
+
+13-09-2024T09:38:07 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Enquiry'
+
+13-09-2024T09:38:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-09-2024T09:38:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-09-2024T09:38:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/Button_NextStep3"), 3): Scroll to object 'Object Repository/APAC_University/MBS_University/Degree Program/Button_NextStep3' successfully
+
+13-09-2024T09:38:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/APAC_University/MBS_University/Degree Program/Button_NextStep3' successfully
+
+13-09-2024T09:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/Button_NextStep3")): Object: 'Object Repository/APAC_University/MBS_University/Degree Program/Button_NextStep3' is clicked on
+
+13-09-2024T09:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Degree Program/Button_NextStep3' is clicked on
+
+13-09-2024T09:38:10 - [TEST_STEP][PASSED] - Email = keyPathPackage.customKeywords.generateRandomEmail(): keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+13-09-2024T09:38:10 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+13-09-2024T09:38:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/Field_Email"), Email): Text 'hector.lynch@hotmail.com' is set on object 'Object Repository/APAC_University/MBS_University/Degree Program/Field_Email'
+
+13-09-2024T09:38:14 - [MESSAGE][PASSED] - Text 'hector.lynch@hotmail.com' is set on object 'Object Repository/APAC_University/MBS_University/Degree Program/Field_Email'
+
+13-09-2024T09:38:14 - [TEST_STEP][PASSED] - Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(): keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+13-09-2024T09:38:14 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+13-09-2024T09:38:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/Field_Phonenumber"), Phonenumber): Text '0486817039' is set on object 'Object Repository/APAC_University/MBS_University/Degree Program/Field_Phonenumber'
+
+13-09-2024T09:38:14 - [MESSAGE][PASSED] - Text '0486817039' is set on object 'Object Repository/APAC_University/MBS_University/Degree Program/Field_Phonenumber'
+
+13-09-2024T09:38:14 - [TEST_STEP][PASSED] - Postcode = keyPathPackage.customKeywords.selectRandomPostCode(): keyPathPackage.customKeywords.selectRandomPostCode is PASSED
+
+13-09-2024T09:38:14 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomPostCode is PASSED
+
+13-09-2024T09:38:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/Field_Postcode"), Postcode): Text '6141' is set on object 'Object Repository/APAC_University/MBS_University/Degree Program/Field_Postcode'
+
+13-09-2024T09:38:15 - [MESSAGE][PASSED] - Text '6141' is set on object 'Object Repository/APAC_University/MBS_University/Degree Program/Field_Postcode'
+
+13-09-2024T09:38:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/Field_Postcode"), Postcode): Text '6141' is set on object 'Object Repository/APAC_University/MBS_University/Degree Program/Field_Postcode'
+
+13-09-2024T09:38:17 - [MESSAGE][PASSED] - Text '6141' is set on object 'Object Repository/APAC_University/MBS_University/Degree Program/Field_Postcode'
+
+13-09-2024T09:38:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/Button_Downloadbrochure")): Object: 'Object Repository/APAC_University/MBS_University/Degree Program/Button_Downloadbrochure' is clicked on
+
+13-09-2024T09:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Degree Program/Button_Downloadbrochure' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Short_Courses" time="29.857" classname="Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Short_Courses" status="PASSED">
+         <system-out><![CDATA[13-09-2024T09:38:17 - [TEST_CASE][PASSED] - Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Short_Courses: Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Short_Courses
+
+13-09-2024T09:38:17 - [TEST_STEP][PASSED] - buttonObject = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses"): null
+
+13-09-2024T09:38:17 - [TEST_STEP][PASSED] - mouseOver(buttonObject): Object: 'Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses' is hovered
+
+13-09-2024T09:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses' is hovered
+
+13-09-2024T09:38:24 - [TEST_STEP][PASSED] - list1 = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listone"): null
+
+13-09-2024T09:38:24 - [TEST_STEP][PASSED] - list2 = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listtwo"): null
+
+13-09-2024T09:38:24 - [TEST_STEP][PASSED] - list3 = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree"): null
+
+13-09-2024T09:38:24 - [TEST_STEP][PASSED] - lists = [list1, list2, list3]: null
+
+13-09-2024T09:38:24 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+13-09-2024T09:38:24 - [TEST_STEP][PASSED] - randomListIndex = rand.nextInt(lists.size()): null
+
+13-09-2024T09:38:24 - [TEST_STEP][PASSED] - selectedList = lists.get(randomListIndex): null
+
+13-09-2024T09:38:24 - [TEST_STEP][PASSED] - waitForElementVisible(selectedList, 10): Object 'Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree' is visible
+
+13-09-2024T09:38:26 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree' is visible
+
+13-09-2024T09:38:26 - [TEST_STEP][PASSED] - listItems = findWebElements(selectedList, 30): Found web elements by test object Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree
+
+13-09-2024T09:38:26 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree
+
+13-09-2024T09:38:26 - [TEST_STEP][PASSED] - if (listItems.size() > 0): null
+
+13-09-2024T09:38:26 - [TEST_STEP][PASSED] - randomItemIndex = rand.nextInt(listItems.size()): null
+
+13-09-2024T09:38:26 - [TEST_STEP][PASSED] - randomItem = listItems.get(randomItemIndex): null
+
+13-09-2024T09:38:26 - [TEST_STEP][PASSED] - randomItem.click(): null
+
+13-09-2024T09:38:29 - [TEST_STEP][PASSED] - FirstName = keyPathPackage.customKeywords.generateRandomFirstName(): keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+13-09-2024T09:38:29 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+13-09-2024T09:38:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Field_Firstname"), FirstName): Text 'Kendall' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Firstname'
+
+13-09-2024T09:38:33 - [MESSAGE][PASSED] - Text 'Kendall' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Firstname'
+
+13-09-2024T09:38:33 - [TEST_STEP][PASSED] - LastName = keyPathPackage.customKeywords.generateRandomLastName(): keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+13-09-2024T09:38:33 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+13-09-2024T09:38:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Field_Lastname"), LastName): Text 'Testing D'Amore' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Lastname'
+
+13-09-2024T09:38:33 - [MESSAGE][PASSED] - Text 'Testing D'Amore' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Lastname'
+
+13-09-2024T09:38:33 - [TEST_STEP][PASSED] - Email = keyPathPackage.customKeywords.generateRandomEmail(): keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+13-09-2024T09:38:33 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+13-09-2024T09:38:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Field_Email"), Email): Text 'willodean.bode@gmail.com' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Email'
+
+13-09-2024T09:38:34 - [MESSAGE][PASSED] - Text 'willodean.bode@gmail.com' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Email'
+
+13-09-2024T09:38:34 - [TEST_STEP][PASSED] - Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(): keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+13-09-2024T09:38:34 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+13-09-2024T09:38:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Field_Phonenumber"), Phonenumber): Text '0481824154' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Phonenumber'
+
+13-09-2024T09:38:35 - [MESSAGE][PASSED] - Text '0481824154' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Phonenumber'
+
+13-09-2024T09:38:35 - [TEST_STEP][PASSED] - Company = keyPathPackage.customKeywords.selectRandomCompany(): keyPathPackage.customKeywords.selectRandomCompany is PASSED
+
+13-09-2024T09:38:35 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomCompany is PASSED
+
+13-09-2024T09:38:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Field_Company"), Company): Text 'Lueilwitz-Douglas' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Company'
+
+13-09-2024T09:38:36 - [MESSAGE][PASSED] - Text 'Lueilwitz-Douglas' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Company'
+
+13-09-2024T09:38:36 - [TEST_STEP][PASSED] - Role = keyPathPackage.customKeywords.selectRandomRole(): keyPathPackage.customKeywords.selectRandomRole is PASSED
+
+13-09-2024T09:38:36 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomRole is PASSED
+
+13-09-2024T09:38:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Field_Role"), Role): Text 'programmer' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Role'
+
+13-09-2024T09:38:36 - [MESSAGE][PASSED] - Text 'programmer' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Role'
+
+13-09-2024T09:38:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Button_Download")): Object: 'Object Repository/APAC_University/MBS_University/Short_Courses/Button_Download' is clicked on
+
+13-09-2024T09:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Short_Courses/Button_Download' is clicked on
+
+13-09-2024T09:38:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+13-09-2024T09:38:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+13-09-2024T09:38:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/APAC_University/MBS_University/Verify_Message"), "Thanks for your request"): Actual text and expected text of test object 'Object Repository/APAC_University/MBS_University/Verify_Message' are matched.
+
+13-09-2024T09:38:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/APAC_University/MBS_University/Verify_Message' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Enrol_Now" time="37.015" classname="Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Enrol_Now" status="PASSED">
+         <system-out><![CDATA[13-09-2024T09:38:47 - [TEST_CASE][PASSED] - Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Enrol_Now: Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Enrol_Now
+
+13-09-2024T09:38:47 - [TEST_STEP][PASSED] - buttonObject = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses"): null
+
+13-09-2024T09:38:47 - [TEST_STEP][PASSED] - mouseOver(buttonObject): Object: 'Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses' is hovered
+
+13-09-2024T09:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses' is hovered
+
+13-09-2024T09:38:48 - [TEST_STEP][PASSED] - list1 = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listone"): null
+
+13-09-2024T09:38:48 - [TEST_STEP][PASSED] - list2 = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listtwo"): null
+
+13-09-2024T09:38:48 - [TEST_STEP][PASSED] - list3 = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree"): null
+
+13-09-2024T09:38:48 - [TEST_STEP][PASSED] - lists = [list1, list2, list3]: null
+
+13-09-2024T09:38:48 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+13-09-2024T09:38:48 - [TEST_STEP][PASSED] - randomListIndex = rand.nextInt(lists.size()): null
+
+13-09-2024T09:38:48 - [TEST_STEP][PASSED] - selectedList = lists.get(randomListIndex): null
+
+13-09-2024T09:38:48 - [TEST_STEP][PASSED] - waitForElementVisible(selectedList, 10): Object 'Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree' is visible
+
+13-09-2024T09:38:48 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree' is visible
+
+13-09-2024T09:38:48 - [TEST_STEP][PASSED] - listItems = findWebElements(selectedList, 30): Found web elements by test object Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree
+
+13-09-2024T09:38:48 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree
+
+13-09-2024T09:38:48 - [TEST_STEP][PASSED] - if (listItems.size() > 0): null
+
+13-09-2024T09:38:48 - [TEST_STEP][PASSED] - randomItemIndex = rand.nextInt(listItems.size()): null
+
+13-09-2024T09:38:48 - [TEST_STEP][PASSED] - randomItem = listItems.get(randomItemIndex): null
+
+13-09-2024T09:38:48 - [TEST_STEP][PASSED] - randomItem.click(): null
+
+13-09-2024T09:38:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now"), 3): Scroll to object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now' successfully
+
+13-09-2024T09:38:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now' successfully
+
+13-09-2024T09:38:54 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now"), 20): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now' is clickable
+
+13-09-2024T09:38:54 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now' is clickable
+
+13-09-2024T09:38:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now")): Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now' is clicked on
+
+13-09-2024T09:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now' is clicked on
+
+13-09-2024T09:38:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Firstname"), "Testkeypath"): Text 'Testkeypath' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Firstname'
+
+13-09-2024T09:38:58 - [MESSAGE][PASSED] - Text 'Testkeypath' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Firstname'
+
+13-09-2024T09:38:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Secondname"), "Dummy"): Text 'Dummy' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Secondname'
+
+13-09-2024T09:38:59 - [MESSAGE][PASSED] - Text 'Dummy' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Secondname'
+
+13-09-2024T09:38:59 - [TEST_STEP][PASSED] - Email = keyPathPackage.customKeywords.generateRandomEmail(): keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+13-09-2024T09:38:59 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+13-09-2024T09:38:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Email"), Email): Text 'deandre.carter@yahoo.com' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Email'
+
+13-09-2024T09:39:00 - [MESSAGE][PASSED] - Text 'deandre.carter@yahoo.com' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Email'
+
+13-09-2024T09:39:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_ConfirmEmail"), Email): Text 'deandre.carter@yahoo.com' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_ConfirmEmail'
+
+13-09-2024T09:39:00 - [MESSAGE][PASSED] - Text 'deandre.carter@yahoo.com' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_ConfirmEmail'
+
+13-09-2024T09:39:00 - [TEST_STEP][PASSED] - Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(): keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+13-09-2024T09:39:00 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+13-09-2024T09:39:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Phonenumber"), Phonenumber): Text '0449910570' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Phonenumber'
+
+13-09-2024T09:39:01 - [MESSAGE][PASSED] - Text '0449910570' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Phonenumber'
+
+13-09-2024T09:39:01 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Check_Box")): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Check_Box' is checked
+
+13-09-2024T09:39:01 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Check_Box' is checked
+
+13-09-2024T09:39:01 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Check_Box"), 30): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Check_Box' is checked
+
+13-09-2024T09:39:02 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Check_Box' is checked
+
+13-09-2024T09:39:02 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment"), 3): Scroll to object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment' successfully
+
+13-09-2024T09:39:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment' successfully
+
+13-09-2024T09:39:02 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment"), 20): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment' is clickable
+
+13-09-2024T09:39:02 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment' is clickable
+
+13-09-2024T09:39:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment")): Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment' is clicked on
+
+13-09-2024T09:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment' is clicked on
+
+13-09-2024T09:39:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Cardnumber"), 10): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Cardnumber' is present
+
+13-09-2024T09:39:07 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Cardnumber' is present
+
+13-09-2024T09:39:07 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Cardnumber"), 10): null
+
+13-09-2024T09:39:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Cardnumber"), "4111 1111 1111 1111"): Text '4111 1111 1111 1111' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Cardnumber'
+
+13-09-2024T09:39:07 - [MESSAGE][PASSED] - Text '4111 1111 1111 1111' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Cardnumber'
+
+13-09-2024T09:39:07 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+13-09-2024T09:39:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Expirydate"), 10): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Expirydate' is present
+
+13-09-2024T09:39:07 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Expirydate' is present
+
+13-09-2024T09:39:07 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Expirydate"), 10): null
+
+13-09-2024T09:39:08 - [TEST_STEP][PASSED] - Expirydate = keyPathPackage.customKeywords.generateExpiryDate(): keyPathPackage.customKeywords.generateExpiryDate is PASSED
+
+13-09-2024T09:39:08 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateExpiryDate is PASSED
+
+13-09-2024T09:39:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_ExpiryDate"), Expirydate): Text '04/26' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_ExpiryDate'
+
+13-09-2024T09:39:08 - [MESSAGE][PASSED] - Text '04/26' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_ExpiryDate'
+
+13-09-2024T09:39:08 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+13-09-2024T09:39:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_CVC"), 10): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_CVC' is present
+
+13-09-2024T09:39:08 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_CVC' is present
+
+13-09-2024T09:39:08 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_CVC"), 10): null
+
+13-09-2024T09:39:08 - [TEST_STEP][PASSED] - CVC = keyPathPackage.customKeywords.generateExpiryDate(): keyPathPackage.customKeywords.generateExpiryDate is PASSED
+
+13-09-2024T09:39:08 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateExpiryDate is PASSED
+
+13-09-2024T09:39:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_CVC"), CVC): Text '02/25' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_CVC'
+
+13-09-2024T09:39:08 - [MESSAGE][PASSED] - Text '02/25' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_CVC'
+
+13-09-2024T09:39:08 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+13-09-2024T09:39:08 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Radio")): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Radio' is checked
+
+13-09-2024T09:39:08 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Radio' is checked
+
+13-09-2024T09:39:08 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Radio"), 30): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Radio' is checked
+
+13-09-2024T09:39:09 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Radio' is checked
+
+13-09-2024T09:39:09 - [TEST_STEP][PASSED] - Company = keyPathPackage.customKeywords.selectRandomCompany(): keyPathPackage.customKeywords.selectRandomCompany is PASSED
+
+13-09-2024T09:39:09 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomCompany is PASSED
+
+13-09-2024T09:39:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Company"), Company): Text 'Green-Wuckert' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Company'
+
+13-09-2024T09:39:09 - [MESSAGE][PASSED] - Text 'Green-Wuckert' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Company'
+
+13-09-2024T09:39:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_GIvenFIrstName"), "Onlyfortest"): Text 'Onlyfortest' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_GIvenFIrstName'
+
+13-09-2024T09:39:10 - [MESSAGE][PASSED] - Text 'Onlyfortest' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_GIvenFIrstName'
+
+13-09-2024T09:39:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_GivenLastName"), "onlyfortest"): Text 'onlyfortest' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_GivenLastName'
+
+13-09-2024T09:39:11 - [MESSAGE][PASSED] - Text 'onlyfortest' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_GivenLastName'
+
+13-09-2024T09:39:11 - [TEST_STEP][PASSED] - StreetAddress = keyPathPackage.customKeywords.generateRandomAddressLine1(): keyPathPackage.customKeywords.generateRandomAddressLine1 is PASSED
+
+13-09-2024T09:39:11 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomAddressLine1 is PASSED
+
+13-09-2024T09:39:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Address"), StreetAddress): Text '374 Kanisha Wall' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Address'
+
+13-09-2024T09:39:11 - [MESSAGE][PASSED] - Text '374 Kanisha Wall' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Address'
+
+13-09-2024T09:39:11 - [TEST_STEP][PASSED] - Suburb = keyPathPackage.customKeywords.generateRandomSuburb(): keyPathPackage.customKeywords.generateRandomSuburb is PASSED
+
+13-09-2024T09:39:11 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomSuburb is PASSED
+
+13-09-2024T09:39:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Suburb"), Suburb): Text 'Bendigo' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Suburb'
+
+13-09-2024T09:39:12 - [MESSAGE][PASSED] - Text 'Bendigo' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Suburb'
+
+13-09-2024T09:39:12 - [TEST_STEP][PASSED] - State = findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Dropdown_State"): null
+
+13-09-2024T09:39:12 - [TEST_STEP][PASSED] - selectOptionByIndex(State, keyPathPackage.customKeywords.selectRandomOptionFromDropdown()): All options with index in [2] are selected on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Dropdown_State'
+
+13-09-2024T09:39:12 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomOptionFromDropdown is PASSED
+
+13-09-2024T09:39:12 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Dropdown_State'
+
+13-09-2024T09:39:12 - [TEST_STEP][PASSED] - Postcode = keyPathPackage.customKeywords.selectRandomPostCode(): keyPathPackage.customKeywords.selectRandomPostCode is PASSED
+
+13-09-2024T09:39:12 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomPostCode is PASSED
+
+13-09-2024T09:39:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Postcode"), Postcode): Text '4784' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Postcode'
+
+13-09-2024T09:39:13 - [MESSAGE][PASSED] - Text '4784' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Postcode'
+
+13-09-2024T09:39:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Review_Purchase"), 10): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Review_Purchase' is clickable
+
+13-09-2024T09:39:13 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Review_Purchase' is clickable
+
+13-09-2024T09:39:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Review_Purchase")): Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Review_Purchase' is clicked on
+
+13-09-2024T09:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Review_Purchase' is clicked on
+
+13-09-2024T09:39:13 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase"), 3): Scroll to object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase' successfully
+
+13-09-2024T09:39:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase' successfully
+
+13-09-2024T09:39:17 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase"), 10): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase' is clickable
+
+13-09-2024T09:39:18 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase' is clickable
+
+13-09-2024T09:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase")): Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase' is clicked on
+
+13-09-2024T09:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase' is clicked on
+
+13-09-2024T09:39:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-09-2024T09:39:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-09-2024T09:39:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Verify_Order"), "Thank you for your order"): Actual text and expected text of test object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Verify_Order' are matched.
+
+13-09-2024T09:39:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Verify_Order' are matched.
+
+13-09-2024T09:39:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-09-2024T09:39:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-09-2024T09:37:04 - [TEST_SUITE][PASSED] - Keypath_Testsuite_APAC_SEO: Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Enrol_Now]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

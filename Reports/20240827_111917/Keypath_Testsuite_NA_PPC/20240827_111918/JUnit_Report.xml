@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Keypath_Testsuite_NA_PPC" time="171.721" tests="7" failures="0" errors="0">
+   <testsuite name="Keypath_Testsuite_NA_PPC" tests="7" failures="0" errors="0" time="171.721" skipped="0" timestamp="27-08-2024T11:19:23" hostname="madhansivaraj - 192.168.8.116" id="Test Suites/Keypath_Testsuite_NA_PPC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/madhansivaraj/git/Keypath_Automation_Testing_Mster/Reports/20240827_111917/Keypath_Testsuite_NA_PPC/20240827_111918"/>
+         <property name="logFiles" value="/Users/madhansivaraj/git/Keypath_Automation_Testing_Mster/Reports/20240827_111917/Keypath_Testsuite_NA_PPC/20240827_111918/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="madhansivaraj - 192.168.8.116"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.116"/>
+         <property name="sessionId" value="c8f77e7fa0163165b621ac3a88857f80"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_ Online Counseling Masters Degrees" time="36.505" classname="Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_ Online Counseling Masters Degrees" status="PASSED">
+         <system-out><![CDATA[27-08-2024T11:19:23 - [TEST_CASE][PASSED] - Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_ Online Counseling Masters Degrees: Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_ Online Counseling Masters Degrees
+
+27-08-2024T11:19:23 - [TEST_STEP][PASSED] - openBrowser("https://studysbu.online/landing/ppc5/combo-CMHC-SC"): Browser is opened with url: 'https://studysbu.online/landing/ppc5/combo-CMHC-SC'
+
+27-08-2024T11:19:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-08-2024T11:19:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-08-2024T11:19:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://studysbu.online/landing/ppc5/combo-CMHC-SC'
+
+27-08-2024T11:19:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-08-2024T11:19:41 - [MESSAGE][PASSED] - Current window maximized
+
+27-08-2024T11:19:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form' successfully
+
+27-08-2024T11:19:41 - [TEST_CASE][PASSED] - Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form: Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form
+
+27-08-2024T11:19:41 - [TEST_STEP][PASSED] - selectTestObject = findTestObject("Object Repository/North America_University/SBU_University/Dropdown_Program"): null
+
+27-08-2024T11:19:41 - [TEST_STEP][PASSED] - selectElement = findWebElement(selectTestObject, 0): Found web element by test object Object Repository/North America_University/SBU_University/Dropdown_Program
+
+27-08-2024T11:19:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-08-2024T11:19:41 - [MESSAGE][PASSED] - Found web element by test object Object Repository/North America_University/SBU_University/Dropdown_Program
+
+27-08-2024T11:19:41 - [TEST_STEP][PASSED] - select = new org.openqa.selenium.support.ui.Select(selectElement): null
+
+27-08-2024T11:19:41 - [TEST_STEP][PASSED] - optionsrandom = select.getOptions(): null
+
+27-08-2024T11:19:41 - [TEST_STEP][PASSED] - validOptions = optionsrandom.findAll({ -> ... }): null
+
+27-08-2024T11:19:41 - [TEST_STEP][PASSED] - randomdropdown = new java.util.Random(): null
+
+27-08-2024T11:19:41 - [TEST_STEP][PASSED] - randomOptiondropdown = validOptions[randomdropdown.nextInt(validOptions.size())]: null
+
+27-08-2024T11:19:41 - [TEST_STEP][PASSED] - select.selectByValue(randomOptiondropdown.getAttribute("value")): null
+
+27-08-2024T11:19:42 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/North America_University/SBU_University/Checkbox_Studylevel")): Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:19:42 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:19:42 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Object Repository/North America_University/SBU_University/Checkbox_Studylevel"), 30): Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:19:42 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:19:42 - [TEST_STEP][PASSED] - Email = keyPathPackage.customKeywords.generateRandomEmail(): keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+27-08-2024T11:19:42 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+27-08-2024T11:19:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Email"), Email): Text 'sammie.rolfson@yahoo.com' is set on object 'Object Repository/North America_University/SBU_University/Field_Email'
+
+27-08-2024T11:19:43 - [MESSAGE][PASSED] - Text 'sammie.rolfson@yahoo.com' is set on object 'Object Repository/North America_University/SBU_University/Field_Email'
+
+27-08-2024T11:19:43 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/North America_University/SBU_University/Button_Nextstep 2"), 10): Object 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clickable
+
+27-08-2024T11:19:43 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clickable
+
+27-08-2024T11:19:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/North America_University/SBU_University/Button_Nextstep 2")): Object: 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clicked on
+
+27-08-2024T11:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clicked on
+
+27-08-2024T11:19:43 - [TEST_STEP][PASSED] - FirstName = keyPathPackage.customKeywords.generateRandomFirstName(): keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+27-08-2024T11:19:43 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+27-08-2024T11:19:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Firstname"), FirstName): Text 'Elois' is set on object 'Object Repository/North America_University/SBU_University/Field_Firstname'
+
+27-08-2024T11:19:47 - [MESSAGE][PASSED] - Text 'Elois' is set on object 'Object Repository/North America_University/SBU_University/Field_Firstname'
+
+27-08-2024T11:19:47 - [TEST_STEP][PASSED] - LastName = keyPathPackage.customKeywords.generateRandomLastName(): keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+27-08-2024T11:19:47 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+27-08-2024T11:19:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Lastname"), LastName): Text 'Lowe' is set on object 'Object Repository/North America_University/SBU_University/Field_Lastname'
+
+27-08-2024T11:19:47 - [MESSAGE][PASSED] - Text 'Lowe' is set on object 'Object Repository/North America_University/SBU_University/Field_Lastname'
+
+27-08-2024T11:19:47 - [TEST_STEP][PASSED] - Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(): keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+27-08-2024T11:19:47 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+27-08-2024T11:19:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Phonenumber"), Phonenumber): Text '0470067819' is set on object 'Object Repository/North America_University/SBU_University/Field_Phonenumber'
+
+27-08-2024T11:19:48 - [MESSAGE][PASSED] - Text '0470067819' is set on object 'Object Repository/North America_University/SBU_University/Field_Phonenumber'
+
+27-08-2024T11:19:48 - [TEST_STEP][PASSED] - Postcode = keyPathPackage.customKeywords.selectRandomPostCodes(): keyPathPackage.customKeywords.selectRandomPostCodes is PASSED
+
+27-08-2024T11:19:48 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomPostCodes is PASSED
+
+27-08-2024T11:19:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Postcode"), Postcode): Text '52307' is set on object 'Object Repository/North America_University/SBU_University/Field_Postcode'
+
+27-08-2024T11:19:48 - [MESSAGE][PASSED] - Text '52307' is set on object 'Object Repository/North America_University/SBU_University/Field_Postcode'
+
+27-08-2024T11:19:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/North America_University/SBU_University/Button_Download_Brochure"), 10): Object 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clickable
+
+27-08-2024T11:19:49 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clickable
+
+27-08-2024T11:19:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/North America_University/SBU_University/Button_Download_Brochure")): Object: 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clicked on
+
+27-08-2024T11:19:50 - [MESSAGE][PASSED] - Object: 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clicked on
+
+27-08-2024T11:19:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-08-2024T11:19:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-08-2024T11:19:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/North America_University/SBU_University/Verify_Content"), "Welcome to Bona's Online"): Actual text and expected text of test object 'Object Repository/North America_University/SBU_University/Verify_Content' are matched.
+
+27-08-2024T11:19:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/North America_University/SBU_University/Verify_Content' are matched.
+
+27-08-2024T11:19:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-08-2024T11:20:00 - [MESSAGE][PASSED] - Browser is closed
+
+27-08-2024T11:20:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Master of Science In Cybersecurity" time="23.135" classname="Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Master of Science In Cybersecurity" status="PASSED">
+         <system-out><![CDATA[27-08-2024T11:20:00 - [TEST_CASE][PASSED] - Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Master of Science In Cybersecurity: Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Master of Science In Cybersecurity
+
+27-08-2024T11:20:00 - [TEST_STEP][PASSED] - openBrowser("https://studysbu.online/landing/ppc5/mscs?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474"): Browser is opened with url: 'https://studysbu.online/landing/ppc5/mscs?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474'
+
+27-08-2024T11:20:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-08-2024T11:20:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-08-2024T11:20:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://studysbu.online/landing/ppc5/mscs?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474'
+
+27-08-2024T11:20:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-08-2024T11:20:05 - [MESSAGE][PASSED] - Current window maximized
+
+27-08-2024T11:20:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form' successfully
+
+27-08-2024T11:20:05 - [TEST_CASE][PASSED] - Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form: Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form
+
+27-08-2024T11:20:05 - [TEST_STEP][PASSED] - selectTestObject = findTestObject("Object Repository/North America_University/SBU_University/Dropdown_Program"): null
+
+27-08-2024T11:20:05 - [TEST_STEP][PASSED] - selectElement = findWebElement(selectTestObject, 0): Found web element by test object Object Repository/North America_University/SBU_University/Dropdown_Program
+
+27-08-2024T11:20:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-08-2024T11:20:05 - [MESSAGE][PASSED] - Found web element by test object Object Repository/North America_University/SBU_University/Dropdown_Program
+
+27-08-2024T11:20:05 - [TEST_STEP][PASSED] - select = new org.openqa.selenium.support.ui.Select(selectElement): null
+
+27-08-2024T11:20:05 - [TEST_STEP][PASSED] - optionsrandom = select.getOptions(): null
+
+27-08-2024T11:20:05 - [TEST_STEP][PASSED] - validOptions = optionsrandom.findAll({ -> ... }): null
+
+27-08-2024T11:20:05 - [TEST_STEP][PASSED] - randomdropdown = new java.util.Random(): null
+
+27-08-2024T11:20:05 - [TEST_STEP][PASSED] - randomOptiondropdown = validOptions[randomdropdown.nextInt(validOptions.size())]: null
+
+27-08-2024T11:20:05 - [TEST_STEP][PASSED] - select.selectByValue(randomOptiondropdown.getAttribute("value")): null
+
+27-08-2024T11:20:05 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/North America_University/SBU_University/Checkbox_Studylevel")): Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:20:06 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:20:06 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Object Repository/North America_University/SBU_University/Checkbox_Studylevel"), 30): Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:20:06 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:20:06 - [TEST_STEP][PASSED] - Email = keyPathPackage.customKeywords.generateRandomEmail(): keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+27-08-2024T11:20:06 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+27-08-2024T11:20:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Email"), Email): Text 'thanh.kuvalis@gmail.com' is set on object 'Object Repository/North America_University/SBU_University/Field_Email'
+
+27-08-2024T11:20:07 - [MESSAGE][PASSED] - Text 'thanh.kuvalis@gmail.com' is set on object 'Object Repository/North America_University/SBU_University/Field_Email'
+
+27-08-2024T11:20:07 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/North America_University/SBU_University/Button_Nextstep 2"), 10): Object 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clickable
+
+27-08-2024T11:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clickable
+
+27-08-2024T11:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/North America_University/SBU_University/Button_Nextstep 2")): Object: 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clicked on
+
+27-08-2024T11:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clicked on
+
+27-08-2024T11:20:07 - [TEST_STEP][PASSED] - FirstName = keyPathPackage.customKeywords.generateRandomFirstName(): keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+27-08-2024T11:20:07 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+27-08-2024T11:20:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Firstname"), FirstName): Text 'Wilbert' is set on object 'Object Repository/North America_University/SBU_University/Field_Firstname'
+
+27-08-2024T11:20:10 - [MESSAGE][PASSED] - Text 'Wilbert' is set on object 'Object Repository/North America_University/SBU_University/Field_Firstname'
+
+27-08-2024T11:20:10 - [TEST_STEP][PASSED] - LastName = keyPathPackage.customKeywords.generateRandomLastName(): keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+27-08-2024T11:20:10 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+27-08-2024T11:20:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Lastname"), LastName): Text 'Douglas' is set on object 'Object Repository/North America_University/SBU_University/Field_Lastname'
+
+27-08-2024T11:20:10 - [MESSAGE][PASSED] - Text 'Douglas' is set on object 'Object Repository/North America_University/SBU_University/Field_Lastname'
+
+27-08-2024T11:20:10 - [TEST_STEP][PASSED] - Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(): keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+27-08-2024T11:20:10 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+27-08-2024T11:20:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Phonenumber"), Phonenumber): Text '0404986413' is set on object 'Object Repository/North America_University/SBU_University/Field_Phonenumber'
+
+27-08-2024T11:20:11 - [MESSAGE][PASSED] - Text '0404986413' is set on object 'Object Repository/North America_University/SBU_University/Field_Phonenumber'
+
+27-08-2024T11:20:11 - [TEST_STEP][PASSED] - Postcode = keyPathPackage.customKeywords.selectRandomPostCodes(): keyPathPackage.customKeywords.selectRandomPostCodes is PASSED
+
+27-08-2024T11:20:11 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomPostCodes is PASSED
+
+27-08-2024T11:20:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Postcode"), Postcode): Text '54701' is set on object 'Object Repository/North America_University/SBU_University/Field_Postcode'
+
+27-08-2024T11:20:11 - [MESSAGE][PASSED] - Text '54701' is set on object 'Object Repository/North America_University/SBU_University/Field_Postcode'
+
+27-08-2024T11:20:11 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/North America_University/SBU_University/Button_Download_Brochure"), 10): Object 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clickable
+
+27-08-2024T11:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clickable
+
+27-08-2024T11:20:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/North America_University/SBU_University/Button_Download_Brochure")): Object: 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clicked on
+
+27-08-2024T11:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clicked on
+
+27-08-2024T11:20:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-08-2024T11:20:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-08-2024T11:20:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/North America_University/SBU_University/Verify_Content"), "Welcome to Bona's Online"): Actual text and expected text of test object 'Object Repository/North America_University/SBU_University/Verify_Content' are matched.
+
+27-08-2024T11:20:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/North America_University/SBU_University/Verify_Content' are matched.
+
+27-08-2024T11:20:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-08-2024T11:20:23 - [MESSAGE][PASSED] - Browser is closed
+
+27-08-2024T11:20:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Masters in Business Administration" time="24.647" classname="Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Masters in Business Administration" status="PASSED">
+         <system-out><![CDATA[27-08-2024T11:20:23 - [TEST_CASE][PASSED] - Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Masters in Business Administration: Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Masters in Business Administration
+
+27-08-2024T11:20:23 - [TEST_STEP][PASSED] - openBrowser("https://studysbu.online/landing/ppc5/mba?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474"): Browser is opened with url: 'https://studysbu.online/landing/ppc5/mba?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474'
+
+27-08-2024T11:20:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-08-2024T11:20:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-08-2024T11:20:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://studysbu.online/landing/ppc5/mba?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474'
+
+27-08-2024T11:20:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-08-2024T11:20:28 - [MESSAGE][PASSED] - Current window maximized
+
+27-08-2024T11:20:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form' successfully
+
+27-08-2024T11:20:28 - [TEST_CASE][PASSED] - Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form: Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form
+
+27-08-2024T11:20:28 - [TEST_STEP][PASSED] - selectTestObject = findTestObject("Object Repository/North America_University/SBU_University/Dropdown_Program"): null
+
+27-08-2024T11:20:28 - [TEST_STEP][PASSED] - selectElement = findWebElement(selectTestObject, 0): Found web element by test object Object Repository/North America_University/SBU_University/Dropdown_Program
+
+27-08-2024T11:20:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-08-2024T11:20:28 - [MESSAGE][PASSED] - Found web element by test object Object Repository/North America_University/SBU_University/Dropdown_Program
+
+27-08-2024T11:20:28 - [TEST_STEP][PASSED] - select = new org.openqa.selenium.support.ui.Select(selectElement): null
+
+27-08-2024T11:20:28 - [TEST_STEP][PASSED] - optionsrandom = select.getOptions(): null
+
+27-08-2024T11:20:29 - [TEST_STEP][PASSED] - validOptions = optionsrandom.findAll({ -> ... }): null
+
+27-08-2024T11:20:29 - [TEST_STEP][PASSED] - randomdropdown = new java.util.Random(): null
+
+27-08-2024T11:20:29 - [TEST_STEP][PASSED] - randomOptiondropdown = validOptions[randomdropdown.nextInt(validOptions.size())]: null
+
+27-08-2024T11:20:29 - [TEST_STEP][PASSED] - select.selectByValue(randomOptiondropdown.getAttribute("value")): null
+
+27-08-2024T11:20:29 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/North America_University/SBU_University/Checkbox_Studylevel")): Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:20:29 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:20:29 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Object Repository/North America_University/SBU_University/Checkbox_Studylevel"), 30): Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:20:29 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:20:29 - [TEST_STEP][PASSED] - Email = keyPathPackage.customKeywords.generateRandomEmail(): keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+27-08-2024T11:20:29 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+27-08-2024T11:20:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Email"), Email): Text 'adrienne.greenholt@gmail.com' is set on object 'Object Repository/North America_University/SBU_University/Field_Email'
+
+27-08-2024T11:20:30 - [MESSAGE][PASSED] - Text 'adrienne.greenholt@gmail.com' is set on object 'Object Repository/North America_University/SBU_University/Field_Email'
+
+27-08-2024T11:20:30 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/North America_University/SBU_University/Button_Nextstep 2"), 10): Object 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clickable
+
+27-08-2024T11:20:30 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clickable
+
+27-08-2024T11:20:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/North America_University/SBU_University/Button_Nextstep 2")): Object: 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clicked on
+
+27-08-2024T11:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clicked on
+
+27-08-2024T11:20:31 - [TEST_STEP][PASSED] - FirstName = keyPathPackage.customKeywords.generateRandomFirstName(): keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+27-08-2024T11:20:31 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+27-08-2024T11:20:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Firstname"), FirstName): Text 'Maryellen' is set on object 'Object Repository/North America_University/SBU_University/Field_Firstname'
+
+27-08-2024T11:20:33 - [MESSAGE][PASSED] - Text 'Maryellen' is set on object 'Object Repository/North America_University/SBU_University/Field_Firstname'
+
+27-08-2024T11:20:33 - [TEST_STEP][PASSED] - LastName = keyPathPackage.customKeywords.generateRandomLastName(): keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+27-08-2024T11:20:33 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+27-08-2024T11:20:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Lastname"), LastName): Text 'Schmeler' is set on object 'Object Repository/North America_University/SBU_University/Field_Lastname'
+
+27-08-2024T11:20:34 - [MESSAGE][PASSED] - Text 'Schmeler' is set on object 'Object Repository/North America_University/SBU_University/Field_Lastname'
+
+27-08-2024T11:20:34 - [TEST_STEP][PASSED] - Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(): keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+27-08-2024T11:20:34 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+27-08-2024T11:20:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Phonenumber"), Phonenumber): Text '0469877337' is set on object 'Object Repository/North America_University/SBU_University/Field_Phonenumber'
+
+27-08-2024T11:20:34 - [MESSAGE][PASSED] - Text '0469877337' is set on object 'Object Repository/North America_University/SBU_University/Field_Phonenumber'
+
+27-08-2024T11:20:34 - [TEST_STEP][PASSED] - Postcode = keyPathPackage.customKeywords.selectRandomPostCodes(): keyPathPackage.customKeywords.selectRandomPostCodes is PASSED
+
+27-08-2024T11:20:34 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomPostCodes is PASSED
+
+27-08-2024T11:20:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Postcode"), Postcode): Text '29670' is set on object 'Object Repository/North America_University/SBU_University/Field_Postcode'
+
+27-08-2024T11:20:35 - [MESSAGE][PASSED] - Text '29670' is set on object 'Object Repository/North America_University/SBU_University/Field_Postcode'
+
+27-08-2024T11:20:35 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/North America_University/SBU_University/Button_Download_Brochure"), 10): Object 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clickable
+
+27-08-2024T11:20:35 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clickable
+
+27-08-2024T11:20:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/North America_University/SBU_University/Button_Download_Brochure")): Object: 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clicked on
+
+27-08-2024T11:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clicked on
+
+27-08-2024T11:20:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-08-2024T11:20:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-08-2024T11:20:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/North America_University/SBU_University/Verify_Content"), "Welcome to Bona's Online"): Actual text and expected text of test object 'Object Repository/North America_University/SBU_University/Verify_Content' are matched.
+
+27-08-2024T11:20:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/North America_University/SBU_University/Verify_Content' are matched.
+
+27-08-2024T11:20:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-08-2024T11:20:47 - [MESSAGE][PASSED] - Browser is closed
+
+27-08-2024T11:20:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Masters in Clinical Mental Health or School Counseling" time="22.029" classname="Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Masters in Clinical Mental Health or School Counseling" status="PASSED">
+         <system-out><![CDATA[27-08-2024T11:20:47 - [TEST_CASE][PASSED] - Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Masters in Clinical Mental Health or School Counseling: Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Masters in Clinical Mental Health or School Counseling
+
+27-08-2024T11:20:47 - [TEST_STEP][PASSED] - openBrowser("https://studysbu.online/landing/ppc5/graduate-counseling-programs?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474"): Browser is opened with url: 'https://studysbu.online/landing/ppc5/graduate-counseling-programs?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474'
+
+27-08-2024T11:20:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-08-2024T11:20:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-08-2024T11:20:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://studysbu.online/landing/ppc5/graduate-counseling-programs?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474'
+
+27-08-2024T11:20:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-08-2024T11:20:52 - [MESSAGE][PASSED] - Current window maximized
+
+27-08-2024T11:20:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form' successfully
+
+27-08-2024T11:20:52 - [TEST_CASE][PASSED] - Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form: Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form
+
+27-08-2024T11:20:52 - [TEST_STEP][PASSED] - selectTestObject = findTestObject("Object Repository/North America_University/SBU_University/Dropdown_Program"): null
+
+27-08-2024T11:20:52 - [TEST_STEP][PASSED] - selectElement = findWebElement(selectTestObject, 0): Found web element by test object Object Repository/North America_University/SBU_University/Dropdown_Program
+
+27-08-2024T11:20:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-08-2024T11:20:53 - [MESSAGE][PASSED] - Found web element by test object Object Repository/North America_University/SBU_University/Dropdown_Program
+
+27-08-2024T11:20:53 - [TEST_STEP][PASSED] - select = new org.openqa.selenium.support.ui.Select(selectElement): null
+
+27-08-2024T11:20:53 - [TEST_STEP][PASSED] - optionsrandom = select.getOptions(): null
+
+27-08-2024T11:20:53 - [TEST_STEP][PASSED] - validOptions = optionsrandom.findAll({ -> ... }): null
+
+27-08-2024T11:20:53 - [TEST_STEP][PASSED] - randomdropdown = new java.util.Random(): null
+
+27-08-2024T11:20:53 - [TEST_STEP][PASSED] - randomOptiondropdown = validOptions[randomdropdown.nextInt(validOptions.size())]: null
+
+27-08-2024T11:20:53 - [TEST_STEP][PASSED] - select.selectByValue(randomOptiondropdown.getAttribute("value")): null
+
+27-08-2024T11:20:53 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/North America_University/SBU_University/Checkbox_Studylevel")): Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:20:53 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:20:53 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Object Repository/North America_University/SBU_University/Checkbox_Studylevel"), 30): Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:20:54 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:20:54 - [TEST_STEP][PASSED] - Email = keyPathPackage.customKeywords.generateRandomEmail(): keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+27-08-2024T11:20:54 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+27-08-2024T11:20:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Email"), Email): Text 'aleisha.schultz@gmail.com' is set on object 'Object Repository/North America_University/SBU_University/Field_Email'
+
+27-08-2024T11:20:54 - [MESSAGE][PASSED] - Text 'aleisha.schultz@gmail.com' is set on object 'Object Repository/North America_University/SBU_University/Field_Email'
+
+27-08-2024T11:20:54 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/North America_University/SBU_University/Button_Nextstep 2"), 10): Object 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clickable
+
+27-08-2024T11:20:55 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clickable
+
+27-08-2024T11:20:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/North America_University/SBU_University/Button_Nextstep 2")): Object: 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clicked on
+
+27-08-2024T11:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clicked on
+
+27-08-2024T11:20:55 - [TEST_STEP][PASSED] - FirstName = keyPathPackage.customKeywords.generateRandomFirstName(): keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+27-08-2024T11:20:55 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+27-08-2024T11:20:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Firstname"), FirstName): Text 'Juan' is set on object 'Object Repository/North America_University/SBU_University/Field_Firstname'
+
+27-08-2024T11:20:58 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/North America_University/SBU_University/Field_Firstname'
+
+27-08-2024T11:20:58 - [TEST_STEP][PASSED] - LastName = keyPathPackage.customKeywords.generateRandomLastName(): keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+27-08-2024T11:20:58 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+27-08-2024T11:20:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Lastname"), LastName): Text 'Jerde' is set on object 'Object Repository/North America_University/SBU_University/Field_Lastname'
+
+27-08-2024T11:20:58 - [MESSAGE][PASSED] - Text 'Jerde' is set on object 'Object Repository/North America_University/SBU_University/Field_Lastname'
+
+27-08-2024T11:20:58 - [TEST_STEP][PASSED] - Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(): keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+27-08-2024T11:20:58 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+27-08-2024T11:20:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Phonenumber"), Phonenumber): Text '0433637488' is set on object 'Object Repository/North America_University/SBU_University/Field_Phonenumber'
+
+27-08-2024T11:20:59 - [MESSAGE][PASSED] - Text '0433637488' is set on object 'Object Repository/North America_University/SBU_University/Field_Phonenumber'
+
+27-08-2024T11:20:59 - [TEST_STEP][PASSED] - Postcode = keyPathPackage.customKeywords.selectRandomPostCodes(): keyPathPackage.customKeywords.selectRandomPostCodes is PASSED
+
+27-08-2024T11:20:59 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomPostCodes is PASSED
+
+27-08-2024T11:20:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Postcode"), Postcode): Text '95391' is set on object 'Object Repository/North America_University/SBU_University/Field_Postcode'
+
+27-08-2024T11:20:59 - [MESSAGE][PASSED] - Text '95391' is set on object 'Object Repository/North America_University/SBU_University/Field_Postcode'
+
+27-08-2024T11:20:59 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/North America_University/SBU_University/Button_Download_Brochure"), 10): Object 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clickable
+
+27-08-2024T11:20:59 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clickable
+
+27-08-2024T11:20:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/North America_University/SBU_University/Button_Download_Brochure")): Object: 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clicked on
+
+27-08-2024T11:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clicked on
+
+27-08-2024T11:21:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-08-2024T11:21:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-08-2024T11:21:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/North America_University/SBU_University/Verify_Content"), "Welcome to Bona's Online"): Actual text and expected text of test object 'Object Repository/North America_University/SBU_University/Verify_Content' are matched.
+
+27-08-2024T11:21:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/North America_University/SBU_University/Verify_Content' are matched.
+
+27-08-2024T11:21:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-08-2024T11:21:09 - [MESSAGE][PASSED] - Browser is closed
+
+27-08-2024T11:21:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Ed.D. in Educational Leadership" time="22.382" classname="Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Ed.D. in Educational Leadership" status="PASSED">
+         <system-out><![CDATA[27-08-2024T11:21:09 - [TEST_CASE][PASSED] - Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Ed.D. in Educational Leadership: Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Ed.D. in Educational Leadership
+
+27-08-2024T11:21:09 - [TEST_STEP][PASSED] - openBrowser("https://studysbu.online/landing/ppc5/edd-educational-leadership-online?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474"): Browser is opened with url: 'https://studysbu.online/landing/ppc5/edd-educational-leadership-online?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474'
+
+27-08-2024T11:21:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-08-2024T11:21:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-08-2024T11:21:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://studysbu.online/landing/ppc5/edd-educational-leadership-online?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474'
+
+27-08-2024T11:21:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-08-2024T11:21:16 - [MESSAGE][PASSED] - Current window maximized
+
+27-08-2024T11:21:16 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/North America_University/SBU_University/Checkbox1_Studylevel")): Object 'Object Repository/North America_University/SBU_University/Checkbox1_Studylevel' is checked
+
+27-08-2024T11:21:16 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Checkbox1_Studylevel' is checked
+
+27-08-2024T11:21:16 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Object Repository/North America_University/SBU_University/Checkbox1_Studylevel"), 30): Object 'Object Repository/North America_University/SBU_University/Checkbox1_Studylevel' is checked
+
+27-08-2024T11:21:16 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Checkbox1_Studylevel' is checked
+
+27-08-2024T11:21:16 - [TEST_STEP][PASSED] - Email = keyPathPackage.customKeywords.generateRandomEmail(): keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+27-08-2024T11:21:16 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+27-08-2024T11:21:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Email"), Email): Text 'iliana.jacobi@gmail.com' is set on object 'Object Repository/North America_University/SBU_University/Field_Email'
+
+27-08-2024T11:21:17 - [MESSAGE][PASSED] - Text 'iliana.jacobi@gmail.com' is set on object 'Object Repository/North America_University/SBU_University/Field_Email'
+
+27-08-2024T11:21:17 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/North America_University/SBU_University/Button_Nextstep 2"), 10): Object 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clickable
+
+27-08-2024T11:21:17 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clickable
+
+27-08-2024T11:21:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/North America_University/SBU_University/Button_Nextstep 2")): Object: 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clicked on
+
+27-08-2024T11:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clicked on
+
+27-08-2024T11:21:17 - [TEST_STEP][PASSED] - FirstName = keyPathPackage.customKeywords.generateRandomFirstName(): keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+27-08-2024T11:21:17 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+27-08-2024T11:21:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Firstname"), FirstName): Text 'Dominic' is set on object 'Object Repository/North America_University/SBU_University/Field_Firstname'
+
+27-08-2024T11:21:20 - [MESSAGE][PASSED] - Text 'Dominic' is set on object 'Object Repository/North America_University/SBU_University/Field_Firstname'
+
+27-08-2024T11:21:20 - [TEST_STEP][PASSED] - LastName = keyPathPackage.customKeywords.generateRandomLastName(): keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+27-08-2024T11:21:20 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+27-08-2024T11:21:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Lastname"), LastName): Text 'Kulas' is set on object 'Object Repository/North America_University/SBU_University/Field_Lastname'
+
+27-08-2024T11:21:21 - [MESSAGE][PASSED] - Text 'Kulas' is set on object 'Object Repository/North America_University/SBU_University/Field_Lastname'
+
+27-08-2024T11:21:21 - [TEST_STEP][PASSED] - Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(): keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+27-08-2024T11:21:21 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+27-08-2024T11:21:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Phonenumber"), Phonenumber): Text '0441322086' is set on object 'Object Repository/North America_University/SBU_University/Field_Phonenumber'
+
+27-08-2024T11:21:21 - [MESSAGE][PASSED] - Text '0441322086' is set on object 'Object Repository/North America_University/SBU_University/Field_Phonenumber'
+
+27-08-2024T11:21:21 - [TEST_STEP][PASSED] - Postcode = keyPathPackage.customKeywords.selectRandomPostCodes(): keyPathPackage.customKeywords.selectRandomPostCodes is PASSED
+
+27-08-2024T11:21:21 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomPostCodes is PASSED
+
+27-08-2024T11:21:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Postcode"), Postcode): Text '95269' is set on object 'Object Repository/North America_University/SBU_University/Field_Postcode'
+
+27-08-2024T11:21:22 - [MESSAGE][PASSED] - Text '95269' is set on object 'Object Repository/North America_University/SBU_University/Field_Postcode'
+
+27-08-2024T11:21:22 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/North America_University/SBU_University/Button_Download_Brochure"), 10): Object 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clickable
+
+27-08-2024T11:21:22 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clickable
+
+27-08-2024T11:21:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/North America_University/SBU_University/Button_Download_Brochure")): Object: 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clicked on
+
+27-08-2024T11:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clicked on
+
+27-08-2024T11:21:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-08-2024T11:21:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-08-2024T11:21:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/North America_University/SBU_University/Verify_Content"), "Welcome to Bona's Online"): Actual text and expected text of test object 'Object Repository/North America_University/SBU_University/Verify_Content' are matched.
+
+27-08-2024T11:21:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/North America_University/SBU_University/Verify_Content' are matched.
+
+27-08-2024T11:21:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-08-2024T11:21:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Journalism Masters Degree" time="22.141" classname="Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Journalism Masters Degree" status="PASSED">
+         <system-out><![CDATA[27-08-2024T11:21:32 - [TEST_CASE][PASSED] - Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Journalism Masters Degree: Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Journalism Masters Degree
+
+27-08-2024T11:21:32 - [TEST_STEP][PASSED] - openBrowser("https://studysbu.online/landing/ppc5/journalism-masters?SearchEngine=LinkedInIM&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc"): Browser is opened with url: 'https://studysbu.online/landing/ppc5/journalism-masters?SearchEngine=LinkedInIM&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc'
+
+27-08-2024T11:21:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-08-2024T11:21:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-08-2024T11:21:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://studysbu.online/landing/ppc5/journalism-masters?SearchEngine=LinkedInIM&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc'
+
+27-08-2024T11:21:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-08-2024T11:21:37 - [MESSAGE][PASSED] - Current window maximized
+
+27-08-2024T11:21:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form' successfully
+
+27-08-2024T11:21:37 - [TEST_CASE][PASSED] - Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form: Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form
+
+27-08-2024T11:21:37 - [TEST_STEP][PASSED] - selectTestObject = findTestObject("Object Repository/North America_University/SBU_University/Dropdown_Program"): null
+
+27-08-2024T11:21:37 - [TEST_STEP][PASSED] - selectElement = findWebElement(selectTestObject, 0): Found web element by test object Object Repository/North America_University/SBU_University/Dropdown_Program
+
+27-08-2024T11:21:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-08-2024T11:21:37 - [MESSAGE][PASSED] - Found web element by test object Object Repository/North America_University/SBU_University/Dropdown_Program
+
+27-08-2024T11:21:37 - [TEST_STEP][PASSED] - select = new org.openqa.selenium.support.ui.Select(selectElement): null
+
+27-08-2024T11:21:37 - [TEST_STEP][PASSED] - optionsrandom = select.getOptions(): null
+
+27-08-2024T11:21:37 - [TEST_STEP][PASSED] - validOptions = optionsrandom.findAll({ -> ... }): null
+
+27-08-2024T11:21:37 - [TEST_STEP][PASSED] - randomdropdown = new java.util.Random(): null
+
+27-08-2024T11:21:37 - [TEST_STEP][PASSED] - randomOptiondropdown = validOptions[randomdropdown.nextInt(validOptions.size())]: null
+
+27-08-2024T11:21:37 - [TEST_STEP][PASSED] - select.selectByValue(randomOptiondropdown.getAttribute("value")): null
+
+27-08-2024T11:21:37 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/North America_University/SBU_University/Checkbox_Studylevel")): Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:21:38 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:21:38 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Object Repository/North America_University/SBU_University/Checkbox_Studylevel"), 30): Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:21:38 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:21:38 - [TEST_STEP][PASSED] - Email = keyPathPackage.customKeywords.generateRandomEmail(): keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+27-08-2024T11:21:38 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+27-08-2024T11:21:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Email"), Email): Text 'trenton.crona@hotmail.com' is set on object 'Object Repository/North America_University/SBU_University/Field_Email'
+
+27-08-2024T11:21:39 - [MESSAGE][PASSED] - Text 'trenton.crona@hotmail.com' is set on object 'Object Repository/North America_University/SBU_University/Field_Email'
+
+27-08-2024T11:21:39 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/North America_University/SBU_University/Button_Nextstep 2"), 10): Object 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clickable
+
+27-08-2024T11:21:39 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clickable
+
+27-08-2024T11:21:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/North America_University/SBU_University/Button_Nextstep 2")): Object: 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clicked on
+
+27-08-2024T11:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clicked on
+
+27-08-2024T11:21:39 - [TEST_STEP][PASSED] - FirstName = keyPathPackage.customKeywords.generateRandomFirstName(): keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+27-08-2024T11:21:39 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+27-08-2024T11:21:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Firstname"), FirstName): Text 'Brigette' is set on object 'Object Repository/North America_University/SBU_University/Field_Firstname'
+
+27-08-2024T11:21:42 - [MESSAGE][PASSED] - Text 'Brigette' is set on object 'Object Repository/North America_University/SBU_University/Field_Firstname'
+
+27-08-2024T11:21:42 - [TEST_STEP][PASSED] - LastName = keyPathPackage.customKeywords.generateRandomLastName(): keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+27-08-2024T11:21:42 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+27-08-2024T11:21:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Lastname"), LastName): Text 'White' is set on object 'Object Repository/North America_University/SBU_University/Field_Lastname'
+
+27-08-2024T11:21:42 - [MESSAGE][PASSED] - Text 'White' is set on object 'Object Repository/North America_University/SBU_University/Field_Lastname'
+
+27-08-2024T11:21:42 - [TEST_STEP][PASSED] - Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(): keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+27-08-2024T11:21:42 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+27-08-2024T11:21:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Phonenumber"), Phonenumber): Text '0415689641' is set on object 'Object Repository/North America_University/SBU_University/Field_Phonenumber'
+
+27-08-2024T11:21:43 - [MESSAGE][PASSED] - Text '0415689641' is set on object 'Object Repository/North America_University/SBU_University/Field_Phonenumber'
+
+27-08-2024T11:21:43 - [TEST_STEP][PASSED] - Postcode = keyPathPackage.customKeywords.selectRandomPostCodes(): keyPathPackage.customKeywords.selectRandomPostCodes is PASSED
+
+27-08-2024T11:21:43 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomPostCodes is PASSED
+
+27-08-2024T11:21:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Postcode"), Postcode): Text '65270' is set on object 'Object Repository/North America_University/SBU_University/Field_Postcode'
+
+27-08-2024T11:21:43 - [MESSAGE][PASSED] - Text '65270' is set on object 'Object Repository/North America_University/SBU_University/Field_Postcode'
+
+27-08-2024T11:21:43 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/North America_University/SBU_University/Button_Download_Brochure"), 10): Object 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clickable
+
+27-08-2024T11:21:44 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clickable
+
+27-08-2024T11:21:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/North America_University/SBU_University/Button_Download_Brochure")): Object: 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clicked on
+
+27-08-2024T11:21:44 - [MESSAGE][PASSED] - Object: 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clicked on
+
+27-08-2024T11:21:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-08-2024T11:21:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-08-2024T11:21:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/North America_University/SBU_University/Verify_Content"), "Welcome to Bona's Online"): Actual text and expected text of test object 'Object Repository/North America_University/SBU_University/Verify_Content' are matched.
+
+27-08-2024T11:21:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/North America_University/SBU_University/Verify_Content' are matched.
+
+27-08-2024T11:21:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-08-2024T11:21:54 - [MESSAGE][PASSED] - Browser is closed
+
+27-08-2024T11:21:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Master of Science Business Analytics" time="20.812" classname="Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Master of Science Business Analytics" status="PASSED">
+         <system-out><![CDATA[27-08-2024T11:21:54 - [TEST_CASE][PASSED] - Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Master of Science Business Analytics: Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Master of Science Business Analytics
+
+27-08-2024T11:21:54 - [TEST_STEP][PASSED] - openBrowser("https://studysbu.online/landing/ppc5/msba?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474"): Browser is opened with url: 'https://studysbu.online/landing/ppc5/msba?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474'
+
+27-08-2024T11:21:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-08-2024T11:21:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-08-2024T11:21:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://studysbu.online/landing/ppc5/msba?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474'
+
+27-08-2024T11:21:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-08-2024T11:21:59 - [MESSAGE][PASSED] - Current window maximized
+
+27-08-2024T11:21:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form' successfully
+
+27-08-2024T11:21:59 - [TEST_CASE][PASSED] - Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form: Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form
+
+27-08-2024T11:21:59 - [TEST_STEP][PASSED] - selectTestObject = findTestObject("Object Repository/North America_University/SBU_University/Dropdown_Program"): null
+
+27-08-2024T11:21:59 - [TEST_STEP][PASSED] - selectElement = findWebElement(selectTestObject, 0): Found web element by test object Object Repository/North America_University/SBU_University/Dropdown_Program
+
+27-08-2024T11:21:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-08-2024T11:21:59 - [MESSAGE][PASSED] - Found web element by test object Object Repository/North America_University/SBU_University/Dropdown_Program
+
+27-08-2024T11:21:59 - [TEST_STEP][PASSED] - select = new org.openqa.selenium.support.ui.Select(selectElement): null
+
+27-08-2024T11:21:59 - [TEST_STEP][PASSED] - optionsrandom = select.getOptions(): null
+
+27-08-2024T11:21:59 - [TEST_STEP][PASSED] - validOptions = optionsrandom.findAll({ -> ... }): null
+
+27-08-2024T11:21:59 - [TEST_STEP][PASSED] - randomdropdown = new java.util.Random(): null
+
+27-08-2024T11:21:59 - [TEST_STEP][PASSED] - randomOptiondropdown = validOptions[randomdropdown.nextInt(validOptions.size())]: null
+
+27-08-2024T11:21:59 - [TEST_STEP][PASSED] - select.selectByValue(randomOptiondropdown.getAttribute("value")): null
+
+27-08-2024T11:22:00 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/North America_University/SBU_University/Checkbox_Studylevel")): Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:22:00 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:22:00 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Object Repository/North America_University/SBU_University/Checkbox_Studylevel"), 30): Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:22:00 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Checkbox_Studylevel' is checked
+
+27-08-2024T11:22:00 - [TEST_STEP][PASSED] - Email = keyPathPackage.customKeywords.generateRandomEmail(): keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+27-08-2024T11:22:00 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+27-08-2024T11:22:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Email"), Email): Text 'norah.murray@hotmail.com' is set on object 'Object Repository/North America_University/SBU_University/Field_Email'
+
+27-08-2024T11:22:01 - [MESSAGE][PASSED] - Text 'norah.murray@hotmail.com' is set on object 'Object Repository/North America_University/SBU_University/Field_Email'
+
+27-08-2024T11:22:01 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/North America_University/SBU_University/Button_Nextstep 2"), 10): Object 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clickable
+
+27-08-2024T11:22:01 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clickable
+
+27-08-2024T11:22:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/North America_University/SBU_University/Button_Nextstep 2")): Object: 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clicked on
+
+27-08-2024T11:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/North America_University/SBU_University/Button_Nextstep 2' is clicked on
+
+27-08-2024T11:22:01 - [TEST_STEP][PASSED] - FirstName = keyPathPackage.customKeywords.generateRandomFirstName(): keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+27-08-2024T11:22:01 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+27-08-2024T11:22:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Firstname"), FirstName): Text 'Melody' is set on object 'Object Repository/North America_University/SBU_University/Field_Firstname'
+
+27-08-2024T11:22:04 - [MESSAGE][PASSED] - Text 'Melody' is set on object 'Object Repository/North America_University/SBU_University/Field_Firstname'
+
+27-08-2024T11:22:04 - [TEST_STEP][PASSED] - LastName = keyPathPackage.customKeywords.generateRandomLastName(): keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+27-08-2024T11:22:04 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+27-08-2024T11:22:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Lastname"), LastName): Text 'Boyle' is set on object 'Object Repository/North America_University/SBU_University/Field_Lastname'
+
+27-08-2024T11:22:05 - [MESSAGE][PASSED] - Text 'Boyle' is set on object 'Object Repository/North America_University/SBU_University/Field_Lastname'
+
+27-08-2024T11:22:05 - [TEST_STEP][PASSED] - Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(): keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+27-08-2024T11:22:05 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+27-08-2024T11:22:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Phonenumber"), Phonenumber): Text '0443614977' is set on object 'Object Repository/North America_University/SBU_University/Field_Phonenumber'
+
+27-08-2024T11:22:05 - [MESSAGE][PASSED] - Text '0443614977' is set on object 'Object Repository/North America_University/SBU_University/Field_Phonenumber'
+
+27-08-2024T11:22:05 - [TEST_STEP][PASSED] - Postcode = keyPathPackage.customKeywords.selectRandomPostCodes(): keyPathPackage.customKeywords.selectRandomPostCodes is PASSED
+
+27-08-2024T11:22:05 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomPostCodes is PASSED
+
+27-08-2024T11:22:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/North America_University/SBU_University/Field_Postcode"), Postcode): Text '41961' is set on object 'Object Repository/North America_University/SBU_University/Field_Postcode'
+
+27-08-2024T11:22:06 - [MESSAGE][PASSED] - Text '41961' is set on object 'Object Repository/North America_University/SBU_University/Field_Postcode'
+
+27-08-2024T11:22:06 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/North America_University/SBU_University/Button_Download_Brochure"), 10): Object 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clickable
+
+27-08-2024T11:22:06 - [MESSAGE][PASSED] - Object 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clickable
+
+27-08-2024T11:22:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/North America_University/SBU_University/Button_Download_Brochure")): Object: 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clicked on
+
+27-08-2024T11:22:07 - [MESSAGE][PASSED] - Object: 'Object Repository/North America_University/SBU_University/Button_Download_Brochure' is clicked on
+
+27-08-2024T11:22:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-08-2024T11:22:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-08-2024T11:22:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/North America_University/SBU_University/Verify_Content"), "Welcome to Bona's Online"): Actual text and expected text of test object 'Object Repository/North America_University/SBU_University/Verify_Content' are matched.
+
+27-08-2024T11:22:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/North America_University/SBU_University/Verify_Content' are matched.
+
+27-08-2024T11:22:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-08-2024T11:22:15 - [MESSAGE][PASSED] - Browser is closed
+
+27-08-2024T11:22:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-08-2024T11:19:23 - [TEST_SUITE][PASSED] - Keypath_Testsuite_NA_PPC: Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Master of Science Business Analytics]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

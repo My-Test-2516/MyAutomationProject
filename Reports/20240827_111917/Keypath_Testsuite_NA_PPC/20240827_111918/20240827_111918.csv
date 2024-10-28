@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Keypath_Testsuite_NA_PPC,Chrome 128.0.0.0,,,27-08-2024 11:19:23,27-08-2024 11:22:15,2m - 51.721s,PASSED
+,,,,,,,
+Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_ Online Counseling Masters Degrees,Chrome 128.0.0.0,,,27-08-2024 11:19:23,27-08-2024 11:20:00,36.505s,PASSED
+"openBrowser(""https://studysbu.online/landing/ppc5/combo-CMHC-SC"")",Chrome 128.0.0.0,,,27-08-2024 11:19:23,27-08-2024 11:19:40,17.136s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,27-08-2024 11:19:40,27-08-2024 11:19:41,0.368s,PASSED
+"callTestCase(findTestCase(""Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,27-08-2024 11:19:41,27-08-2024 11:20:00,18.908s,PASSED
+,,,,,,,
+Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Master of Science In Cybersecurity,Chrome 128.0.0.0,,,27-08-2024 11:20:00,27-08-2024 11:20:23,23.135s,PASSED
+"openBrowser(""https://studysbu.online/landing/ppc5/mscs?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474"")",Chrome 128.0.0.0,,,27-08-2024 11:20:00,27-08-2024 11:20:04,4.511s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,27-08-2024 11:20:04,27-08-2024 11:20:05,0.363s,PASSED
+"callTestCase(findTestCase(""Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,27-08-2024 11:20:05,27-08-2024 11:20:23,18.242s,PASSED
+,,,,,,,
+Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Masters in Business Administration,Chrome 128.0.0.0,,,27-08-2024 11:20:23,27-08-2024 11:20:47,24.647s,PASSED
+"openBrowser(""https://studysbu.online/landing/ppc5/mba?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474"")",Chrome 128.0.0.0,,,27-08-2024 11:20:23,27-08-2024 11:20:28,4.890s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,27-08-2024 11:20:28,27-08-2024 11:20:28,0.362s,PASSED
+"callTestCase(findTestCase(""Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,27-08-2024 11:20:28,27-08-2024 11:20:47,19.374s,PASSED
+,,,,,,,
+Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Masters in Clinical Mental Health or School Counseling,Chrome 128.0.0.0,,,27-08-2024 11:20:47,27-08-2024 11:21:09,22.029s,PASSED
+"openBrowser(""https://studysbu.online/landing/ppc5/graduate-counseling-programs?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474"")",Chrome 128.0.0.0,,,27-08-2024 11:20:47,27-08-2024 11:20:52,4.503s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,27-08-2024 11:20:52,27-08-2024 11:20:52,0.362s,PASSED
+"callTestCase(findTestCase(""Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,27-08-2024 11:20:52,27-08-2024 11:21:09,17.137s,PASSED
+,,,,,,,
+Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Ed.D. in Educational Leadership,Chrome 128.0.0.0,,,27-08-2024 11:21:09,27-08-2024 11:21:32,22.382s,PASSED
+"openBrowser(""https://studysbu.online/landing/ppc5/edd-educational-leadership-online?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474"")",Chrome 128.0.0.0,,,27-08-2024 11:21:09,27-08-2024 11:21:15,5.960s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,27-08-2024 11:21:15,27-08-2024 11:21:16,0.363s,PASSED
+"check(findTestObject(""Object Repository/North America_University/SBU_University/Checkbox1_Studylevel""))",Chrome 128.0.0.0,,,27-08-2024 11:21:16,27-08-2024 11:21:16,0.275s,PASSED
+"verifyElementChecked(findTestObject(""Object Repository/North America_University/SBU_University/Checkbox1_Studylevel""), 30)",Chrome 128.0.0.0,,,27-08-2024 11:21:16,27-08-2024 11:21:16,0.339s,PASSED
+Email = keyPathPackage.customKeywords.generateRandomEmail(),Chrome 128.0.0.0,,,27-08-2024 11:21:16,27-08-2024 11:21:16,0.014s,PASSED
+"setText(findTestObject(""Object Repository/North America_University/SBU_University/Field_Email""), Email)",Chrome 128.0.0.0,,,27-08-2024 11:21:16,27-08-2024 11:21:17,0.552s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/North America_University/SBU_University/Button_Nextstep 2""), 10)",Chrome 128.0.0.0,,,27-08-2024 11:21:17,27-08-2024 11:21:17,0.231s,PASSED
+"click(findTestObject(""Object Repository/North America_University/SBU_University/Button_Nextstep 2""))",Chrome 128.0.0.0,,,27-08-2024 11:21:17,27-08-2024 11:21:17,0.272s,PASSED
+FirstName = keyPathPackage.customKeywords.generateRandomFirstName(),Chrome 128.0.0.0,,,27-08-2024 11:21:17,27-08-2024 11:21:17,0.006s,PASSED
+"setText(findTestObject(""Object Repository/North America_University/SBU_University/Field_Firstname""), FirstName)",Chrome 128.0.0.0,,,27-08-2024 11:21:17,27-08-2024 11:21:20,2.936s,PASSED
+LastName = keyPathPackage.customKeywords.generateRandomLastName(),Chrome 128.0.0.0,,,27-08-2024 11:21:20,27-08-2024 11:21:20,0.006s,PASSED
+"setText(findTestObject(""Object Repository/North America_University/SBU_University/Field_Lastname""), LastName)",Chrome 128.0.0.0,,,27-08-2024 11:21:20,27-08-2024 11:21:21,0.483s,PASSED
+Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(),Chrome 128.0.0.0,,,27-08-2024 11:21:21,27-08-2024 11:21:21,0.000s,PASSED
+"setText(findTestObject(""Object Repository/North America_University/SBU_University/Field_Phonenumber""), Phonenumber)",Chrome 128.0.0.0,,,27-08-2024 11:21:21,27-08-2024 11:21:21,0.494s,PASSED
+Postcode = keyPathPackage.customKeywords.selectRandomPostCodes(),Chrome 128.0.0.0,,,27-08-2024 11:21:21,27-08-2024 11:21:21,0.001s,PASSED
+"setText(findTestObject(""Object Repository/North America_University/SBU_University/Field_Postcode""), Postcode)",Chrome 128.0.0.0,,,27-08-2024 11:21:21,27-08-2024 11:21:22,0.493s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/North America_University/SBU_University/Button_Download_Brochure""), 10)",Chrome 128.0.0.0,,,27-08-2024 11:21:22,27-08-2024 11:21:22,0.235s,PASSED
+"click(findTestObject(""Object Repository/North America_University/SBU_University/Button_Download_Brochure""))",Chrome 128.0.0.0,,,27-08-2024 11:21:22,27-08-2024 11:21:23,0.740s,PASSED
+delay(5),Chrome 128.0.0.0,,,27-08-2024 11:21:23,27-08-2024 11:21:28,5.005s,PASSED
+"verifyElementText(findTestObject(""Object Repository/North America_University/SBU_University/Verify_Content""), ""Welcome to Bona's Online"")",Chrome 128.0.0.0,,,27-08-2024 11:21:28,27-08-2024 11:21:32,3.834s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,27-08-2024 11:21:32,27-08-2024 11:21:32,0.116s,PASSED
+,,,,,,,
+Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Journalism Masters Degree,Chrome 128.0.0.0,,,27-08-2024 11:21:32,27-08-2024 11:21:54,22.141s,PASSED
+"openBrowser(""https://studysbu.online/landing/ppc5/journalism-masters?SearchEngine=LinkedInIM&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc"")",Chrome 128.0.0.0,,,27-08-2024 11:21:32,27-08-2024 11:21:36,4.430s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,27-08-2024 11:21:36,27-08-2024 11:21:37,0.363s,PASSED
+"callTestCase(findTestCase(""Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,27-08-2024 11:21:37,27-08-2024 11:21:54,17.334s,PASSED
+,,,,,,,
+Test Cases/North America_Universities/PPC_Pages/SBU_University/PPC_Online Master of Science Business Analytics,Chrome 128.0.0.0,,,27-08-2024 11:21:54,27-08-2024 11:22:15,20.812s,PASSED
+"openBrowser(""https://studysbu.online/landing/ppc5/msba?SearchEngine=LinkedInIM&utm_source=Linkedin&utm_campaign=CSU-LinkedInIM-MSWADV&utm_medium=cpc&CampaignSourceCode=CSU-LinkedinIM-MSWADV-InMail_US&SearchKeyword=No_campus_visits&MediaCampaignID=209611194&MediaAdID=201838474"")",Chrome 128.0.0.0,,,27-08-2024 11:21:54,27-08-2024 11:21:59,4.528s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,27-08-2024 11:21:59,27-08-2024 11:21:59,0.363s,PASSED
+"callTestCase(findTestCase(""Test Cases/North America_Universities/PPC_Pages/SBU_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,27-08-2024 11:21:59,27-08-2024 11:22:15,15.903s,PASSED

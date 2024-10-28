@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Keypath_Testsuite_APAC_PPC,Chrome 128.0.0.0,,,30-08-2024 12:44:37,30-08-2024 12:49:28,4m - 50.896s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/PPC_PAGES/RMIT_University/PPC_Graduate Certificate in Leadership,Chrome 128.0.0.0,,,30-08-2024 12:44:37,30-08-2024 12:45:05,27.727s,PASSED
+"openBrowser(""https://key:path@dev-rmit-opm.pantheonsite.io/ppc/graduate-certificate-in-leadership"")",Chrome 128.0.0.0,,,30-08-2024 12:44:38,30-08-2024 12:44:48,10.733s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 12:44:48,30-08-2024 12:44:49,0.371s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/PPC_PAGES/RMIT_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,30-08-2024 12:44:49,30-08-2024 12:45:05,16.521s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/PPC_PAGES/RMIT_University/PPC_Graduate Certificate in People Analytics,Chrome 128.0.0.0,,,30-08-2024 12:45:05,30-08-2024 12:45:26,20.673s,PASSED
+"openBrowser(""https://key:path@dev-rmit-opm.pantheonsite.io/ppc/graduate-certificate-in-people-analytics"")",Chrome 128.0.0.0,,,30-08-2024 12:45:05,30-08-2024 12:45:06,1.125s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 12:45:06,30-08-2024 12:45:09,2.696s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/PPC_PAGES/RMIT_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,30-08-2024 12:45:09,30-08-2024 12:45:26,16.836s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/PPC_PAGES/RMIT_University/PPC_Graduate Certificate in Sustainable Enterprise,Chrome 128.0.0.0,,,30-08-2024 12:45:26,30-08-2024 12:45:47,21.551s,PASSED
+"openBrowser(""https://key:path@dev-rmit-opm.pantheonsite.io/ppc/graduate-certificate-in-sustainable-enterprise"")",Chrome 128.0.0.0,,,30-08-2024 12:45:26,30-08-2024 12:45:29,3.383s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 12:45:29,30-08-2024 12:45:30,0.364s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/PPC_PAGES/RMIT_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,30-08-2024 12:45:30,30-08-2024 12:45:47,17.787s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/PPC_PAGES/RMIT_University/PPC_Master of Business Administration (MBA),Chrome 128.0.0.0,,,30-08-2024 12:45:47,30-08-2024 12:46:12,24.420s,PASSED
+"openBrowser(""https://key:path@dev-rmit-opm.pantheonsite.io/ppc/master-of-business-administration"")",Chrome 128.0.0.0,,,30-08-2024 12:45:47,30-08-2024 12:45:49,1.163s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 12:45:49,30-08-2024 12:45:54,5.153s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/PPC_PAGES/RMIT_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,30-08-2024 12:45:54,30-08-2024 12:46:12,18.086s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/PPC_PAGES/Dekin_University/PPC_Graduate Certificate of Leadership,Chrome 128.0.0.0,,,30-08-2024 12:46:12,30-08-2024 12:46:33,21.064s,PASSED
+"openBrowser(""https://key:path@dev-du-opm.pantheonsite.io/ppc/master-leadership-0"")",Chrome 128.0.0.0,,,30-08-2024 12:46:12,30-08-2024 12:46:16,3.824s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 12:46:16,30-08-2024 12:46:16,0.364s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/PPC_PAGES/Dekin_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,30-08-2024 12:46:16,30-08-2024 12:46:33,16.858s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/PPC_PAGES/Dekin_University/PPC_Master of Leadership,Chrome 128.0.0.0,,,30-08-2024 12:46:33,30-08-2024 12:46:55,21.930s,PASSED
+"openBrowser(""https://key:path@dev-du-opm.pantheonsite.io/ppc/master-leadership"")",Chrome 128.0.0.0,,,30-08-2024 12:46:33,30-08-2024 12:46:34,1.135s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 12:46:34,30-08-2024 12:46:37,3.199s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/PPC_PAGES/Dekin_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,30-08-2024 12:46:37,30-08-2024 12:46:55,17.582s,PASSED
+,,,,,,,
+"Test Cases/APAC_Universities/PPC_PAGES/UNSW_University/PPC_Graduate Certificate in Diversity, Equity and Inclusion (Online)",Chrome 128.0.0.0,,,30-08-2024 12:46:55,30-08-2024 12:47:26,31.577s,PASSED
+"openBrowser(""https://key:path@dev-unsw-opm.pantheonsite.io/ppc/graduate-certificate-diversity-equity-inclusion"")",Chrome 128.0.0.0,,,30-08-2024 12:46:55,30-08-2024 12:47:03,8.070s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 12:47:03,30-08-2024 12:47:03,0.361s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/PPC_PAGES/UNSW_University/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,30-08-2024 12:47:03,30-08-2024 12:47:26,23.131s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/PPC_PAGES/UNSW_University/PPC_Master of Cyber Security (Online),Chrome 128.0.0.0,,,30-08-2024 12:47:26,30-08-2024 12:47:59,32.552s,PASSED
+"openBrowser(""https://key:path@dev-unsw-opm.pantheonsite.io/ppc/master-cyber-security-online-1"")",Chrome 128.0.0.0,,,30-08-2024 12:47:26,30-08-2024 12:47:33,6.492s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 12:47:33,30-08-2024 12:47:33,0.367s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/PPC_PAGES/UNSW_University/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,30-08-2024 12:47:33,30-08-2024 12:47:59,25.675s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/PPC_PAGES/UNSW_University/PPC_Master of Human Resource Management (Online),Chrome 128.0.0.0,,,30-08-2024 12:47:59,30-08-2024 12:48:28,29.202s,PASSED
+"openBrowser(""https://key:path@dev-unsw-opm.pantheonsite.io/ppc/master-human-resource-management"")",Chrome 128.0.0.0,,,30-08-2024 12:47:59,30-08-2024 12:48:05,6.067s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 12:48:05,30-08-2024 12:48:05,0.366s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/PPC_PAGES/UNSW_University/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,30-08-2024 12:48:05,30-08-2024 12:48:28,22.753s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/PPC_PAGES/ECU_University/PPC_ PPC_Graduate Certificate of Environmental Social and Governance Leadership,Chrome 128.0.0.0,,,30-08-2024 12:48:28,30-08-2024 12:48:49,20.359s,PASSED
+"openBrowser(""https://key:path@dev-ecu-opm.pantheonsite.io/ppc/graduate-certificate-esg-leadership"")",Chrome 128.0.0.0,,,30-08-2024 12:48:28,30-08-2024 12:48:32,3.577s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 12:48:32,30-08-2024 12:48:32,0.369s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/PPC_PAGES/ECU_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,30-08-2024 12:48:32,30-08-2024 12:48:49,16.396s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/PPC_PAGES/ECU_University/PPC_Graduate Diploma of Psychology(Advanced),Chrome 128.0.0.0,,,30-08-2024 12:48:49,30-08-2024 12:49:09,20.305s,PASSED
+"openBrowser(""https://key:path@dev-ecu-opm.pantheonsite.io/ppc/graduate-diploma-psychology-advanced"")",Chrome 128.0.0.0,,,30-08-2024 12:48:49,30-08-2024 12:48:52,3.286s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 12:48:52,30-08-2024 12:48:52,0.363s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/PPC_PAGES/ECU_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,30-08-2024 12:48:52,30-08-2024 12:49:09,16.636s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/PPC_PAGES/ECU_University/PPC_Master of Business Administration,Chrome 128.0.0.0,,,30-08-2024 12:49:09,30-08-2024 12:49:28,19.463s,PASSED
+"openBrowser(""https://key:path@dev-ecu-opm.pantheonsite.io/ppc/master-business-administration"")",Chrome 128.0.0.0,,,30-08-2024 12:49:09,30-08-2024 12:49:12,3.533s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 12:49:12,30-08-2024 12:49:13,0.360s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/PPC_PAGES/ECU_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,30-08-2024 12:49:13,30-08-2024 12:49:28,15.553s,PASSED

@@ -1,0 +1,134 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Keypath_Testsuite_APAC_SEO,Chrome 128.0.0.0,,,11-09-2024 13:27:11,11-09-2024 13:28:52,1m - 40.177s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs,Chrome 128.0.0.0,,,11-09-2024 13:27:12,11-09-2024 13:27:39,27.635s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Resuable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,11-09-2024 13:27:12,11-09-2024 13:27:17,5.400s,PASSED
+"buttonObject = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/List_DegreePrograms"")",Chrome 128.0.0.0,,,11-09-2024 13:27:17,11-09-2024 13:27:17,0.015s,PASSED
+mouseOver(buttonObject),Chrome 128.0.0.0,,,11-09-2024 13:27:17,11-09-2024 13:27:18,0.367s,PASSED
+"list1 = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_ListOne"")",Chrome 128.0.0.0,,,11-09-2024 13:27:18,11-09-2024 13:27:18,0.002s,PASSED
+"list2 = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listtwo"")",Chrome 128.0.0.0,,,11-09-2024 13:27:18,11-09-2024 13:27:18,0.001s,PASSED
+"list3 = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listthree"")",Chrome 128.0.0.0,,,11-09-2024 13:27:18,11-09-2024 13:27:18,0.002s,PASSED
+"list4 = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listfour"")",Chrome 128.0.0.0,,,11-09-2024 13:27:18,11-09-2024 13:27:18,0.002s,PASSED
+"lists = [list1, list2, list3, list4]",Chrome 128.0.0.0,,,11-09-2024 13:27:18,11-09-2024 13:27:18,0.000s,PASSED
+rand = new java.util.Random(),Chrome 128.0.0.0,,,11-09-2024 13:27:18,11-09-2024 13:27:18,0.002s,PASSED
+randomListIndex = rand.nextInt(lists.size()),Chrome 128.0.0.0,,,11-09-2024 13:27:18,11-09-2024 13:27:18,0.002s,PASSED
+selectedList = lists.get(randomListIndex),Chrome 128.0.0.0,,,11-09-2024 13:27:18,11-09-2024 13:27:18,0.002s,PASSED
+"waitForElementVisible(selectedList, 10)",Chrome 128.0.0.0,,,11-09-2024 13:27:18,11-09-2024 13:27:18,0.263s,PASSED
+"listItems = findWebElements(selectedList, 30)",Chrome 128.0.0.0,,,11-09-2024 13:27:18,11-09-2024 13:27:19,1.243s,PASSED
+if (listItems.size() > 0),Chrome 128.0.0.0,,,11-09-2024 13:27:19,11-09-2024 13:27:22,2.855s,PASSED
+FirstName = keyPathPackage.customKeywords.generateRandomFirstName(),Chrome 128.0.0.0,,,11-09-2024 13:27:22,11-09-2024 13:27:22,0.076s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Field_Firstname""), FirstName)",Chrome 128.0.0.0,,,11-09-2024 13:27:22,11-09-2024 13:27:25,3.376s,PASSED
+LastName = keyPathPackage.customKeywords.generateRandomLastName(),Chrome 128.0.0.0,,,11-09-2024 13:27:25,11-09-2024 13:27:25,0.013s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Field_Lastname""), LastName)",Chrome 128.0.0.0,,,11-09-2024 13:27:25,11-09-2024 13:27:26,0.502s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Button_NextStep2""))",Chrome 128.0.0.0,,,11-09-2024 13:27:26,11-09-2024 13:27:26,0.275s,PASSED
+"dropdown = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Bachelor_Experience"")",Chrome 128.0.0.0,,,11-09-2024 13:27:26,11-09-2024 13:27:26,0.002s,PASSED
+"options = [""yes"", ""no""]",Chrome 128.0.0.0,,,11-09-2024 13:27:26,11-09-2024 13:27:26,0.001s,PASSED
+randomOption = options[Random().nextInt(length)],Chrome 128.0.0.0,,,11-09-2024 13:27:26,11-09-2024 13:27:26,0.006s,PASSED
+"selectOptionByValue(dropdown, randomOption, true)",Chrome 128.0.0.0,,,11-09-2024 13:27:26,11-09-2024 13:27:29,2.579s,PASSED
+"if (randomOption.equals(""no""))",Chrome 128.0.0.0,,,11-09-2024 13:27:29,11-09-2024 13:27:29,0.004s,PASSED
+"startdate = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Startdate"")",Chrome 128.0.0.0,,,11-09-2024 13:27:29,11-09-2024 13:27:29,0.002s,PASSED
+"selectOptionByIndex(startdate, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 128.0.0.0,,,11-09-2024 13:27:29,11-09-2024 13:27:30,0.720s,PASSED
+"Enquiryreason = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Enquiry"")",Chrome 128.0.0.0,,,11-09-2024 13:27:30,11-09-2024 13:27:30,0.002s,PASSED
+"selectOptionByIndex(Enquiryreason, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 128.0.0.0,,,11-09-2024 13:27:30,11-09-2024 13:27:31,1.034s,PASSED
+delay(2),Chrome 128.0.0.0,,,11-09-2024 13:27:31,11-09-2024 13:27:33,2.014s,PASSED
+"scrollToElement(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Button_NextStep3""), 3)",Chrome 128.0.0.0,,,11-09-2024 13:27:33,11-09-2024 13:27:33,0.251s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Button_NextStep3""))",Chrome 128.0.0.0,,,11-09-2024 13:27:33,11-09-2024 13:27:33,0.263s,PASSED
+Email = keyPathPackage.customKeywords.generateRandomEmail(),Chrome 128.0.0.0,,,11-09-2024 13:27:33,11-09-2024 13:27:33,0.015s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Field_Email""), Email)",Chrome 128.0.0.0,,,11-09-2024 13:27:33,11-09-2024 13:27:37,3.573s,PASSED
+Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(),Chrome 128.0.0.0,,,11-09-2024 13:27:37,11-09-2024 13:27:37,0.001s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Field_Phonenumber""), Phonenumber)",Chrome 128.0.0.0,,,11-09-2024 13:27:37,11-09-2024 13:27:37,0.523s,PASSED
+Postcode = keyPathPackage.customKeywords.selectRandomPostCode(),Chrome 128.0.0.0,,,11-09-2024 13:27:37,11-09-2024 13:27:37,0.004s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Field_Postcode""), Postcode)",Chrome 128.0.0.0,,,11-09-2024 13:27:37,11-09-2024 13:27:38,0.717s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Field_Postcode""), Postcode)",Chrome 128.0.0.0,,,11-09-2024 13:27:38,11-09-2024 13:27:39,0.718s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Button_Downloadbrochure""))",Chrome 128.0.0.0,,,11-09-2024 13:27:39,11-09-2024 13:27:39,0.469s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Short_Courses,Chrome 128.0.0.0,,,11-09-2024 13:27:39,11-09-2024 13:28:06,26.557s,PASSED
+"buttonObject = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses"")",Chrome 128.0.0.0,,,11-09-2024 13:27:39,11-09-2024 13:27:39,0.002s,PASSED
+mouseOver(buttonObject),Chrome 128.0.0.0,,,11-09-2024 13:27:39,11-09-2024 13:27:44,4.728s,PASSED
+"list1 = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listone"")",Chrome 128.0.0.0,,,11-09-2024 13:27:44,11-09-2024 13:27:44,0.003s,PASSED
+"list2 = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listtwo"")",Chrome 128.0.0.0,,,11-09-2024 13:27:44,11-09-2024 13:27:44,0.002s,PASSED
+"list3 = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree"")",Chrome 128.0.0.0,,,11-09-2024 13:27:44,11-09-2024 13:27:44,0.002s,PASSED
+"lists = [list1, list2, list3]",Chrome 128.0.0.0,,,11-09-2024 13:27:44,11-09-2024 13:27:44,0.001s,PASSED
+rand = new java.util.Random(),Chrome 128.0.0.0,,,11-09-2024 13:27:44,11-09-2024 13:27:44,0.001s,PASSED
+randomListIndex = rand.nextInt(lists.size()),Chrome 128.0.0.0,,,11-09-2024 13:27:44,11-09-2024 13:27:44,0.000s,PASSED
+selectedList = lists.get(randomListIndex),Chrome 128.0.0.0,,,11-09-2024 13:27:44,11-09-2024 13:27:44,0.000s,PASSED
+"waitForElementVisible(selectedList, 10)",Chrome 128.0.0.0,,,11-09-2024 13:27:44,11-09-2024 13:27:44,0.230s,PASSED
+"listItems = findWebElements(selectedList, 30)",Chrome 128.0.0.0,,,11-09-2024 13:27:44,11-09-2024 13:27:45,0.633s,PASSED
+if (listItems.size() > 0),Chrome 128.0.0.0,,,11-09-2024 13:27:45,11-09-2024 13:27:49,4.528s,PASSED
+FirstName = keyPathPackage.customKeywords.generateRandomFirstName(),Chrome 128.0.0.0,,,11-09-2024 13:27:49,11-09-2024 13:27:49,0.013s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Field_Firstname""), FirstName)",Chrome 128.0.0.0,,,11-09-2024 13:27:49,11-09-2024 13:27:52,2.582s,PASSED
+LastName = keyPathPackage.customKeywords.generateRandomLastName(),Chrome 128.0.0.0,,,11-09-2024 13:27:52,11-09-2024 13:27:52,0.009s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Field_Lastname""), LastName)",Chrome 128.0.0.0,,,11-09-2024 13:27:52,11-09-2024 13:27:52,0.520s,PASSED
+Email = keyPathPackage.customKeywords.generateRandomEmail(),Chrome 128.0.0.0,,,11-09-2024 13:27:52,11-09-2024 13:27:52,0.011s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Field_Email""), Email)",Chrome 128.0.0.0,,,11-09-2024 13:27:52,11-09-2024 13:27:53,0.513s,PASSED
+Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(),Chrome 128.0.0.0,,,11-09-2024 13:27:53,11-09-2024 13:27:53,0.001s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Field_Phonenumber""), Phonenumber)",Chrome 128.0.0.0,,,11-09-2024 13:27:53,11-09-2024 13:27:53,0.517s,PASSED
+Company = keyPathPackage.customKeywords.selectRandomCompany(),Chrome 128.0.0.0,,,11-09-2024 13:27:53,11-09-2024 13:27:54,0.023s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Field_Company""), Company)",Chrome 128.0.0.0,,,11-09-2024 13:27:54,11-09-2024 13:27:54,0.726s,PASSED
+Role = keyPathPackage.customKeywords.selectRandomRole(),Chrome 128.0.0.0,,,11-09-2024 13:27:54,11-09-2024 13:27:54,0.003s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Field_Role""), Role)",Chrome 128.0.0.0,,,11-09-2024 13:27:54,11-09-2024 13:27:55,0.520s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Button_Download""))",Chrome 128.0.0.0,,,11-09-2024 13:27:55,11-09-2024 13:28:00,5.459s,PASSED
+delay(5),Chrome 128.0.0.0,,,11-09-2024 13:28:00,11-09-2024 13:28:05,5.010s,PASSED
+"verifyElementText(findTestObject(""Object Repository/APAC_University/MBS_University/Verify_Message""), ""Thanks for your request"")",Chrome 128.0.0.0,,,11-09-2024 13:28:05,11-09-2024 13:28:06,0.463s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Enrol_Now,Chrome 128.0.0.0,,,11-09-2024 13:28:06,11-09-2024 13:28:52,45.928s,PASSED
+"buttonObject = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses"")",Chrome 128.0.0.0,,,11-09-2024 13:28:06,11-09-2024 13:28:06,0.001s,PASSED
+mouseOver(buttonObject),Chrome 128.0.0.0,,,11-09-2024 13:28:06,11-09-2024 13:28:06,0.347s,PASSED
+"list1 = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listone"")",Chrome 128.0.0.0,,,11-09-2024 13:28:06,11-09-2024 13:28:06,0.003s,PASSED
+"list2 = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listtwo"")",Chrome 128.0.0.0,,,11-09-2024 13:28:06,11-09-2024 13:28:06,0.002s,PASSED
+"list3 = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree"")",Chrome 128.0.0.0,,,11-09-2024 13:28:06,11-09-2024 13:28:06,0.002s,PASSED
+"lists = [list1, list2, list3]",Chrome 128.0.0.0,,,11-09-2024 13:28:06,11-09-2024 13:28:06,0.000s,PASSED
+rand = new java.util.Random(),Chrome 128.0.0.0,,,11-09-2024 13:28:06,11-09-2024 13:28:06,0.001s,PASSED
+randomListIndex = rand.nextInt(lists.size()),Chrome 128.0.0.0,,,11-09-2024 13:28:06,11-09-2024 13:28:06,0.001s,PASSED
+selectedList = lists.get(randomListIndex),Chrome 128.0.0.0,,,11-09-2024 13:28:06,11-09-2024 13:28:06,0.000s,PASSED
+"waitForElementVisible(selectedList, 10)",Chrome 128.0.0.0,,,11-09-2024 13:28:06,11-09-2024 13:28:06,0.241s,PASSED
+"listItems = findWebElements(selectedList, 30)",Chrome 128.0.0.0,,,11-09-2024 13:28:06,11-09-2024 13:28:07,0.230s,PASSED
+if (listItems.size() > 0),Chrome 128.0.0.0,,,11-09-2024 13:28:07,11-09-2024 13:28:08,1.389s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now""), 20)",Chrome 128.0.0.0,,,11-09-2024 13:28:08,11-09-2024 13:28:10,2.063s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now""))",Chrome 128.0.0.0,,,11-09-2024 13:28:10,11-09-2024 13:28:18,8.014s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Firstname""), ""Testkeypath"")",Chrome 128.0.0.0,,,11-09-2024 13:28:18,11-09-2024 13:28:19,1.346s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Secondname""), ""Dummy"")",Chrome 128.0.0.0,,,11-09-2024 13:28:19,11-09-2024 13:28:20,1.030s,PASSED
+Email = keyPathPackage.customKeywords.generateRandomEmail(),Chrome 128.0.0.0,,,11-09-2024 13:28:20,11-09-2024 13:28:20,0.010s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Email""), Email)",Chrome 128.0.0.0,,,11-09-2024 13:28:20,11-09-2024 13:28:21,0.506s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Field_ConfirmEmail""), Email)",Chrome 128.0.0.0,,,11-09-2024 13:28:21,11-09-2024 13:28:21,0.520s,PASSED
+Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(),Chrome 128.0.0.0,,,11-09-2024 13:28:21,11-09-2024 13:28:21,0.001s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Phonenumber""), Phonenumber)",Chrome 128.0.0.0,,,11-09-2024 13:28:21,11-09-2024 13:28:22,0.507s,PASSED
+"check(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Check_Box""))",Chrome 128.0.0.0,,,11-09-2024 13:28:22,11-09-2024 13:28:22,0.474s,PASSED
+"verifyElementChecked(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Check_Box""), 30)",Chrome 128.0.0.0,,,11-09-2024 13:28:22,11-09-2024 13:28:23,0.351s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment""), 20)",Chrome 128.0.0.0,,,11-09-2024 13:28:23,11-09-2024 13:28:23,0.236s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment""))",Chrome 128.0.0.0,,,11-09-2024 13:28:23,11-09-2024 13:28:32,8.781s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Cardnumber""), 10)",Chrome 128.0.0.0,,,11-09-2024 13:28:32,11-09-2024 13:28:32,0.233s,PASSED
+"switchToFrame(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Cardnumber""), 10)",Chrome 128.0.0.0,,,11-09-2024 13:28:32,11-09-2024 13:28:33,0.859s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Cardnumber""), ""4111 1111 1111 1111"")",Chrome 128.0.0.0,,,11-09-2024 13:28:33,11-09-2024 13:28:33,0.082s,PASSED
+switchToDefaultContent(),Chrome 128.0.0.0,,,11-09-2024 13:28:33,11-09-2024 13:28:33,0.008s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Expirydate""), 10)",Chrome 128.0.0.0,,,11-09-2024 13:28:33,11-09-2024 13:28:33,0.222s,PASSED
+"switchToFrame(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Expirydate""), 10)",Chrome 128.0.0.0,,,11-09-2024 13:28:33,11-09-2024 13:28:34,0.946s,PASSED
+Expirydate = keyPathPackage.customKeywords.generateExpiryDate(),Chrome 128.0.0.0,,,11-09-2024 13:28:34,11-09-2024 13:28:34,0.017s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Field_ExpiryDate""), Expirydate)",Chrome 128.0.0.0,,,11-09-2024 13:28:34,11-09-2024 13:28:34,0.060s,PASSED
+switchToDefaultContent(),Chrome 128.0.0.0,,,11-09-2024 13:28:34,11-09-2024 13:28:34,0.005s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_CVC""), 10)",Chrome 128.0.0.0,,,11-09-2024 13:28:34,11-09-2024 13:28:34,0.221s,PASSED
+"switchToFrame(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_CVC""), 10)",Chrome 128.0.0.0,,,11-09-2024 13:28:34,11-09-2024 13:28:35,0.241s,PASSED
+CVC = keyPathPackage.customKeywords.generateExpiryDate(),Chrome 128.0.0.0,,,11-09-2024 13:28:35,11-09-2024 13:28:35,0.001s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Field_CVC""), CVC)",Chrome 128.0.0.0,,,11-09-2024 13:28:35,11-09-2024 13:28:35,0.064s,PASSED
+switchToDefaultContent(),Chrome 128.0.0.0,,,11-09-2024 13:28:35,11-09-2024 13:28:35,0.005s,PASSED
+"check(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Radio""))",Chrome 128.0.0.0,,,11-09-2024 13:28:35,11-09-2024 13:28:35,0.252s,PASSED
+"verifyElementChecked(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Radio""), 30)",Chrome 128.0.0.0,,,11-09-2024 13:28:35,11-09-2024 13:28:35,0.225s,PASSED
+Company = keyPathPackage.customKeywords.selectRandomCompany(),Chrome 128.0.0.0,,,11-09-2024 13:28:35,11-09-2024 13:28:35,0.016s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Company""), Company)",Chrome 128.0.0.0,,,11-09-2024 13:28:35,11-09-2024 13:28:36,0.507s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Field_GIvenFIrstName""), ""Onlyfortest"")",Chrome 128.0.0.0,,,11-09-2024 13:28:36,11-09-2024 13:28:36,0.514s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Field_GivenLastName""), ""onlyfortest"")",Chrome 128.0.0.0,,,11-09-2024 13:28:36,11-09-2024 13:28:37,1.015s,PASSED
+StreetAddress = keyPathPackage.customKeywords.generateRandomAddressLine1(),Chrome 128.0.0.0,,,11-09-2024 13:28:37,11-09-2024 13:28:37,0.015s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Address""), StreetAddress)",Chrome 128.0.0.0,,,11-09-2024 13:28:37,11-09-2024 13:28:38,0.606s,PASSED
+Suburb = keyPathPackage.customKeywords.generateRandomSuburb(),Chrome 128.0.0.0,,,11-09-2024 13:28:38,11-09-2024 13:28:38,0.013s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Suburb""), Suburb)",Chrome 128.0.0.0,,,11-09-2024 13:28:38,11-09-2024 13:28:38,0.505s,PASSED
+"State = findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Dropdown_State"")",Chrome 128.0.0.0,,,11-09-2024 13:28:38,11-09-2024 13:28:38,0.002s,PASSED
+"selectOptionByIndex(State, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 128.0.0.0,,,11-09-2024 13:28:38,11-09-2024 13:28:39,0.733s,PASSED
+Postcode = keyPathPackage.customKeywords.selectRandomPostCode(),Chrome 128.0.0.0,,,11-09-2024 13:28:39,11-09-2024 13:28:39,0.001s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Postcode""), Postcode)",Chrome 128.0.0.0,,,11-09-2024 13:28:39,11-09-2024 13:28:40,0.504s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Review_Purchase""), 10)",Chrome 128.0.0.0,,,11-09-2024 13:28:40,11-09-2024 13:28:40,0.227s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Review_Purchase""))",Chrome 128.0.0.0,,,11-09-2024 13:28:40,11-09-2024 13:28:40,0.274s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase""), 10)",Chrome 128.0.0.0,,,11-09-2024 13:28:40,11-09-2024 13:28:44,3.452s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase""))",Chrome 128.0.0.0,,,11-09-2024 13:28:44,11-09-2024 13:28:45,1.594s,PASSED
+delay(3),Chrome 128.0.0.0,,,11-09-2024 13:28:45,11-09-2024 13:28:48,3.011s,PASSED
+"verifyElementText(findTestObject(""Object Repository/APAC_University/MBS_University/Enrol_Now/Verify_Order""), ""Thank you for your order"")",Chrome 128.0.0.0,,,11-09-2024 13:28:48,11-09-2024 13:28:51,3.195s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,11-09-2024 13:28:51,11-09-2024 13:28:52,0.177s,PASSED

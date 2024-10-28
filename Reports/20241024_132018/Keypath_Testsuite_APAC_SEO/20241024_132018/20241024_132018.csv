@@ -1,0 +1,321 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Keypath_Testsuite_APAC_SEO,Chrome 130.0.0.0,,,24-10-2024 13:20:22,24-10-2024 13:31:39,11m - 16.248s,ERROR
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/RMIT_University/Enquiry_Form,Chrome 130.0.0.0,,,24-10-2024 13:20:23,24-10-2024 13:21:00,37.305s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/RMIT_University/Reusuable_Testcases/Naviigate_Url""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:20:23,24-10-2024 13:20:40,17.324s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Button_Enquiry_Now""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:20:40,24-10-2024 13:20:40,0.282s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Button_Enquiry_Now""))",Chrome 130.0.0.0,,,24-10-2024 13:20:40,24-10-2024 13:20:42,1.349s,PASSED
+"program = findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Dropdown_Enquiry_Program"")",Chrome 130.0.0.0,,,24-10-2024 13:20:42,24-10-2024 13:20:42,0.003s,PASSED
+"selectOptionByIndex(program, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 130.0.0.0,,,24-10-2024 13:20:42,24-10-2024 13:20:44,2.194s,PASSED
+FirstName = keyPathPackage.customKeywords.generateRandomFirstName(),Chrome 130.0.0.0,,,24-10-2024 13:20:44,24-10-2024 13:20:44,0.064s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Field_FirstName""), FirstName)",Chrome 130.0.0.0,,,24-10-2024 13:20:44,24-10-2024 13:20:44,0.587s,PASSED
+LastName = keyPathPackage.customKeywords.generateRandomLastName(),Chrome 130.0.0.0,,,24-10-2024 13:20:44,24-10-2024 13:20:45,0.014s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Field_SecondName""), LastName)",Chrome 130.0.0.0,,,24-10-2024 13:20:45,24-10-2024 13:20:45,0.493s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Button_Nextstep2""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:20:45,24-10-2024 13:20:45,0.236s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Button_Nextstep2""))",Chrome 130.0.0.0,,,24-10-2024 13:20:45,24-10-2024 13:20:46,0.267s,PASSED
+Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(),Chrome 130.0.0.0,,,24-10-2024 13:20:46,24-10-2024 13:20:46,0.002s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Field_Phonenumber""), Phonenumber)",Chrome 130.0.0.0,,,24-10-2024 13:20:46,24-10-2024 13:20:46,0.706s,PASSED
+Email = keyPathPackage.customKeywords.generateRandomEmail(),Chrome 130.0.0.0,,,24-10-2024 13:20:46,24-10-2024 13:20:46,0.015s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Field_Email""), Email)",Chrome 130.0.0.0,,,24-10-2024 13:20:46,24-10-2024 13:20:47,0.730s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Button_Nextstep3""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:20:47,24-10-2024 13:20:47,0.237s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Button_Nextstep3""))",Chrome 130.0.0.0,,,24-10-2024 13:20:47,24-10-2024 13:20:47,0.290s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Dropdown_Country""), ""Australia"", false)",Chrome 130.0.0.0,,,24-10-2024 13:20:47,24-10-2024 13:20:48,0.712s,PASSED
+delay(3),Chrome 130.0.0.0,,,24-10-2024 13:20:48,24-10-2024 13:20:51,3.014s,PASSED
+Postcode = keyPathPackage.customKeywords.selectRandomPostCode(),Chrome 130.0.0.0,,,24-10-2024 13:20:51,24-10-2024 13:20:51,0.007s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Field_Pincode""), Postcode)",Chrome 130.0.0.0,,,24-10-2024 13:20:51,24-10-2024 13:20:52,0.518s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Field_Pincode""), Postcode)",Chrome 130.0.0.0,,,24-10-2024 13:20:52,24-10-2024 13:20:52,0.506s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Button_GetStarted""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:20:52,24-10-2024 13:20:52,0.230s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/Rmit_University/Enquiry_Now/Button_GetStarted""))",Chrome 130.0.0.0,,,24-10-2024 13:20:52,24-10-2024 13:20:53,0.292s,PASSED
+delay(5),Chrome 130.0.0.0,,,24-10-2024 13:20:53,24-10-2024 13:20:58,5.011s,PASSED
+"verifyElementText(findTestObject(""Object Repository/APAC_University/Rmit_University/Main_Page/Verify_Message""), ""Thank you for enquiring"")",Chrome 130.0.0.0,,,24-10-2024 13:20:58,24-10-2024 13:21:00,2.059s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/RMIT_University/Main_Page,Chrome 130.0.0.0,,,24-10-2024 13:21:00,24-10-2024 13:21:18,17.765s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/RMIT_University/Reusuable_Testcases/Navigate to home page""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:21:00,24-10-2024 13:21:00,0.579s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/RMIT_University/Reusuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:21:00,24-10-2024 13:21:17,17.034s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,24-10-2024 13:21:17,24-10-2024 13:21:18,0.127s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/Deakin_University/Enquiry_Now,Chrome 130.0.0.0,,,24-10-2024 13:21:18,24-10-2024 13:21:49,31.334s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Deakin_University/Resuable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:21:18,24-10-2024 13:21:38,20.140s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/Deakin_University/Button_Enquiry_Now""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:21:38,24-10-2024 13:21:38,0.235s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/Deakin_University/Button_Enquiry_Now""))",Chrome 130.0.0.0,,,24-10-2024 13:21:38,24-10-2024 13:21:39,1.073s,PASSED
+"program = findTestObject(""Object Repository/APAC_University/Deakin_University/Dropdown_Program"")",Chrome 130.0.0.0,,,24-10-2024 13:21:39,24-10-2024 13:21:39,0.002s,PASSED
+"selectOptionByIndex(program, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 130.0.0.0,,,24-10-2024 13:21:39,24-10-2024 13:21:42,2.608s,PASSED
+FirstName = keyPathPackage.customKeywords.generateRandomFirstName(),Chrome 130.0.0.0,,,24-10-2024 13:21:42,24-10-2024 13:21:42,0.007s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Deakin_University/Field_Firstname""), FirstName)",Chrome 130.0.0.0,,,24-10-2024 13:21:42,24-10-2024 13:21:42,0.609s,PASSED
+LastName = keyPathPackage.customKeywords.generateRandomLastName(),Chrome 130.0.0.0,,,24-10-2024 13:21:42,24-10-2024 13:21:42,0.007s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Deakin_University/Field_Lastname""), LastName)",Chrome 130.0.0.0,,,24-10-2024 13:21:42,24-10-2024 13:21:43,0.504s,PASSED
+Email = keyPathPackage.customKeywords.generateRandomEmail(),Chrome 130.0.0.0,,,24-10-2024 13:21:43,24-10-2024 13:21:43,0.008s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Deakin_University/Field_Email""), Email)",Chrome 130.0.0.0,,,24-10-2024 13:21:43,24-10-2024 13:21:43,0.513s,PASSED
+Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(),Chrome 130.0.0.0,,,24-10-2024 13:21:43,24-10-2024 13:21:43,0.001s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Deakin_University/Field_Phonenumber""), Phonenumber)",Chrome 130.0.0.0,,,24-10-2024 13:21:43,24-10-2024 13:21:44,0.505s,PASSED
+"startdate = findTestObject(""Object Repository/APAC_University/Deakin_University/Dropdown_Startdate"")",Chrome 130.0.0.0,,,24-10-2024 13:21:44,24-10-2024 13:21:44,0.002s,PASSED
+"selectOptionByIndex(startdate, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 130.0.0.0,,,24-10-2024 13:21:44,24-10-2024 13:21:45,0.923s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/APAC_University/Deakin_University/Dropdown_Highereducation""), Education_Level, false)",Chrome 130.0.0.0,,,24-10-2024 13:21:45,24-10-2024 13:21:45,0.487s,PASSED
+"Workexperience = findTestObject(""Object Repository/APAC_University/Deakin_University/Dropdown_Workexperience"")",Chrome 130.0.0.0,,,24-10-2024 13:21:45,24-10-2024 13:21:45,0.002s,PASSED
+"selectOptionByIndex(Workexperience, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 130.0.0.0,,,24-10-2024 13:21:45,24-10-2024 13:21:46,0.717s,PASSED
+"Enquiryreason = findTestObject(""Object Repository/APAC_University/Deakin_University/Dropdown_Enquiry"")",Chrome 130.0.0.0,,,24-10-2024 13:21:46,24-10-2024 13:21:46,0.002s,PASSED
+"selectOptionByIndex(Enquiryreason, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 130.0.0.0,,,24-10-2024 13:21:46,24-10-2024 13:21:47,0.721s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/APAC_University/Deakin_University/Dropdown_Country""), ""Australia"", false)",Chrome 130.0.0.0,,,24-10-2024 13:21:47,24-10-2024 13:21:47,0.479s,PASSED
+Postcode = keyPathPackage.customKeywords.selectRandomPostCode(),Chrome 130.0.0.0,,,24-10-2024 13:21:47,24-10-2024 13:21:47,0.001s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Deakin_University/Field_Postcode""), Postcode)",Chrome 130.0.0.0,,,24-10-2024 13:21:47,24-10-2024 13:21:48,0.719s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Deakin_University/Field_Postcode""), Postcode)",Chrome 130.0.0.0,,,24-10-2024 13:21:48,24-10-2024 13:21:48,0.515s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/Deakin_University/Button_Submit""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:21:48,24-10-2024 13:21:49,0.237s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/Deakin_University/Button_Submit""))",Chrome 130.0.0.0,,,24-10-2024 13:21:49,24-10-2024 13:21:49,0.278s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/Deakin_University/Main_page,Chrome 130.0.0.0,,,24-10-2024 13:21:49,24-10-2024 13:22:08,19.024s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Deakin_University/Resuable_Testcases/Navigate_HomePage""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:21:49,24-10-2024 13:21:53,3.773s,PASSED
+"program = findTestObject(""Object Repository/APAC_University/Deakin_University/Dropdown_Program"")",Chrome 130.0.0.0,,,24-10-2024 13:21:53,24-10-2024 13:21:53,0.002s,PASSED
+"selectOptionByIndex(program, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 130.0.0.0,,,24-10-2024 13:21:53,24-10-2024 13:21:54,1.228s,PASSED
+FirstName = keyPathPackage.customKeywords.generateRandomFirstName(),Chrome 130.0.0.0,,,24-10-2024 13:21:54,24-10-2024 13:21:54,0.006s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Deakin_University/Field_Firstname""), FirstName)",Chrome 130.0.0.0,,,24-10-2024 13:21:54,24-10-2024 13:21:55,0.808s,PASSED
+LastName = keyPathPackage.customKeywords.generateRandomLastName(),Chrome 130.0.0.0,,,24-10-2024 13:21:55,24-10-2024 13:21:55,0.006s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Deakin_University/Field_Lastname""), LastName)",Chrome 130.0.0.0,,,24-10-2024 13:21:55,24-10-2024 13:21:55,0.505s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/Deakin_University/Button_NextStep2""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:21:55,24-10-2024 13:21:56,0.241s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/Deakin_University/Button_NextStep2""))",Chrome 130.0.0.0,,,24-10-2024 13:21:56,24-10-2024 13:21:56,0.260s,PASSED
+"startdate = findTestObject(""Object Repository/APAC_University/Deakin_University/Dropdown_Startdate"")",Chrome 130.0.0.0,,,24-10-2024 13:21:56,24-10-2024 13:21:56,0.001s,PASSED
+"selectOptionByIndex(startdate, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 130.0.0.0,,,24-10-2024 13:21:56,24-10-2024 13:21:57,0.923s,PASSED
+"Enquiryreason = findTestObject(""Object Repository/APAC_University/Deakin_University/Dropdown_Enquiry"")",Chrome 130.0.0.0,,,24-10-2024 13:21:57,24-10-2024 13:21:57,0.001s,PASSED
+"selectOptionByIndex(Enquiryreason, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 130.0.0.0,,,24-10-2024 13:21:57,24-10-2024 13:21:57,0.720s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/APAC_University/Deakin_University/Dropdown_Highereducation""), Education_Level, false)",Chrome 130.0.0.0,,,24-10-2024 13:21:57,24-10-2024 13:21:58,0.487s,PASSED
+"Workexperience = findTestObject(""Object Repository/APAC_University/Deakin_University/Dropdown_Workexperience"")",Chrome 130.0.0.0,,,24-10-2024 13:21:58,24-10-2024 13:21:58,0.001s,PASSED
+"selectOptionByIndex(Workexperience, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 130.0.0.0,,,24-10-2024 13:21:58,24-10-2024 13:21:59,0.710s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/Deakin_University/Button_Nextstep3""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:21:59,24-10-2024 13:21:59,0.236s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/Deakin_University/Button_Nextstep3""))",Chrome 130.0.0.0,,,24-10-2024 13:21:59,24-10-2024 13:21:59,0.262s,PASSED
+Email = keyPathPackage.customKeywords.generateRandomEmail(),Chrome 130.0.0.0,,,24-10-2024 13:21:59,24-10-2024 13:21:59,0.008s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Deakin_University/Field_Email""), Email)",Chrome 130.0.0.0,,,24-10-2024 13:21:59,24-10-2024 13:22:00,0.710s,PASSED
+Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(),Chrome 130.0.0.0,,,24-10-2024 13:22:00,24-10-2024 13:22:00,0.001s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Deakin_University/Field_Phonenumber""), Phonenumber)",Chrome 130.0.0.0,,,24-10-2024 13:22:00,24-10-2024 13:22:00,0.513s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/APAC_University/Deakin_University/Dropdown_Country""), ""Australia"", false)",Chrome 130.0.0.0,,,24-10-2024 13:22:00,24-10-2024 13:22:01,0.689s,PASSED
+Postcode = keyPathPackage.customKeywords.selectRandomPostCode(),Chrome 130.0.0.0,,,24-10-2024 13:22:01,24-10-2024 13:22:01,0.001s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Deakin_University/Field_Postcode""), Postcode)",Chrome 130.0.0.0,,,24-10-2024 13:22:01,24-10-2024 13:22:02,0.503s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/Deakin_University/Field_Postcode""), Postcode)",Chrome 130.0.0.0,,,24-10-2024 13:22:02,24-10-2024 13:22:02,0.503s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/Deakin_University/Button_Enquiry_Submit""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:22:02,24-10-2024 13:22:02,0.238s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/Deakin_University/Button_Enquiry_Submit""))",Chrome 130.0.0.0,,,24-10-2024 13:22:02,24-10-2024 13:22:03,0.275s,PASSED
+delay(5),Chrome 130.0.0.0,,,24-10-2024 13:22:03,24-10-2024 13:22:08,5.010s,PASSED
+"verifyElementText(findTestObject(""Object Repository/APAC_University/Deakin_University/Verify_Content""), ""Thanks - we’ll be in touch soon!"")",Chrome 130.0.0.0,,,24-10-2024 13:22:08,24-10-2024 13:22:08,0.248s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,24-10-2024 13:22:08,24-10-2024 13:22:08,0.106s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/University_of_Canberra/Enquiry_Form,Chrome 130.0.0.0,,,24-10-2024 13:22:08,24-10-2024 13:22:41,33.117s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/University_of_Canberra/Resuable_Testcases/Navigate_Url""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:22:08,24-10-2024 13:22:24,16.145s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/University_of_Canberra/Button_Enquiry_Now""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:22:24,24-10-2024 13:22:26,1.519s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/University_of_Canberra/Button_Enquiry_Now""))",Chrome 130.0.0.0,,,24-10-2024 13:22:26,24-10-2024 13:22:27,1.607s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/University_of_Canberra/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:22:27,24-10-2024 13:22:41,13.827s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/University_of_Canberra/Main_Page,Chrome 130.0.0.0,,,24-10-2024 13:22:41,24-10-2024 13:22:57,15.970s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/University_of_Canberra/Resuable_Testcases/Navigate_Homepage""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:22:41,24-10-2024 13:22:42,1.027s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/University_of_Canberra/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:22:42,24-10-2024 13:22:57,14.809s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,24-10-2024 13:22:57,24-10-2024 13:22:57,0.111s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/Victorian_University/Main_Page,Chrome 130.0.0.0,,,24-10-2024 13:22:57,24-10-2024 13:23:23,25.587s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Victorian_University/Reusuable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:22:57,24-10-2024 13:23:13,16.142s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Victorian_University/Reusuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:23:13,24-10-2024 13:23:23,9.430s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/Victorian_University/Enquiry_Form,Chrome 130.0.0.0,,,24-10-2024 13:23:23,24-10-2024 13:23:37,14.428s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Victorian_University/Reusuable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:23:23,24-10-2024 13:23:26,3.638s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Victorian_University/Reusuable_Testcases/Navigate_HomePage""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:23:26,24-10-2024 13:23:28,1.910s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/Victoria_University/Button_Enquiry_Now""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:23:28,24-10-2024 13:23:29,1.251s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/Victoria_University/Button_Enquiry_Now""))",Chrome 130.0.0.0,,,24-10-2024 13:23:29,24-10-2024 13:23:30,0.255s,PASSED
+"program = findTestObject(""Object Repository/APAC_University/Victoria_University/Dropdown_Program"")",Chrome 130.0.0.0,,,24-10-2024 13:23:30,24-10-2024 13:23:30,0.002s,PASSED
+"selectOptionByIndex(program, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 130.0.0.0,,,24-10-2024 13:23:30,24-10-2024 13:23:33,3.023s,PASSED
+"dropdown = findTestObject(""Object Repository/APAC_University/Victoria_University/Dropdown_Citizen_Qualify"")",Chrome 130.0.0.0,,,24-10-2024 13:23:33,24-10-2024 13:23:33,0.002s,PASSED
+"options = [""yes"", ""no""]",Chrome 130.0.0.0,,,24-10-2024 13:23:33,24-10-2024 13:23:33,0.000s,PASSED
+randomOption = options[Random().nextInt(length)],Chrome 130.0.0.0,,,24-10-2024 13:23:33,24-10-2024 13:23:33,0.001s,PASSED
+"selectOptionByValue(dropdown, randomOption, true)",Chrome 130.0.0.0,,,24-10-2024 13:23:33,24-10-2024 13:23:34,0.954s,PASSED
+"if (randomOption.equals(""no""))",Chrome 130.0.0.0,,,24-10-2024 13:23:34,24-10-2024 13:23:37,3.360s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/UTS_University/Enquiry_Now,Chrome 130.0.0.0,,,24-10-2024 13:23:37,24-10-2024 13:24:22,44.813s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/UTS_University/Resuable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:23:37,24-10-2024 13:24:05,28.332s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/UTS_University/Button_Enquiry_Now""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:24:05,24-10-2024 13:24:07,1.159s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/UTS_University/Button_Enquiry_Now""))",Chrome 130.0.0.0,,,24-10-2024 13:24:07,24-10-2024 13:24:07,0.287s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/UTS_University/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:24:07,24-10-2024 13:24:22,15.019s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/UTS_University/Main_Page,Chrome 130.0.0.0,,,24-10-2024 13:24:22,24-10-2024 13:24:39,17.062s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/UTS_University/Resuable_Testcases/Navigate_Homepage""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:24:22,24-10-2024 13:24:23,1.186s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/UTS_University/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:24:23,24-10-2024 13:24:39,15.745s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,24-10-2024 13:24:39,24-10-2024 13:24:39,0.109s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/Edith_Cowan_University/Enquiry_Now,Chrome 130.0.0.0,,,24-10-2024 13:24:39,24-10-2024 13:25:14,34.951s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Edith_Cowan_University/Reusable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:24:39,24-10-2024 13:24:57,18.387s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/Edith_Cowan_University/Button_Enquiry_Now""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:24:57,24-10-2024 13:24:58,0.337s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/Edith_Cowan_University/Button_Enquiry_Now""))",Chrome 130.0.0.0,,,24-10-2024 13:24:58,24-10-2024 13:24:59,1.200s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Edith_Cowan_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:24:59,24-10-2024 13:25:14,15.006s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/Edith_Cowan_University/Main_Page,Chrome 130.0.0.0,,,24-10-2024 13:25:14,24-10-2024 13:25:30,16.232s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Edith_Cowan_University/Reusable_Testcases/Navigate_HomePage""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:25:14,24-10-2024 13:25:16,1.660s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Edith_Cowan_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:25:16,24-10-2024 13:25:30,14.434s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,24-10-2024 13:25:30,24-10-2024 13:25:30,0.118s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs,Chrome 130.0.0.0,,,24-10-2024 13:25:30,24-10-2024 13:25:59,28.523s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Resuable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:25:30,24-10-2024 13:25:35,4.531s,PASSED
+"buttonObject = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/List_DegreePrograms"")",Chrome 130.0.0.0,,,24-10-2024 13:25:35,24-10-2024 13:25:35,0.002s,PASSED
+mouseOver(buttonObject),Chrome 130.0.0.0,,,24-10-2024 13:25:35,24-10-2024 13:25:35,0.350s,PASSED
+"list1 = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_ListOne"")",Chrome 130.0.0.0,,,24-10-2024 13:25:35,24-10-2024 13:25:35,0.001s,PASSED
+"list2 = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listtwo"")",Chrome 130.0.0.0,,,24-10-2024 13:25:35,24-10-2024 13:25:35,0.001s,PASSED
+"list3 = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listthree"")",Chrome 130.0.0.0,,,24-10-2024 13:25:35,24-10-2024 13:25:35,0.001s,PASSED
+"list4 = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listfour"")",Chrome 130.0.0.0,,,24-10-2024 13:25:35,24-10-2024 13:25:35,0.001s,PASSED
+"lists = [list1, list2, list3, list4]",Chrome 130.0.0.0,,,24-10-2024 13:25:35,24-10-2024 13:25:35,0.000s,PASSED
+rand = new java.util.Random(),Chrome 130.0.0.0,,,24-10-2024 13:25:35,24-10-2024 13:25:35,0.000s,PASSED
+randomListIndex = rand.nextInt(lists.size()),Chrome 130.0.0.0,,,24-10-2024 13:25:35,24-10-2024 13:25:35,0.001s,PASSED
+selectedList = lists.get(randomListIndex),Chrome 130.0.0.0,,,24-10-2024 13:25:35,24-10-2024 13:25:35,0.001s,PASSED
+"waitForElementVisible(selectedList, 10)",Chrome 130.0.0.0,,,24-10-2024 13:25:35,24-10-2024 13:25:36,1.345s,PASSED
+"listItems = findWebElements(selectedList, 30)",Chrome 130.0.0.0,,,24-10-2024 13:25:36,24-10-2024 13:25:37,0.943s,PASSED
+if (listItems.size() > 0),Chrome 130.0.0.0,,,24-10-2024 13:25:37,24-10-2024 13:25:40,2.934s,PASSED
+FirstName = keyPathPackage.customKeywords.generateRandomFirstName(),Chrome 130.0.0.0,,,24-10-2024 13:25:40,24-10-2024 13:25:40,0.006s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Field_Firstname""), FirstName)",Chrome 130.0.0.0,,,24-10-2024 13:25:40,24-10-2024 13:25:43,3.017s,PASSED
+LastName = keyPathPackage.customKeywords.generateRandomLastName(),Chrome 130.0.0.0,,,24-10-2024 13:25:43,24-10-2024 13:25:43,0.005s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Field_Lastname""), LastName)",Chrome 130.0.0.0,,,24-10-2024 13:25:43,24-10-2024 13:25:44,0.496s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Button_NextStep2""))",Chrome 130.0.0.0,,,24-10-2024 13:25:44,24-10-2024 13:25:44,0.268s,PASSED
+"dropdown = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Bachelor_Experience"")",Chrome 130.0.0.0,,,24-10-2024 13:25:44,24-10-2024 13:25:44,0.001s,PASSED
+"options = [""yes"", ""no""]",Chrome 130.0.0.0,,,24-10-2024 13:25:44,24-10-2024 13:25:44,0.000s,PASSED
+randomOption = options[Random().nextInt(length)],Chrome 130.0.0.0,,,24-10-2024 13:25:44,24-10-2024 13:25:44,0.001s,PASSED
+"selectOptionByValue(dropdown, randomOption, true)",Chrome 130.0.0.0,,,24-10-2024 13:25:44,24-10-2024 13:25:47,2.395s,PASSED
+"if (randomOption.equals(""no""))",Chrome 130.0.0.0,,,24-10-2024 13:25:47,24-10-2024 13:25:50,3.728s,PASSED
+"startdate = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Startdate"")",Chrome 130.0.0.0,,,24-10-2024 13:25:50,24-10-2024 13:25:50,0.002s,PASSED
+"selectOptionByIndex(startdate, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 130.0.0.0,,,24-10-2024 13:25:50,24-10-2024 13:25:51,0.717s,PASSED
+"Enquiryreason = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Dropdown_Enquiry"")",Chrome 130.0.0.0,,,24-10-2024 13:25:51,24-10-2024 13:25:51,0.002s,PASSED
+"selectOptionByIndex(Enquiryreason, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 130.0.0.0,,,24-10-2024 13:25:51,24-10-2024 13:25:52,0.719s,PASSED
+delay(2),Chrome 130.0.0.0,,,24-10-2024 13:25:52,24-10-2024 13:25:54,2.014s,PASSED
+"scrollToElement(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Button_NextStep3""), 3)",Chrome 130.0.0.0,,,24-10-2024 13:25:54,24-10-2024 13:25:54,0.251s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Button_NextStep3""))",Chrome 130.0.0.0,,,24-10-2024 13:25:54,24-10-2024 13:25:54,0.264s,PASSED
+Email = keyPathPackage.customKeywords.generateRandomEmail(),Chrome 130.0.0.0,,,24-10-2024 13:25:54,24-10-2024 13:25:54,0.007s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Field_Email""), Email)",Chrome 130.0.0.0,,,24-10-2024 13:25:54,24-10-2024 13:25:56,2.047s,PASSED
+Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(),Chrome 130.0.0.0,,,24-10-2024 13:25:56,24-10-2024 13:25:56,0.001s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Field_Phonenumber""), Phonenumber)",Chrome 130.0.0.0,,,24-10-2024 13:25:56,24-10-2024 13:25:57,0.529s,PASSED
+Postcode = keyPathPackage.customKeywords.selectRandomPostCode(),Chrome 130.0.0.0,,,24-10-2024 13:25:57,24-10-2024 13:25:57,0.000s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Field_Postcode""), Postcode)",Chrome 130.0.0.0,,,24-10-2024 13:25:57,24-10-2024 13:25:57,0.710s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Field_Postcode""), Postcode)",Chrome 130.0.0.0,,,24-10-2024 13:25:57,24-10-2024 13:25:58,0.713s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/Button_Downloadbrochure""))",Chrome 130.0.0.0,,,24-10-2024 13:25:58,24-10-2024 13:25:59,0.465s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Short_Courses,Chrome 130.0.0.0,,,24-10-2024 13:25:59,24-10-2024 13:26:15,15.852s,ERROR
+"buttonObject = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses"")",Chrome 130.0.0.0,,,24-10-2024 13:25:59,24-10-2024 13:25:59,0.001s,PASSED
+mouseOver(buttonObject),Chrome 130.0.0.0,,,24-10-2024 13:25:59,24-10-2024 13:26:03,4.672s,PASSED
+"list1 = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listone"")",Chrome 130.0.0.0,,,24-10-2024 13:26:03,24-10-2024 13:26:03,0.001s,PASSED
+"list2 = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listtwo"")",Chrome 130.0.0.0,,,24-10-2024 13:26:03,24-10-2024 13:26:03,0.001s,PASSED
+"list3 = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree"")",Chrome 130.0.0.0,,,24-10-2024 13:26:03,24-10-2024 13:26:03,0.001s,PASSED
+"lists = [list1, list2, list3]",Chrome 130.0.0.0,,,24-10-2024 13:26:03,24-10-2024 13:26:03,0.000s,PASSED
+rand = new java.util.Random(),Chrome 130.0.0.0,,,24-10-2024 13:26:03,24-10-2024 13:26:03,0.000s,PASSED
+randomListIndex = rand.nextInt(lists.size()),Chrome 130.0.0.0,,,24-10-2024 13:26:03,24-10-2024 13:26:03,0.001s,PASSED
+selectedList = lists.get(randomListIndex),Chrome 130.0.0.0,,,24-10-2024 13:26:03,24-10-2024 13:26:03,0.000s,PASSED
+"waitForElementVisible(selectedList, 10)",Chrome 130.0.0.0,,,24-10-2024 13:26:03,24-10-2024 13:26:14,10.898s,PASSED
+"listItems = findWebElements(selectedList, 30)",Chrome 130.0.0.0,,,24-10-2024 13:26:14,24-10-2024 13:26:15,0.226s,PASSED
+if (listItems.size() > 0),Chrome 130.0.0.0,,,24-10-2024 13:26:15,24-10-2024 13:26:15,0.015s,ERROR
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Enrol_Now,Chrome 130.0.0.0,,,24-10-2024 13:26:15,24-10-2024 13:26:26,11.289s,ERROR
+"buttonObject = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses"")",Chrome 130.0.0.0,,,24-10-2024 13:26:15,24-10-2024 13:26:15,0.001s,PASSED
+mouseOver(buttonObject),Chrome 130.0.0.0,,,24-10-2024 13:26:15,24-10-2024 13:26:15,0.346s,PASSED
+"list1 = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listone"")",Chrome 130.0.0.0,,,24-10-2024 13:26:15,24-10-2024 13:26:15,0.001s,PASSED
+"list2 = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listtwo"")",Chrome 130.0.0.0,,,24-10-2024 13:26:15,24-10-2024 13:26:15,0.001s,PASSED
+"list3 = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree"")",Chrome 130.0.0.0,,,24-10-2024 13:26:15,24-10-2024 13:26:15,0.001s,PASSED
+"lists = [list1, list2, list3]",Chrome 130.0.0.0,,,24-10-2024 13:26:15,24-10-2024 13:26:15,0.000s,PASSED
+rand = new java.util.Random(),Chrome 130.0.0.0,,,24-10-2024 13:26:15,24-10-2024 13:26:15,0.000s,PASSED
+randomListIndex = rand.nextInt(lists.size()),Chrome 130.0.0.0,,,24-10-2024 13:26:15,24-10-2024 13:26:15,0.001s,PASSED
+selectedList = lists.get(randomListIndex),Chrome 130.0.0.0,,,24-10-2024 13:26:15,24-10-2024 13:26:15,0.000s,PASSED
+"waitForElementVisible(selectedList, 10)",Chrome 130.0.0.0,,,24-10-2024 13:26:15,24-10-2024 13:26:26,10.656s,PASSED
+"listItems = findWebElements(selectedList, 30)",Chrome 130.0.0.0,,,24-10-2024 13:26:26,24-10-2024 13:26:26,0.225s,PASSED
+if (listItems.size() > 0),Chrome 130.0.0.0,,,24-10-2024 13:26:26,24-10-2024 13:26:26,0.014s,ERROR
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/James_Cook_University/Enquiry_Now,Chrome 130.0.0.0,,,24-10-2024 13:26:26,24-10-2024 13:27:05,39.307s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/James_Cook_University/Reusable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:26:26,24-10-2024 13:26:44,17.692s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/James_Cook_University/Button_Enquiry_Now""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:26:44,24-10-2024 13:26:45,1.485s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/James_Cook_University/Button_Enquiry_Now""))",Chrome 130.0.0.0,,,24-10-2024 13:26:45,24-10-2024 13:26:46,1.401s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/James_Cook_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:26:46,24-10-2024 13:27:05,18.710s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/James_Cook_University/Main_Page,Chrome 130.0.0.0,,,24-10-2024 13:27:05,24-10-2024 13:27:26,20.685s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/James_Cook_University/Reusable_Testcases/Navigate_Homepage""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:27:05,24-10-2024 13:27:06,0.568s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/James_Cook_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:27:06,24-10-2024 13:27:26,20.098s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/James_Cook_University/Contact_Us,Chrome 130.0.0.0,,,24-10-2024 13:27:26,24-10-2024 13:27:51,25.457s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/James_Cook_University/Reusable_Testcases/Navigate_Homepage""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:27:26,24-10-2024 13:27:27,0.830s,PASSED
+"scrollToElement(findTestObject(""Object Repository/APAC_University/James_Cook_University/Button_ContactUs""), 3)",Chrome 130.0.0.0,,,24-10-2024 13:27:27,24-10-2024 13:27:28,1.498s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/James_Cook_University/Button_ContactUs""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:27:28,24-10-2024 13:27:29,0.957s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/James_Cook_University/Button_ContactUs""))",Chrome 130.0.0.0,,,24-10-2024 13:27:29,24-10-2024 13:27:29,0.265s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/James_Cook_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:27:29,24-10-2024 13:27:51,21.746s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,24-10-2024 13:27:51,24-10-2024 13:27:51,0.138s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/UNSW_University/Main_Page,Chrome 130.0.0.0,,,24-10-2024 13:27:51,24-10-2024 13:28:13,21.626s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/UNSW_University/Reusable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:27:51,24-10-2024 13:27:54,2.487s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/UNSW_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:27:54,24-10-2024 13:28:13,19.125s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/UNSW_University/Enquiry_Now,Chrome 130.0.0.0,,,24-10-2024 13:28:13,24-10-2024 13:28:35,21.650s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/UNSW_University/Reusable_Testcases/Navigate_HomePage""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:28:13,24-10-2024 13:28:16,2.888s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/UNSW_University/Button_EnquiryNow""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:28:16,24-10-2024 13:28:17,0.868s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/UNSW_University/Button_EnquiryNow""))",Chrome 130.0.0.0,,,24-10-2024 13:28:17,24-10-2024 13:28:17,0.685s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/UNSW_University/Reusable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:28:17,24-10-2024 13:28:34,17.069s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,24-10-2024 13:28:34,24-10-2024 13:28:35,0.120s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/SCU_University/Enquiry_Now,Chrome 130.0.0.0,,,24-10-2024 13:28:35,24-10-2024 13:29:00,25.046s,FAILED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/SCU_University/Reusable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:28:35,24-10-2024 13:28:52,17.120s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/SCU_University/Main_Page/Button_Enquiry_Now""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:28:52,24-10-2024 13:28:54,2.682s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/SCU_University/Main_Page/Button_Enquiry_Now""))",Chrome 130.0.0.0,,,24-10-2024 13:28:54,24-10-2024 13:28:55,0.683s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/APAC_University/SCU_University/Main_Page/Modal_Dialog""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:28:55,24-10-2024 13:28:56,0.634s,PASSED
+"selectTestObject = findTestObject(""Object Repository/APAC_University/SCU_University/Enquiry_Now/Dropdown_Course"")",Chrome 130.0.0.0,,,24-10-2024 13:28:56,24-10-2024 13:28:56,0.001s,PASSED
+"selectElement = findWebElement(selectTestObject, 0)",Chrome 130.0.0.0,,,24-10-2024 13:28:56,24-10-2024 13:28:56,0.224s,PASSED
+select = new org.openqa.selenium.support.ui.Select(selectElement),Chrome 130.0.0.0,,,24-10-2024 13:28:56,24-10-2024 13:28:56,0.011s,PASSED
+options = select.getOptions(),Chrome 130.0.0.0,,,24-10-2024 13:28:56,24-10-2024 13:28:56,0.227s,PASSED
+validOptions = options.findAll({ -> ... }),Chrome 130.0.0.0,,,24-10-2024 13:28:56,24-10-2024 13:28:56,0.099s,PASSED
+random = new java.util.Random(),Chrome 130.0.0.0,,,24-10-2024 13:28:56,24-10-2024 13:28:56,0.000s,PASSED
+randomOption = validOptions[random.nextInt(validOptions.size())],Chrome 130.0.0.0,,,24-10-2024 13:28:56,24-10-2024 13:28:56,0.002s,PASSED
+"select.selectByValue(randomOption.getAttribute(""value""))",Chrome 130.0.0.0,,,24-10-2024 13:28:56,24-10-2024 13:28:57,0.258s,PASSED
+FirstName = keyPathPackage.customKeywords.generateRandomFirstName(),Chrome 130.0.0.0,,,24-10-2024 13:28:57,24-10-2024 13:28:57,0.006s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/SCU_University/Enquiry_Now/Field_FirstName""), FirstName)",Chrome 130.0.0.0,,,24-10-2024 13:28:57,24-10-2024 13:28:57,0.580s,PASSED
+LastName = keyPathPackage.customKeywords.generateRandomLastName(),Chrome 130.0.0.0,,,24-10-2024 13:28:57,24-10-2024 13:28:57,0.007s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/SCU_University/Enquiry_Now/Field_LastName""), LastName)",Chrome 130.0.0.0,,,24-10-2024 13:28:57,24-10-2024 13:28:58,0.515s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/SCU_University/Enquiry_Now/Button_Nextstep1""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:28:58,24-10-2024 13:28:58,0.237s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/SCU_University/Enquiry_Now/Button_Nextstep1""))",Chrome 130.0.0.0,,,24-10-2024 13:28:58,24-10-2024 13:28:58,0.281s,PASSED
+"startdate = findTestObject(""Object Repository/APAC_University/SCU_University/Enquiry_Now/Dropdown_Startdate"")",Chrome 130.0.0.0,,,24-10-2024 13:28:58,24-10-2024 13:28:58,0.007s,PASSED
+"selectOptionByIndex(startdate, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 130.0.0.0,,,24-10-2024 13:28:58,24-10-2024 13:29:00,1.419s,FAILED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/SCU_University/Main_Page,Chrome 130.0.0.0,,,24-10-2024 13:29:00,24-10-2024 13:29:09,8.972s,FAILED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/SCU_University/Reusable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:29:00,24-10-2024 13:29:02,2.421s,PASSED
+"selectTestObject = findTestObject(""Object Repository/APAC_University/SCU_University/Main_Page/Dropdown_Course"")",Chrome 130.0.0.0,,,24-10-2024 13:29:02,24-10-2024 13:29:02,0.001s,PASSED
+"selectElement = findWebElement(selectTestObject, 0)",Chrome 130.0.0.0,,,24-10-2024 13:29:02,24-10-2024 13:29:02,0.327s,PASSED
+select = new org.openqa.selenium.support.ui.Select(selectElement),Chrome 130.0.0.0,,,24-10-2024 13:29:02,24-10-2024 13:29:02,0.008s,PASSED
+options = select.getOptions(),Chrome 130.0.0.0,,,24-10-2024 13:29:02,24-10-2024 13:29:04,1.164s,PASSED
+validOptions = options.findAll({ -> ... }),Chrome 130.0.0.0,,,24-10-2024 13:29:04,24-10-2024 13:29:04,0.094s,PASSED
+random = new java.util.Random(),Chrome 130.0.0.0,,,24-10-2024 13:29:04,24-10-2024 13:29:04,0.001s,PASSED
+randomOption = validOptions[random.nextInt(validOptions.size())],Chrome 130.0.0.0,,,24-10-2024 13:29:04,24-10-2024 13:29:04,0.000s,PASSED
+"select.selectByValue(randomOption.getAttribute(""value""))",Chrome 130.0.0.0,,,24-10-2024 13:29:04,24-10-2024 13:29:05,1.779s,PASSED
+FirstName = keyPathPackage.customKeywords.generateRandomFirstName(),Chrome 130.0.0.0,,,24-10-2024 13:29:05,24-10-2024 13:29:05,0.005s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/SCU_University/Main_Page/Field_Firstname""), FirstName)",Chrome 130.0.0.0,,,24-10-2024 13:29:05,24-10-2024 13:29:06,0.579s,PASSED
+LastName = keyPathPackage.customKeywords.generateRandomLastName(),Chrome 130.0.0.0,,,24-10-2024 13:29:06,24-10-2024 13:29:06,0.005s,PASSED
+"setText(findTestObject(""Object Repository/APAC_University/SCU_University/Main_Page/Field_Lastname""), LastName)",Chrome 130.0.0.0,,,24-10-2024 13:29:06,24-10-2024 13:29:07,0.526s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/SCU_University/Main_Page/Button_Nextstep1""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:29:07,24-10-2024 13:29:07,0.238s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/SCU_University/Main_Page/Button_Nextstep1""))",Chrome 130.0.0.0,,,24-10-2024 13:29:07,24-10-2024 13:29:07,0.286s,PASSED
+"startdate = findTestObject(""Object Repository/APAC_University/SCU_University/Main_Page/Dropdown_StartDate"")",Chrome 130.0.0.0,,,24-10-2024 13:29:07,24-10-2024 13:29:07,0.001s,PASSED
+"selectOptionByIndex(startdate, keyPathPackage.customKeywords.selectRandomOptionFromDropdown())",Chrome 130.0.0.0,,,24-10-2024 13:29:07,24-10-2024 13:29:09,1.497s,FAILED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/Help_University/Main_Page,Chrome 130.0.0.0,,,24-10-2024 13:29:09,24-10-2024 13:29:43,34.427s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Help_University/Resuable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:29:09,24-10-2024 13:29:27,18.599s,PASSED
+logger = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 130.0.0.0,,,24-10-2024 13:29:27,24-10-2024 13:29:27,0.001s,PASSED
+"testObject = findTestObject(""Object Repository/APAC_University/Help_University/Program_Info"")",Chrome 130.0.0.0,,,24-10-2024 13:29:27,24-10-2024 13:29:27,0.001s,PASSED
+"isElementPresent = verifyElementPresent(testObject, 10, CONTINUE_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:29:27,24-10-2024 13:29:28,0.646s,PASSED
+if (isElementPresent),Chrome 130.0.0.0,,,24-10-2024 13:29:28,24-10-2024 13:29:28,0.229s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Help_University/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:29:28,24-10-2024 13:29:43,14.930s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/Help_University/Enquiry_Now,Chrome 130.0.0.0,,,24-10-2024 13:29:43,24-10-2024 13:29:58,14.562s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/Help_University/Button_Enquirenow""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:29:43,24-10-2024 13:29:46,2.919s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/Help_University/Button_Enquirenow""))",Chrome 130.0.0.0,,,24-10-2024 13:29:46,24-10-2024 13:29:47,1.283s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Help_University/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:29:47,24-10-2024 13:29:57,10.222s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,24-10-2024 13:29:57,24-10-2024 13:29:58,0.110s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/Sunway_University/Main_Page,Chrome 130.0.0.0,,,24-10-2024 13:29:58,24-10-2024 13:30:23,25.507s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Sunway_University/Resuable_Testcases/Navigate_To_URL""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:29:58,24-10-2024 13:30:04,5.961s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Sunway_University/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:30:04,24-10-2024 13:30:23,19.533s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/Sunway_University/Enquiry_Now,Chrome 130.0.0.0,,,24-10-2024 13:30:23,24-10-2024 13:30:44,21.399s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Sunway_University/Resuable_Testcases/Navigate_to_Homepage""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:30:23,24-10-2024 13:30:25,1.883s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/SUN_University/Button_EnquireNow""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:30:25,24-10-2024 13:30:25,0.432s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/SUN_University/Button_EnquireNow""))",Chrome 130.0.0.0,,,24-10-2024 13:30:25,24-10-2024 13:30:26,0.996s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/Sunway_University/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:30:26,24-10-2024 13:30:44,17.955s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,24-10-2024 13:30:44,24-10-2024 13:30:44,0.112s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Main_Page,Chrome 130.0.0.0,,,24-10-2024 13:30:44,24-10-2024 13:31:20,35.142s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:30:44,24-10-2024 13:31:04,19.855s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:31:04,24-10-2024 13:31:20,15.273s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Enquiry_Now,Chrome 130.0.0.0,,,24-10-2024 13:31:20,24-10-2024 13:31:39,19.119s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Navigate_Homepage""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:31:20,24-10-2024 13:31:24,4.617s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/SIM_University/Button_Enquiry""), 10)",Chrome 130.0.0.0,,,24-10-2024 13:31:24,24-10-2024 13:31:25,1.077s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/SIM_University/Button_Enquiry""))",Chrome 130.0.0.0,,,24-10-2024 13:31:25,24-10-2024 13:31:26,0.262s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,24-10-2024 13:31:26,24-10-2024 13:31:39,13.039s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,24-10-2024 13:31:39,24-10-2024 13:31:39,0.108s,PASSED

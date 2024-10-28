@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Keypath_Testsuite_APAC_SEO,Chrome 129.0.0.0,,,11-10-2024 11:59:30,11-10-2024 12:00:09,39.469s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/UTS_University/Enquiry_Now,Chrome 129.0.0.0,,,11-10-2024 11:59:30,11-10-2024 11:59:52,22.221s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/UTS_University/Resuable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 129.0.0.0,,,11-10-2024 11:59:30,11-10-2024 11:59:34,4.451s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/UTS_University/Button_Enquiry_Now""), 10)",Chrome 129.0.0.0,,,11-10-2024 11:59:34,11-10-2024 11:59:36,1.278s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/UTS_University/Button_Enquiry_Now""))",Chrome 129.0.0.0,,,11-10-2024 11:59:36,11-10-2024 11:59:38,1.919s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/UTS_University/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 129.0.0.0,,,11-10-2024 11:59:38,11-10-2024 11:59:52,14.461s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/UTS_University/Main_Page,Chrome 129.0.0.0,,,11-10-2024 11:59:52,11-10-2024 12:00:09,17.192s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/UTS_University/Resuable_Testcases/Navigate_Homepage""), [:], STOP_ON_FAILURE)",Chrome 129.0.0.0,,,11-10-2024 11:59:52,11-10-2024 11:59:54,1.546s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/UTS_University/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 129.0.0.0,,,11-10-2024 11:59:54,11-10-2024 12:00:09,15.517s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,11-10-2024 12:00:09,11-10-2024 12:00:09,0.109s,PASSED

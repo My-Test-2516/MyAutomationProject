@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Keypath_Testsuite_APAC_SEO" time="84.938" tests="3" failures="0" errors="1">
+   <testsuite name="Keypath_Testsuite_APAC_SEO" tests="3" failures="0" errors="1" time="84.938" skipped="0" timestamp="19-09-2024T08:59:59" hostname="madhansivaraj - 192.168.8.116" id="Test Suites/Keypath_Testsuite_APAC_SEO">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/madhansivaraj/git/Keypath_Automation_Testing_Mster/Reports/20240919_085954/Keypath_Testsuite_APAC_SEO/20240919_085955"/>
+         <property name="logFiles" value="/Users/madhansivaraj/git/Keypath_Automation_Testing_Mster/Reports/20240919_085954/Keypath_Testsuite_APAC_SEO/20240919_085955/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="madhansivaraj - 192.168.8.116"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.116"/>
+         <property name="sessionId" value="691c1c838334bb7ac785fd6d80e7890b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs" time="21.683" classname="Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs" status="ERROR">
+         <error type="ERROR" message="Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs FAILED.&#xa;Reason:&#xa;org.openqa.selenium.ElementNotInteractableException: element not interactable&#xa;  (Session info: chrome=128.0.6613.138)&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'Madhans-MBP', ip: 'fd62:85f6:1659:c000:1c9a:bf44:9290:aecc%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: /var/folders/81/jk91fm7j2_5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 691c1c838334bb7ac785fd6d80e7890b&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at Degree_Programs.run(Degree_Programs:59)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726700395582.run(TempTestSuite1726700395582.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[19-09-2024T08:59:59 - [TEST_CASE][ERROR] - Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs: Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs FAILED.
+Reason:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'Madhans-MBP', ip: 'fd62:85f6:1659:c000:1c9a:bf44:9290:aecc%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: /var/folders/81/jk91fm7j2_5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 691c1c838334bb7ac785fd6d80e7890b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at Degree_Programs.run(Degree_Programs:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726700395582.run(TempTestSuite1726700395582.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+19-09-2024T09:00:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Resuable_Testcases/Navigate_URL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Resuable_Testcases/Navigate_URL' successfully
+
+19-09-2024T09:00:00 - [TEST_CASE][PASSED] - Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Resuable_Testcases/Navigate_URL: Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Resuable_Testcases/Navigate_URL
+
+19-09-2024T09:00:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-09-2024T09:00:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-09-2024T09:00:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-09-2024T09:00:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-09-2024T09:00:01 - [TEST_STEP][PASSED] - navigateToUrl(University_MBS): Navigate to 'https://key:path@dev-mbs-mkt.pantheonsite.io/' successfully
+
+19-09-2024T09:00:06 - [MESSAGE][PASSED] - Navigate to 'https://key:path@dev-mbs-mkt.pantheonsite.io/' successfully
+
+19-09-2024T09:00:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-09-2024T09:00:06 - [MESSAGE][PASSED] - Current window maximized
+
+19-09-2024T09:00:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Resuable_Testcases/Navigate_URL' successfully
+
+19-09-2024T09:00:06 - [TEST_STEP][PASSED] - buttonObject = findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/List_DegreePrograms"): null
+
+19-09-2024T09:00:06 - [TEST_STEP][PASSED] - mouseOver(buttonObject): Object: 'Object Repository/APAC_University/MBS_University/Degree Program/List_DegreePrograms' is hovered
+
+19-09-2024T09:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Degree Program/List_DegreePrograms' is hovered
+
+19-09-2024T09:00:06 - [TEST_STEP][PASSED] - list1 = findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_ListOne"): null
+
+19-09-2024T09:00:06 - [TEST_STEP][PASSED] - list2 = findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listtwo"): null
+
+19-09-2024T09:00:06 - [TEST_STEP][PASSED] - list3 = findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listthree"): null
+
+19-09-2024T09:00:06 - [TEST_STEP][PASSED] - list4 = findTestObject("Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listfour"): null
+
+19-09-2024T09:00:06 - [TEST_STEP][PASSED] - lists = [list1, list2, list3, list4]: null
+
+19-09-2024T09:00:06 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+19-09-2024T09:00:06 - [TEST_STEP][PASSED] - randomListIndex = rand.nextInt(lists.size()): null
+
+19-09-2024T09:00:06 - [TEST_STEP][PASSED] - selectedList = lists.get(randomListIndex): null
+
+19-09-2024T09:00:06 - [TEST_STEP][PASSED] - waitForElementVisible(selectedList, 10): Object 'Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listfour' is not visible after 10 second(s)
+
+19-09-2024T09:00:19 - [MESSAGE][WARNING] - Object 'Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listfour' is not visible after 10 second(s)
+
+19-09-2024T09:00:19 - [TEST_STEP][PASSED] - listItems = findWebElements(selectedList, 30): Found web elements by test object Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listfour
+
+19-09-2024T09:00:21 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/APAC_University/MBS_University/Degree Program/DegreePrograms_Listfour
+
+19-09-2024T09:00:21 - [TEST_STEP][ERROR] - if (listItems.size() > 0): Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs FAILED.
+Reason:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'Madhans-MBP', ip: 'fd62:85f6:1659:c000:1c9a:bf44:9290:aecc%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: /var/folders/81/jk91fm7j2_5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 691c1c838334bb7ac785fd6d80e7890b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at Degree_Programs.run(Degree_Programs:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726700395582.run(TempTestSuite1726700395582.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+19-09-2024T09:00:21 - [TEST_STEP][PASSED] - randomItemIndex = rand.nextInt(listItems.size()): null
+
+19-09-2024T09:00:21 - [TEST_STEP][PASSED] - randomItem = listItems.get(randomItemIndex): null
+
+19-09-2024T09:00:21 - [TEST_STEP][ERROR] - randomItem.click(): Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs FAILED.
+Reason:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'Madhans-MBP', ip: 'fd62:85f6:1659:c000:1c9a:bf44:9290:aecc%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: /var/folders/81/jk91fm7j2_5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 691c1c838334bb7ac785fd6d80e7890b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at Degree_Programs.run(Degree_Programs:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726700395582.run(TempTestSuite1726700395582.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+19-09-2024T09:00:21 - [MESSAGE][ERROR] - Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs FAILED.
+Reason:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'Madhans-MBP', ip: 'fd62:85f6:1659:c000:1c9a:bf44:9290:aecc%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: /var/folders/81/jk91fm7j2_5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 691c1c838334bb7ac785fd6d80e7890b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at Degree_Programs.run(Degree_Programs:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726700395582.run(TempTestSuite1726700395582.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[19-09-2024T08:59:59 - [TEST_CASE][ERROR] - Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs: Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs FAILED.
+Reason:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'Madhans-MBP', ip: 'fd62:85f6:1659:c000:1c9a:bf44:9290:aecc%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: /var/folders/81/jk91fm7j2_5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 691c1c838334bb7ac785fd6d80e7890b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at Degree_Programs.run(Degree_Programs:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726700395582.run(TempTestSuite1726700395582.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Short_Courses" time="21.305" classname="Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Short_Courses" status="PASSED">
+         <system-out><![CDATA[19-09-2024T09:00:21 - [TEST_CASE][PASSED] - Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Short_Courses: Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Short_Courses
+
+19-09-2024T09:00:21 - [TEST_STEP][PASSED] - buttonObject = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses"): null
+
+19-09-2024T09:00:21 - [TEST_STEP][PASSED] - mouseOver(buttonObject): Object: 'Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses' is hovered
+
+19-09-2024T09:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses' is hovered
+
+19-09-2024T09:00:21 - [TEST_STEP][PASSED] - list1 = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listone"): null
+
+19-09-2024T09:00:21 - [TEST_STEP][PASSED] - list2 = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listtwo"): null
+
+19-09-2024T09:00:21 - [TEST_STEP][PASSED] - list3 = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree"): null
+
+19-09-2024T09:00:21 - [TEST_STEP][PASSED] - lists = [list1, list2, list3]: null
+
+19-09-2024T09:00:21 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+19-09-2024T09:00:21 - [TEST_STEP][PASSED] - randomListIndex = rand.nextInt(lists.size()): null
+
+19-09-2024T09:00:21 - [TEST_STEP][PASSED] - selectedList = lists.get(randomListIndex): null
+
+19-09-2024T09:00:21 - [TEST_STEP][PASSED] - waitForElementVisible(selectedList, 10): Object 'Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listone' is visible
+
+19-09-2024T09:00:22 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listone' is visible
+
+19-09-2024T09:00:22 - [TEST_STEP][PASSED] - listItems = findWebElements(selectedList, 30): Found web elements by test object Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listone
+
+19-09-2024T09:00:22 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listone
+
+19-09-2024T09:00:22 - [TEST_STEP][PASSED] - if (listItems.size() > 0): null
+
+19-09-2024T09:00:22 - [TEST_STEP][PASSED] - randomItemIndex = rand.nextInt(listItems.size()): null
+
+19-09-2024T09:00:22 - [TEST_STEP][PASSED] - randomItem = listItems.get(randomItemIndex): null
+
+19-09-2024T09:00:22 - [TEST_STEP][PASSED] - randomItem.click(): null
+
+19-09-2024T09:00:26 - [TEST_STEP][PASSED] - FirstName = keyPathPackage.customKeywords.generateRandomFirstName(): keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+19-09-2024T09:00:26 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+19-09-2024T09:00:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Field_Firstname"), FirstName): Text 'Kimber' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Firstname'
+
+19-09-2024T09:00:27 - [MESSAGE][PASSED] - Text 'Kimber' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Firstname'
+
+19-09-2024T09:00:27 - [TEST_STEP][PASSED] - LastName = keyPathPackage.customKeywords.generateRandomLastName(): keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+19-09-2024T09:00:27 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+19-09-2024T09:00:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Field_Lastname"), LastName): Text 'Testing Miller' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Lastname'
+
+19-09-2024T09:00:29 - [MESSAGE][PASSED] - Text 'Testing Miller' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Lastname'
+
+19-09-2024T09:00:29 - [TEST_STEP][PASSED] - Email = keyPathPackage.customKeywords.generateRandomEmail(): keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+19-09-2024T09:00:29 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+19-09-2024T09:00:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Field_Email"), Email): Text 'madelene.harvey@hotmail.com' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Email'
+
+19-09-2024T09:00:30 - [MESSAGE][PASSED] - Text 'madelene.harvey@hotmail.com' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Email'
+
+19-09-2024T09:00:30 - [TEST_STEP][PASSED] - Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(): keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+19-09-2024T09:00:30 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+19-09-2024T09:00:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Field_Phonenumber"), Phonenumber): Text '0457116028' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Phonenumber'
+
+19-09-2024T09:00:30 - [MESSAGE][PASSED] - Text '0457116028' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Phonenumber'
+
+19-09-2024T09:00:30 - [TEST_STEP][PASSED] - Company = keyPathPackage.customKeywords.selectRandomCompany(): keyPathPackage.customKeywords.selectRandomCompany is PASSED
+
+19-09-2024T09:00:30 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomCompany is PASSED
+
+19-09-2024T09:00:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Field_Company"), Company): Text 'Torphy LLC' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Company'
+
+19-09-2024T09:00:31 - [MESSAGE][PASSED] - Text 'Torphy LLC' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Company'
+
+19-09-2024T09:00:31 - [TEST_STEP][PASSED] - Role = keyPathPackage.customKeywords.selectRandomRole(): keyPathPackage.customKeywords.selectRandomRole is PASSED
+
+19-09-2024T09:00:31 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomRole is PASSED
+
+19-09-2024T09:00:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Field_Role"), Role): Text 'farmer' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Role'
+
+19-09-2024T09:00:31 - [MESSAGE][PASSED] - Text 'farmer' is set on object 'Object Repository/APAC_University/MBS_University/Short_Courses/Field_Role'
+
+19-09-2024T09:00:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Button_Download")): Object: 'Object Repository/APAC_University/MBS_University/Short_Courses/Button_Download' is clicked on
+
+19-09-2024T09:00:37 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Short_Courses/Button_Download' is clicked on
+
+19-09-2024T09:00:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+19-09-2024T09:00:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+19-09-2024T09:00:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/APAC_University/MBS_University/Verify_Message"), "Thanks for your request"): Actual text and expected text of test object 'Object Repository/APAC_University/MBS_University/Verify_Message' are matched.
+
+19-09-2024T09:00:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/APAC_University/MBS_University/Verify_Message' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Enrol_Now" time="41.894" classname="Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Enrol_Now" status="PASSED">
+         <system-out><![CDATA[19-09-2024T09:00:42 - [TEST_CASE][PASSED] - Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Enrol_Now: Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Enrol_Now
+
+19-09-2024T09:00:42 - [TEST_STEP][PASSED] - buttonObject = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses"): null
+
+19-09-2024T09:00:42 - [TEST_STEP][PASSED] - mouseOver(buttonObject): Object: 'Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses' is hovered
+
+19-09-2024T09:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses' is hovered
+
+19-09-2024T09:00:43 - [TEST_STEP][PASSED] - list1 = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listone"): null
+
+19-09-2024T09:00:43 - [TEST_STEP][PASSED] - list2 = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listtwo"): null
+
+19-09-2024T09:00:43 - [TEST_STEP][PASSED] - list3 = findTestObject("Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree"): null
+
+19-09-2024T09:00:43 - [TEST_STEP][PASSED] - lists = [list1, list2, list3]: null
+
+19-09-2024T09:00:43 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+19-09-2024T09:00:43 - [TEST_STEP][PASSED] - randomListIndex = rand.nextInt(lists.size()): null
+
+19-09-2024T09:00:43 - [TEST_STEP][PASSED] - selectedList = lists.get(randomListIndex): null
+
+19-09-2024T09:00:43 - [TEST_STEP][PASSED] - waitForElementVisible(selectedList, 10): Object 'Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree' is visible
+
+19-09-2024T09:00:43 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree' is visible
+
+19-09-2024T09:00:43 - [TEST_STEP][PASSED] - listItems = findWebElements(selectedList, 30): Found web elements by test object Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree
+
+19-09-2024T09:00:43 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/APAC_University/MBS_University/Short_Courses/Shortcourse_Listthree
+
+19-09-2024T09:00:43 - [TEST_STEP][PASSED] - if (listItems.size() > 0): null
+
+19-09-2024T09:00:43 - [TEST_STEP][PASSED] - randomItemIndex = rand.nextInt(listItems.size()): null
+
+19-09-2024T09:00:43 - [TEST_STEP][PASSED] - randomItem = listItems.get(randomItemIndex): null
+
+19-09-2024T09:00:43 - [TEST_STEP][PASSED] - randomItem.click(): null
+
+19-09-2024T09:00:45 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now"), 3): Scroll to object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now' successfully
+
+19-09-2024T09:00:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now' successfully
+
+19-09-2024T09:00:46 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now"), 20): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now' is clickable
+
+19-09-2024T09:00:48 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now' is clickable
+
+19-09-2024T09:00:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now")): Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now' is clicked on
+
+19-09-2024T09:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Enrol_Now' is clicked on
+
+19-09-2024T09:00:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Firstname"), "Testkeypath"): Text 'Testkeypath' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Firstname'
+
+19-09-2024T09:00:51 - [MESSAGE][PASSED] - Text 'Testkeypath' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Firstname'
+
+19-09-2024T09:00:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Secondname"), "Dummy"): Text 'Dummy' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Secondname'
+
+19-09-2024T09:00:52 - [MESSAGE][PASSED] - Text 'Dummy' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Secondname'
+
+19-09-2024T09:00:52 - [TEST_STEP][PASSED] - Email = keyPathPackage.customKeywords.generateRandomEmail(): keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+19-09-2024T09:00:52 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+19-09-2024T09:00:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Email"), Email): Text 'clementina.yost@gmail.com' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Email'
+
+19-09-2024T09:00:52 - [MESSAGE][PASSED] - Text 'clementina.yost@gmail.com' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Email'
+
+19-09-2024T09:00:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_ConfirmEmail"), Email): Text 'clementina.yost@gmail.com' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_ConfirmEmail'
+
+19-09-2024T09:00:53 - [MESSAGE][PASSED] - Text 'clementina.yost@gmail.com' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_ConfirmEmail'
+
+19-09-2024T09:00:53 - [TEST_STEP][PASSED] - Phonenumber = keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber(): keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+19-09-2024T09:00:53 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomAustralianPhoneNumber is PASSED
+
+19-09-2024T09:00:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Phonenumber"), Phonenumber): Text '0405311244' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Phonenumber'
+
+19-09-2024T09:00:53 - [MESSAGE][PASSED] - Text '0405311244' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Phonenumber'
+
+19-09-2024T09:00:53 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Check_Box")): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Check_Box' is checked
+
+19-09-2024T09:00:54 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Check_Box' is checked
+
+19-09-2024T09:00:54 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Check_Box"), 30): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Check_Box' is checked
+
+19-09-2024T09:00:54 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Check_Box' is checked
+
+19-09-2024T09:00:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment"), 3): Scroll to object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment' successfully
+
+19-09-2024T09:00:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment' successfully
+
+19-09-2024T09:00:54 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment"), 20): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment' is clickable
+
+19-09-2024T09:00:55 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment' is clickable
+
+19-09-2024T09:00:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment")): Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment' is clicked on
+
+19-09-2024T09:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Payment' is clicked on
+
+19-09-2024T09:00:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Cardnumber"), 10): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Cardnumber' is present
+
+19-09-2024T09:00:59 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Cardnumber' is present
+
+19-09-2024T09:00:59 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Cardnumber"), 10): null
+
+19-09-2024T09:01:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Cardnumber"), "4111 1111 1111 1111"): Text '4111 1111 1111 1111' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Cardnumber'
+
+19-09-2024T09:01:00 - [MESSAGE][PASSED] - Text '4111 1111 1111 1111' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Cardnumber'
+
+19-09-2024T09:01:00 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+19-09-2024T09:01:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Expirydate"), 10): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Expirydate' is present
+
+19-09-2024T09:01:00 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Expirydate' is present
+
+19-09-2024T09:01:00 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_Expirydate"), 10): null
+
+19-09-2024T09:01:01 - [TEST_STEP][PASSED] - Expirydate = keyPathPackage.customKeywords.generateExpiryDate(): keyPathPackage.customKeywords.generateExpiryDate is PASSED
+
+19-09-2024T09:01:01 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateExpiryDate is PASSED
+
+19-09-2024T09:01:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_ExpiryDate"), Expirydate): Text '02/25' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_ExpiryDate'
+
+19-09-2024T09:01:01 - [MESSAGE][PASSED] - Text '02/25' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_ExpiryDate'
+
+19-09-2024T09:01:01 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+19-09-2024T09:01:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_CVC"), 10): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_CVC' is present
+
+19-09-2024T09:01:01 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_CVC' is present
+
+19-09-2024T09:01:01 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Iframe_CVC"), 10): null
+
+19-09-2024T09:01:01 - [TEST_STEP][PASSED] - CVC = keyPathPackage.customKeywords.generateExpiryDate(): keyPathPackage.customKeywords.generateExpiryDate is PASSED
+
+19-09-2024T09:01:01 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateExpiryDate is PASSED
+
+19-09-2024T09:01:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_CVC"), CVC): Text '03/27' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_CVC'
+
+19-09-2024T09:01:01 - [MESSAGE][PASSED] - Text '03/27' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_CVC'
+
+19-09-2024T09:01:01 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+19-09-2024T09:01:01 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Radio")): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Radio' is checked
+
+19-09-2024T09:01:02 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Radio' is checked
+
+19-09-2024T09:01:02 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Radio"), 30): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Radio' is checked
+
+19-09-2024T09:01:03 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Radio' is checked
+
+19-09-2024T09:01:03 - [TEST_STEP][PASSED] - Company = keyPathPackage.customKeywords.selectRandomCompany(): keyPathPackage.customKeywords.selectRandomCompany is PASSED
+
+19-09-2024T09:01:03 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomCompany is PASSED
+
+19-09-2024T09:01:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Company"), Company): Text 'Grimes Group' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Company'
+
+19-09-2024T09:01:07 - [MESSAGE][PASSED] - Text 'Grimes Group' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Company'
+
+19-09-2024T09:01:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_GIvenFIrstName"), "Onlyfortest"): Text 'Onlyfortest' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_GIvenFIrstName'
+
+19-09-2024T09:01:10 - [MESSAGE][PASSED] - Text 'Onlyfortest' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_GIvenFIrstName'
+
+19-09-2024T09:01:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_GivenLastName"), "onlyfortest"): Text 'onlyfortest' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_GivenLastName'
+
+19-09-2024T09:01:11 - [MESSAGE][PASSED] - Text 'onlyfortest' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_GivenLastName'
+
+19-09-2024T09:01:11 - [TEST_STEP][PASSED] - StreetAddress = keyPathPackage.customKeywords.generateRandomAddressLine1(): keyPathPackage.customKeywords.generateRandomAddressLine1 is PASSED
+
+19-09-2024T09:01:11 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomAddressLine1 is PASSED
+
+19-09-2024T09:01:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Address"), StreetAddress): Text '01626 Koepp Union' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Address'
+
+19-09-2024T09:01:12 - [MESSAGE][PASSED] - Text '01626 Koepp Union' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Address'
+
+19-09-2024T09:01:12 - [TEST_STEP][PASSED] - Suburb = keyPathPackage.customKeywords.generateRandomSuburb(): keyPathPackage.customKeywords.generateRandomSuburb is PASSED
+
+19-09-2024T09:01:12 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomSuburb is PASSED
+
+19-09-2024T09:01:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Suburb"), Suburb): Text 'Hobart' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Suburb'
+
+19-09-2024T09:01:13 - [MESSAGE][PASSED] - Text 'Hobart' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Suburb'
+
+19-09-2024T09:01:13 - [TEST_STEP][PASSED] - State = findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Dropdown_State"): null
+
+19-09-2024T09:01:13 - [TEST_STEP][PASSED] - selectOptionByIndex(State, keyPathPackage.customKeywords.selectRandomOptionFromDropdown()): All options with index in [2] are selected on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Dropdown_State'
+
+19-09-2024T09:01:13 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomOptionFromDropdown is PASSED
+
+19-09-2024T09:01:14 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Dropdown_State'
+
+19-09-2024T09:01:14 - [TEST_STEP][PASSED] - Postcode = keyPathPackage.customKeywords.selectRandomPostCode(): keyPathPackage.customKeywords.selectRandomPostCode is PASSED
+
+19-09-2024T09:01:14 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomPostCode is PASSED
+
+19-09-2024T09:01:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Postcode"), Postcode): Text '9960' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Postcode'
+
+19-09-2024T09:01:14 - [MESSAGE][PASSED] - Text '9960' is set on object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Field_Postcode'
+
+19-09-2024T09:01:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Review_Purchase"), 10): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Review_Purchase' is clickable
+
+19-09-2024T09:01:14 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Review_Purchase' is clickable
+
+19-09-2024T09:01:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Review_Purchase")): Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Review_Purchase' is clicked on
+
+19-09-2024T09:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Review_Purchase' is clicked on
+
+19-09-2024T09:01:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase"), 3): Scroll to object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase' successfully
+
+19-09-2024T09:01:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase' successfully
+
+19-09-2024T09:01:17 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase"), 10): Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase' is clickable
+
+19-09-2024T09:01:18 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase' is clickable
+
+19-09-2024T09:01:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase")): Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase' is clicked on
+
+19-09-2024T09:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/MBS_University/Enrol_Now/Button_Complete_Purchase' is clicked on
+
+19-09-2024T09:01:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+19-09-2024T09:01:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+19-09-2024T09:01:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/APAC_University/MBS_University/Enrol_Now/Verify_Order"), "Thank you for your order"): Actual text and expected text of test object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Verify_Order' are matched.
+
+19-09-2024T09:01:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/APAC_University/MBS_University/Enrol_Now/Verify_Order' are matched.
+
+19-09-2024T09:01:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-09-2024T09:01:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-09-2024T08:59:59 - [TEST_SUITE][ERROR] - Keypath_Testsuite_APAC_SEO: Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs FAILED.
+Reason:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'Madhans-MBP', ip: 'fd62:85f6:1659:c000:1c9a:bf44:9290:aecc%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: /var/folders/81/jk91fm7j2_5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 691c1c838334bb7ac785fd6d80e7890b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at Degree_Programs.run(Degree_Programs:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726700395582.run(TempTestSuite1726700395582.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[19-09-2024T08:59:59 - [TEST_SUITE][ERROR] - Keypath_Testsuite_APAC_SEO: Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs FAILED.
+Reason:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'Madhans-MBP', ip: 'fd62:85f6:1659:c000:1c9a:bf44:9290:aecc%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: /var/folders/81/jk91fm7j2_5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 691c1c838334bb7ac785fd6d80e7890b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at Degree_Programs.run(Degree_Programs:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726700395582.run(TempTestSuite1726700395582.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

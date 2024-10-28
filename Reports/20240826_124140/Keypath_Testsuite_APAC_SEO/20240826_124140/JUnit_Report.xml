@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Keypath_Testsuite_APAC_SEO" time="58.178" tests="2" failures="0" errors="0">
+   <testsuite name="Keypath_Testsuite_APAC_SEO" tests="2" failures="0" errors="0" time="58.178" skipped="0" timestamp="26-08-2024T12:41:44" hostname="madhansivaraj - 192.168.4.43" id="Test Suites/Keypath_Testsuite_APAC_SEO">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/madhansivaraj/git/Keypath_Automation_Testing_Mster/Reports/20240826_124140/Keypath_Testsuite_APAC_SEO/20240826_124140"/>
+         <property name="logFiles" value="/Users/madhansivaraj/git/Keypath_Automation_Testing_Mster/Reports/20240826_124140/Keypath_Testsuite_APAC_SEO/20240826_124140/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="madhansivaraj - 192.168.4.43"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.4.43"/>
+         <property name="sessionId" value="460a3023310c418420f017bc2e6edb90"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Main_Page" time="37.738" classname="Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Main_Page" status="PASSED">
+         <system-out><![CDATA[26-08-2024T12:41:44 - [TEST_CASE][PASSED] - Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Main_Page: Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Main_Page
+
+26-08-2024T12:41:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Navigate_URL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Navigate_URL' successfully
+
+26-08-2024T12:41:45 - [TEST_CASE][PASSED] - Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Navigate_URL: Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Navigate_URL
+
+26-08-2024T12:41:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-08-2024T12:41:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-08-2024T12:41:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-08-2024T12:41:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-08-2024T12:41:46 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-sim-opm.pantheonsite.io/"): Navigate to 'https://dev-sim-opm.pantheonsite.io/' successfully
+
+26-08-2024T12:42:08 - [MESSAGE][PASSED] - Navigate to 'https://dev-sim-opm.pantheonsite.io/' successfully
+
+26-08-2024T12:42:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-08-2024T12:42:08 - [MESSAGE][PASSED] - Current window maximized
+
+26-08-2024T12:42:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Navigate_URL' successfully
+
+26-08-2024T12:42:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Lead_Form"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Lead_Form' successfully
+
+26-08-2024T12:42:08 - [TEST_CASE][PASSED] - Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Lead_Form: Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Lead_Form
+
+26-08-2024T12:42:08 - [TEST_STEP][PASSED] - selectTestObject = findTestObject("Object Repository/APAC_University/SIM_University/Dropdown_Program"): null
+
+26-08-2024T12:42:08 - [TEST_STEP][PASSED] - selectElement = findWebElement(selectTestObject, 0): Found web element by test object Object Repository/APAC_University/SIM_University/Dropdown_Program
+
+26-08-2024T12:42:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-08-2024T12:42:09 - [MESSAGE][PASSED] - Found web element by test object Object Repository/APAC_University/SIM_University/Dropdown_Program
+
+26-08-2024T12:42:09 - [TEST_STEP][PASSED] - select = new org.openqa.selenium.support.ui.Select(selectElement): null
+
+26-08-2024T12:42:09 - [TEST_STEP][PASSED] - optionsrandom = select.getOptions(): null
+
+26-08-2024T12:42:09 - [TEST_STEP][PASSED] - validOptions = optionsrandom.findAll({ -> ... }): null
+
+26-08-2024T12:42:10 - [TEST_STEP][PASSED] - randomdropdown = new java.util.Random(): null
+
+26-08-2024T12:42:10 - [TEST_STEP][PASSED] - randomOptiondropdown = validOptions[randomdropdown.nextInt(validOptions.size())]: null
+
+26-08-2024T12:42:10 - [TEST_STEP][PASSED] - select.selectByValue(randomOptiondropdown.getAttribute("value")): null
+
+26-08-2024T12:42:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+26-08-2024T12:42:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+26-08-2024T12:42:13 - [TEST_STEP][PASSED] - FirstName = keyPathPackage.customKeywords.generateRandomFirstName(): keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+26-08-2024T12:42:13 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+26-08-2024T12:42:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/SIM_University/Field_Firstname"), FirstName): Text 'Lyle' is set on object 'Object Repository/APAC_University/SIM_University/Field_Firstname'
+
+26-08-2024T12:42:14 - [MESSAGE][PASSED] - Text 'Lyle' is set on object 'Object Repository/APAC_University/SIM_University/Field_Firstname'
+
+26-08-2024T12:42:14 - [TEST_STEP][PASSED] - LastName = keyPathPackage.customKeywords.generateRandomLastName(): keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+26-08-2024T12:42:14 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+26-08-2024T12:42:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/SIM_University/Field_Lastname"), LastName): Text 'Lakin' is set on object 'Object Repository/APAC_University/SIM_University/Field_Lastname'
+
+26-08-2024T12:42:14 - [MESSAGE][PASSED] - Text 'Lakin' is set on object 'Object Repository/APAC_University/SIM_University/Field_Lastname'
+
+26-08-2024T12:42:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/SIM_University/Button_Nextstep1"), 10): Object 'Object Repository/APAC_University/SIM_University/Button_Nextstep1' is clickable
+
+26-08-2024T12:42:14 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/SIM_University/Button_Nextstep1' is clickable
+
+26-08-2024T12:42:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/SIM_University/Button_Nextstep1")): Object: 'Object Repository/APAC_University/SIM_University/Button_Nextstep1' is clicked on
+
+26-08-2024T12:42:15 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/SIM_University/Button_Nextstep1' is clicked on
+
+26-08-2024T12:42:15 - [TEST_STEP][PASSED] - startdate = findTestObject("Object Repository/APAC_University/SIM_University/Dropdown_Startdate"): null
+
+26-08-2024T12:42:15 - [TEST_STEP][PASSED] - selectOptionByIndex(startdate, keyPathPackage.customKeywords.selectRandomOptionFromDropdown()): All options with index in [1] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_Startdate'
+
+26-08-2024T12:42:15 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomOptionFromDropdown is PASSED
+
+26-08-2024T12:42:16 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_Startdate'
+
+26-08-2024T12:42:16 - [TEST_STEP][PASSED] - Enquiry = findTestObject("Object Repository/APAC_University/SIM_University/Dropdown_Enquiry"): null
+
+26-08-2024T12:42:16 - [TEST_STEP][PASSED] - selectOptionByIndex(Enquiry, keyPathPackage.customKeywords.selectRandomOptionFromDropdown()): All options with index in [1] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_Enquiry'
+
+26-08-2024T12:42:16 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomOptionFromDropdown is PASSED
+
+26-08-2024T12:42:16 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_Enquiry'
+
+26-08-2024T12:42:16 - [TEST_STEP][PASSED] - dropdown = findTestObject("Object Repository/APAC_University/SIM_University/Dropdown_Education"): null
+
+26-08-2024T12:42:16 - [TEST_STEP][PASSED] - options = ["High school", "Diploma", "Bachelors degree", "Postgraduate diploma", "Masters Degree"]: null
+
+26-08-2024T12:42:16 - [TEST_STEP][PASSED] - randomOption = options[Random().nextInt(length)]: null
+
+26-08-2024T12:42:16 - [TEST_STEP][PASSED] - selectOptionByValue(dropdown, randomOption, true): All options with value 'Postgraduate diploma' are selected in object 'Object Repository/APAC_University/SIM_University/Dropdown_Education'  using regular expression
+
+26-08-2024T12:42:17 - [MESSAGE][PASSED] - All options with value 'Postgraduate diploma' are selected in object 'Object Repository/APAC_University/SIM_University/Dropdown_Education'  using regular expression
+
+26-08-2024T12:42:17 - [TEST_STEP][PASSED] - Workexperience = findTestObject("Object Repository/APAC_University/SIM_University/Dropdown_Experience"): null
+
+26-08-2024T12:42:17 - [TEST_STEP][PASSED] - selectOptionByIndex(Workexperience, keyPathPackage.customKeywords.selectRandomOptionFromDropdown()): All options with index in [2] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_Experience'
+
+26-08-2024T12:42:17 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomOptionFromDropdown is PASSED
+
+26-08-2024T12:42:18 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_Experience'
+
+26-08-2024T12:42:18 - [TEST_STEP][PASSED] - Englishlevel = findTestObject("Object Repository/APAC_University/SIM_University/Dropdown_English"): null
+
+26-08-2024T12:42:18 - [TEST_STEP][PASSED] - selectOptionByIndex(Englishlevel, keyPathPackage.customKeywords.selectRandomOptionFromDropdown()): All options with index in [1] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_English'
+
+26-08-2024T12:42:18 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomOptionFromDropdown is PASSED
+
+26-08-2024T12:42:19 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_English'
+
+26-08-2024T12:42:19 - [TEST_STEP][PASSED] - radioButtonGroup = findTestObject("Object Repository/APAC_University/SIM_University/Radiobutton_Years"): null
+
+26-08-2024T12:42:19 - [TEST_STEP][PASSED] - radioButtons = findWebElements(radioButtonGroup, 30): Found web elements by test object Object Repository/APAC_University/SIM_University/Radiobutton_Years
+
+26-08-2024T12:42:19 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/APAC_University/SIM_University/Radiobutton_Years
+
+26-08-2024T12:42:19 - [TEST_STEP][PASSED] - if (radioButtons.size() == 2): null
+
+26-08-2024T12:42:19 - [TEST_STEP][PASSED] - random = new java.util.Random(): null
+
+26-08-2024T12:42:19 - [TEST_STEP][PASSED] - randomIndex = random.nextInt(2): null
+
+26-08-2024T12:42:19 - [TEST_STEP][PASSED] - randomRadioButton = radioButtons.get(randomIndex): null
+
+26-08-2024T12:42:19 - [TEST_STEP][PASSED] - randomRadioButton.click(): null
+
+26-08-2024T12:42:19 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/SIM_University/Button_Nextstep2"), 10): Object 'Object Repository/APAC_University/SIM_University/Button_Nextstep2' is clickable
+
+26-08-2024T12:42:19 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/SIM_University/Button_Nextstep2' is clickable
+
+26-08-2024T12:42:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/SIM_University/Button_Nextstep2")): Object: 'Object Repository/APAC_University/SIM_University/Button_Nextstep2' is clicked on
+
+26-08-2024T12:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/SIM_University/Button_Nextstep2' is clicked on
+
+26-08-2024T12:42:20 - [TEST_STEP][PASSED] - Phonenumber = keyPathPackage.customKeywords.generateRandomMalaysianPhoneNumber(): keyPathPackage.customKeywords.generateRandomMalaysianPhoneNumber is PASSED
+
+26-08-2024T12:42:20 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomMalaysianPhoneNumber is PASSED
+
+26-08-2024T12:42:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/SIM_University/Field_Phonenumber"), Phonenumber): Text '122060794' is set on object 'Object Repository/APAC_University/SIM_University/Field_Phonenumber'
+
+26-08-2024T12:42:20 - [MESSAGE][PASSED] - Text '122060794' is set on object 'Object Repository/APAC_University/SIM_University/Field_Phonenumber'
+
+26-08-2024T12:42:20 - [TEST_STEP][PASSED] - Email = keyPathPackage.customKeywords.generateRandomEmail(): keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+26-08-2024T12:42:20 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+26-08-2024T12:42:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/SIM_University/Field_Email"), Email): Text 'reena.green@hotmail.com' is set on object 'Object Repository/APAC_University/SIM_University/Field_Email'
+
+26-08-2024T12:42:21 - [MESSAGE][PASSED] - Text 'reena.green@hotmail.com' is set on object 'Object Repository/APAC_University/SIM_University/Field_Email'
+
+26-08-2024T12:42:21 - [TEST_STEP][PASSED] - Postcode = keyPathPackage.customKeywords.selectRandomSingaporePostCode(): keyPathPackage.customKeywords.selectRandomSingaporePostCode is PASSED
+
+26-08-2024T12:42:21 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomSingaporePostCode is PASSED
+
+26-08-2024T12:42:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/SIM_University/Field_Postcode"), Postcode): Text '382974' is set on object 'Object Repository/APAC_University/SIM_University/Field_Postcode'
+
+26-08-2024T12:42:22 - [MESSAGE][PASSED] - Text '382974' is set on object 'Object Repository/APAC_University/SIM_University/Field_Postcode'
+
+26-08-2024T12:42:22 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/SIM_University/Button_Submit"), 10): Object 'Object Repository/APAC_University/SIM_University/Button_Submit' is clickable
+
+26-08-2024T12:42:22 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/SIM_University/Button_Submit' is clickable
+
+26-08-2024T12:42:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/SIM_University/Button_Submit")): Object: 'Object Repository/APAC_University/SIM_University/Button_Submit' is clicked on
+
+26-08-2024T12:42:22 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/SIM_University/Button_Submit' is clicked on
+
+26-08-2024T12:42:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Lead_Form' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Enquiry_Now" time="20.38" classname="Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Enquiry_Now" status="PASSED">
+         <system-out><![CDATA[26-08-2024T12:42:22 - [TEST_CASE][PASSED] - Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Enquiry_Now: Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Enquiry_Now
+
+26-08-2024T12:42:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Navigate_Homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Navigate_Homepage' successfully
+
+26-08-2024T12:42:22 - [TEST_CASE][PASSED] - Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Navigate_Homepage: Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Navigate_Homepage
+
+26-08-2024T12:42:22 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/SIM_University/Button_Homepage"), 10): Object 'Object Repository/APAC_University/SIM_University/Button_Homepage' is clickable
+
+26-08-2024T12:42:27 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/SIM_University/Button_Homepage' is clickable
+
+26-08-2024T12:42:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/SIM_University/Button_Homepage")): Object: 'Object Repository/APAC_University/SIM_University/Button_Homepage' is clicked on
+
+26-08-2024T12:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/SIM_University/Button_Homepage' is clicked on
+
+26-08-2024T12:42:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Navigate_Homepage' successfully
+
+26-08-2024T12:42:28 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/SIM_University/Button_Enquiry"), 10): Object 'Object Repository/APAC_University/SIM_University/Button_Enquiry' is clickable
+
+26-08-2024T12:42:29 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/SIM_University/Button_Enquiry' is clickable
+
+26-08-2024T12:42:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/SIM_University/Button_Enquiry")): Object: 'Object Repository/APAC_University/SIM_University/Button_Enquiry' is clicked on
+
+26-08-2024T12:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/SIM_University/Button_Enquiry' is clicked on
+
+26-08-2024T12:42:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Lead_Form"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Lead_Form' successfully
+
+26-08-2024T12:42:30 - [TEST_CASE][PASSED] - Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Lead_Form: Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Lead_Form
+
+26-08-2024T12:42:30 - [TEST_STEP][PASSED] - selectTestObject = findTestObject("Object Repository/APAC_University/SIM_University/Dropdown_Program"): null
+
+26-08-2024T12:42:30 - [TEST_STEP][PASSED] - selectElement = findWebElement(selectTestObject, 0): Found web element by test object Object Repository/APAC_University/SIM_University/Dropdown_Program
+
+26-08-2024T12:42:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-08-2024T12:42:30 - [MESSAGE][PASSED] - Found web element by test object Object Repository/APAC_University/SIM_University/Dropdown_Program
+
+26-08-2024T12:42:30 - [TEST_STEP][PASSED] - select = new org.openqa.selenium.support.ui.Select(selectElement): null
+
+26-08-2024T12:42:30 - [TEST_STEP][PASSED] - optionsrandom = select.getOptions(): null
+
+26-08-2024T12:42:30 - [TEST_STEP][PASSED] - validOptions = optionsrandom.findAll({ -> ... }): null
+
+26-08-2024T12:42:30 - [TEST_STEP][PASSED] - randomdropdown = new java.util.Random(): null
+
+26-08-2024T12:42:30 - [TEST_STEP][PASSED] - randomOptiondropdown = validOptions[randomdropdown.nextInt(validOptions.size())]: null
+
+26-08-2024T12:42:30 - [TEST_STEP][PASSED] - select.selectByValue(randomOptiondropdown.getAttribute("value")): null
+
+26-08-2024T12:42:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+26-08-2024T12:42:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+26-08-2024T12:42:33 - [TEST_STEP][PASSED] - FirstName = keyPathPackage.customKeywords.generateRandomFirstName(): keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+26-08-2024T12:42:33 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomFirstName is PASSED
+
+26-08-2024T12:42:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/SIM_University/Field_Firstname"), FirstName): Text 'Georgann' is set on object 'Object Repository/APAC_University/SIM_University/Field_Firstname'
+
+26-08-2024T12:42:34 - [MESSAGE][PASSED] - Text 'Georgann' is set on object 'Object Repository/APAC_University/SIM_University/Field_Firstname'
+
+26-08-2024T12:42:34 - [TEST_STEP][PASSED] - LastName = keyPathPackage.customKeywords.generateRandomLastName(): keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+26-08-2024T12:42:34 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomLastName is PASSED
+
+26-08-2024T12:42:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/SIM_University/Field_Lastname"), LastName): Text 'Kassulke' is set on object 'Object Repository/APAC_University/SIM_University/Field_Lastname'
+
+26-08-2024T12:42:35 - [MESSAGE][PASSED] - Text 'Kassulke' is set on object 'Object Repository/APAC_University/SIM_University/Field_Lastname'
+
+26-08-2024T12:42:35 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/SIM_University/Button_Nextstep1"), 10): Object 'Object Repository/APAC_University/SIM_University/Button_Nextstep1' is clickable
+
+26-08-2024T12:42:35 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/SIM_University/Button_Nextstep1' is clickable
+
+26-08-2024T12:42:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/SIM_University/Button_Nextstep1")): Object: 'Object Repository/APAC_University/SIM_University/Button_Nextstep1' is clicked on
+
+26-08-2024T12:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/SIM_University/Button_Nextstep1' is clicked on
+
+26-08-2024T12:42:35 - [TEST_STEP][PASSED] - startdate = findTestObject("Object Repository/APAC_University/SIM_University/Dropdown_Startdate"): null
+
+26-08-2024T12:42:35 - [TEST_STEP][PASSED] - selectOptionByIndex(startdate, keyPathPackage.customKeywords.selectRandomOptionFromDropdown()): All options with index in [2] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_Startdate'
+
+26-08-2024T12:42:35 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomOptionFromDropdown is PASSED
+
+26-08-2024T12:42:36 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_Startdate'
+
+26-08-2024T12:42:36 - [TEST_STEP][PASSED] - Enquiry = findTestObject("Object Repository/APAC_University/SIM_University/Dropdown_Enquiry"): null
+
+26-08-2024T12:42:36 - [TEST_STEP][PASSED] - selectOptionByIndex(Enquiry, keyPathPackage.customKeywords.selectRandomOptionFromDropdown()): All options with index in [2] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_Enquiry'
+
+26-08-2024T12:42:36 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomOptionFromDropdown is PASSED
+
+26-08-2024T12:42:37 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_Enquiry'
+
+26-08-2024T12:42:37 - [TEST_STEP][PASSED] - dropdown = findTestObject("Object Repository/APAC_University/SIM_University/Dropdown_Education"): null
+
+26-08-2024T12:42:37 - [TEST_STEP][PASSED] - options = ["High school", "Diploma", "Bachelors degree", "Postgraduate diploma", "Masters Degree"]: null
+
+26-08-2024T12:42:37 - [TEST_STEP][PASSED] - randomOption = options[Random().nextInt(length)]: null
+
+26-08-2024T12:42:37 - [TEST_STEP][PASSED] - selectOptionByValue(dropdown, randomOption, true): All options with value 'Postgraduate diploma' are selected in object 'Object Repository/APAC_University/SIM_University/Dropdown_Education'  using regular expression
+
+26-08-2024T12:42:38 - [MESSAGE][PASSED] - All options with value 'Postgraduate diploma' are selected in object 'Object Repository/APAC_University/SIM_University/Dropdown_Education'  using regular expression
+
+26-08-2024T12:42:38 - [TEST_STEP][PASSED] - Workexperience = findTestObject("Object Repository/APAC_University/SIM_University/Dropdown_Experience"): null
+
+26-08-2024T12:42:38 - [TEST_STEP][PASSED] - selectOptionByIndex(Workexperience, keyPathPackage.customKeywords.selectRandomOptionFromDropdown()): All options with index in [1] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_Experience'
+
+26-08-2024T12:42:38 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomOptionFromDropdown is PASSED
+
+26-08-2024T12:42:38 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_Experience'
+
+26-08-2024T12:42:38 - [TEST_STEP][PASSED] - Englishlevel = findTestObject("Object Repository/APAC_University/SIM_University/Dropdown_English"): null
+
+26-08-2024T12:42:38 - [TEST_STEP][PASSED] - selectOptionByIndex(Englishlevel, keyPathPackage.customKeywords.selectRandomOptionFromDropdown()): All options with index in [2] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_English'
+
+26-08-2024T12:42:38 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomOptionFromDropdown is PASSED
+
+26-08-2024T12:42:39 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/APAC_University/SIM_University/Dropdown_English'
+
+26-08-2024T12:42:39 - [TEST_STEP][PASSED] - radioButtonGroup = findTestObject("Object Repository/APAC_University/SIM_University/Radiobutton_Years"): null
+
+26-08-2024T12:42:39 - [TEST_STEP][PASSED] - radioButtons = findWebElements(radioButtonGroup, 30): Found web elements by test object Object Repository/APAC_University/SIM_University/Radiobutton_Years
+
+26-08-2024T12:42:39 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/APAC_University/SIM_University/Radiobutton_Years
+
+26-08-2024T12:42:39 - [TEST_STEP][PASSED] - if (radioButtons.size() == 2): null
+
+26-08-2024T12:42:39 - [TEST_STEP][PASSED] - random = new java.util.Random(): null
+
+26-08-2024T12:42:39 - [TEST_STEP][PASSED] - randomIndex = random.nextInt(2): null
+
+26-08-2024T12:42:39 - [TEST_STEP][PASSED] - randomRadioButton = radioButtons.get(randomIndex): null
+
+26-08-2024T12:42:39 - [TEST_STEP][PASSED] - randomRadioButton.click(): null
+
+26-08-2024T12:42:39 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/SIM_University/Button_Nextstep2"), 10): Object 'Object Repository/APAC_University/SIM_University/Button_Nextstep2' is clickable
+
+26-08-2024T12:42:40 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/SIM_University/Button_Nextstep2' is clickable
+
+26-08-2024T12:42:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/SIM_University/Button_Nextstep2")): Object: 'Object Repository/APAC_University/SIM_University/Button_Nextstep2' is clicked on
+
+26-08-2024T12:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/SIM_University/Button_Nextstep2' is clicked on
+
+26-08-2024T12:42:40 - [TEST_STEP][PASSED] - Phonenumber = keyPathPackage.customKeywords.generateRandomMalaysianPhoneNumber(): keyPathPackage.customKeywords.generateRandomMalaysianPhoneNumber is PASSED
+
+26-08-2024T12:42:40 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomMalaysianPhoneNumber is PASSED
+
+26-08-2024T12:42:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/SIM_University/Field_Phonenumber"), Phonenumber): Text '122240661' is set on object 'Object Repository/APAC_University/SIM_University/Field_Phonenumber'
+
+26-08-2024T12:42:41 - [MESSAGE][PASSED] - Text '122240661' is set on object 'Object Repository/APAC_University/SIM_University/Field_Phonenumber'
+
+26-08-2024T12:42:41 - [TEST_STEP][PASSED] - Email = keyPathPackage.customKeywords.generateRandomEmail(): keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+26-08-2024T12:42:41 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.generateRandomEmail is PASSED
+
+26-08-2024T12:42:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/SIM_University/Field_Email"), Email): Text 'darci.willms@gmail.com' is set on object 'Object Repository/APAC_University/SIM_University/Field_Email'
+
+26-08-2024T12:42:41 - [MESSAGE][PASSED] - Text 'darci.willms@gmail.com' is set on object 'Object Repository/APAC_University/SIM_University/Field_Email'
+
+26-08-2024T12:42:41 - [TEST_STEP][PASSED] - Postcode = keyPathPackage.customKeywords.selectRandomSingaporePostCode(): keyPathPackage.customKeywords.selectRandomSingaporePostCode is PASSED
+
+26-08-2024T12:42:41 - [MESSAGE][PASSED] - keyPathPackage.customKeywords.selectRandomSingaporePostCode is PASSED
+
+26-08-2024T12:42:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/APAC_University/SIM_University/Field_Postcode"), Postcode): Text '633030' is set on object 'Object Repository/APAC_University/SIM_University/Field_Postcode'
+
+26-08-2024T12:42:42 - [MESSAGE][PASSED] - Text '633030' is set on object 'Object Repository/APAC_University/SIM_University/Field_Postcode'
+
+26-08-2024T12:42:42 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/APAC_University/SIM_University/Button_Submit"), 10): Object 'Object Repository/APAC_University/SIM_University/Button_Submit' is clickable
+
+26-08-2024T12:42:42 - [MESSAGE][PASSED] - Object 'Object Repository/APAC_University/SIM_University/Button_Submit' is clickable
+
+26-08-2024T12:42:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/APAC_University/SIM_University/Button_Submit")): Object: 'Object Repository/APAC_University/SIM_University/Button_Submit' is clicked on
+
+26-08-2024T12:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/APAC_University/SIM_University/Button_Submit' is clicked on
+
+26-08-2024T12:42:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Lead_Form' successfully
+
+26-08-2024T12:42:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-08-2024T12:42:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-08-2024T12:41:44 - [TEST_SUITE][PASSED] - Keypath_Testsuite_APAC_SEO: Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Enquiry_Now]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -4,4 +4,74 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@dev-uc-opm.pantheonsite.io/'</initValue>
+      <name>University_Canberra_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Postgraduate diploma'</initValue>
+      <name>Education_Level</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@dev-rmit-opm.pantheonsite.io'</initValue>
+      <name>University_RMIT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@test-vu-opm.pantheonsite.io'</initValue>
+      <name>University_VC</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@dev-du-opm.pantheonsite.io/'</initValue>
+      <name>University_Deakin_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@dev-uts-opm.pantheonsite.io/'</initValue>
+      <name>University_UTS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@dev-ecu-opm.pantheonsite.io/'</initValue>
+      <name>University_ECU</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@dev-mbs-mkt.pantheonsite.io/'</initValue>
+      <name>University_MBS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'4111 1111 1111 1111'</initValue>
+      <name>Card_Number</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@dev-jcu-opm.pantheonsite.io/'</initValue>
+      <name>University_JCU</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@dev-unsw-opm.pantheonsite.io/'</initValue>
+      <name>University_UNSW</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@dev-scu-opm.pantheonsite.io/'</initValue>
+      <name>University_SCU</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@dev-rdistro-help-opm.pantheonsite.io/'</initValue>
+      <name>University_HELP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@dev-sun-opm.pantheonsite.io/'</initValue>
+      <name>University_SUN</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

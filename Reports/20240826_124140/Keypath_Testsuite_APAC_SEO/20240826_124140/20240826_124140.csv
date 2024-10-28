@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Keypath_Testsuite_APAC_SEO,Chrome 127.0.0.0,,,26-08-2024 12:41:44,26-08-2024 12:42:43,58.178s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Main_Page,Chrome 127.0.0.0,,,26-08-2024 12:41:44,26-08-2024 12:42:22,37.738s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,26-08-2024 12:41:45,26-08-2024 12:42:08,23.489s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,26-08-2024 12:42:08,26-08-2024 12:42:22,14.141s,PASSED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Enquiry_Now,Chrome 127.0.0.0,,,26-08-2024 12:42:22,26-08-2024 12:42:43,20.380s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Navigate_Homepage""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,26-08-2024 12:42:22,26-08-2024 12:42:28,5.419s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/APAC_University/SIM_University/Button_Enquiry""), 10)",Chrome 127.0.0.0,,,26-08-2024 12:42:28,26-08-2024 12:42:29,1.028s,PASSED
+"click(findTestObject(""Object Repository/APAC_University/SIM_University/Button_Enquiry""))",Chrome 127.0.0.0,,,26-08-2024 12:42:29,26-08-2024 12:42:29,0.812s,PASSED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/SIM_University/Resuable_Testcases/Lead_Form""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,26-08-2024 12:42:29,26-08-2024 12:42:42,12.994s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,26-08-2024 12:42:42,26-08-2024 12:42:43,0.105s,PASSED

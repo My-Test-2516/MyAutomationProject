@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Keypath_Testsuite_APAC_SEO,Chrome 128.0.0.0,,,19-09-2024 08:56:01,19-09-2024 08:56:13,12.731s,FAILED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Degree_Programs,Chrome 128.0.0.0,,,19-09-2024 08:56:01,19-09-2024 08:56:09,8.545s,FAILED
+"callTestCase(findTestCase(""Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Resuable_Testcases/Navigate_URL""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,19-09-2024 08:56:01,19-09-2024 08:56:07,6.231s,PASSED
+"buttonObject = findTestObject(""Object Repository/APAC_University/MBS_University/Degree Program/List_DegreePrograms"")",Chrome 128.0.0.0,,,19-09-2024 08:56:07,19-09-2024 08:56:07,0.015s,PASSED
+mouseOver(buttonObject),Chrome 128.0.0.0,,,19-09-2024 08:56:07,19-09-2024 08:56:09,2.074s,FAILED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Short_Courses,Chrome 128.0.0.0,,,19-09-2024 08:56:09,19-09-2024 08:56:11,2.057s,FAILED
+"buttonObject = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses"")",Chrome 128.0.0.0,,,19-09-2024 08:56:09,19-09-2024 08:56:09,0.002s,PASSED
+mouseOver(buttonObject),Chrome 128.0.0.0,,,19-09-2024 08:56:09,19-09-2024 08:56:11,2.013s,FAILED
+,,,,,,,
+Test Cases/APAC_Universities/SEO_PAGES/MBS_University/Enrol_Now,Chrome 128.0.0.0,,,19-09-2024 08:56:11,19-09-2024 08:56:13,2.069s,FAILED
+"buttonObject = findTestObject(""Object Repository/APAC_University/MBS_University/Short_Courses/List_ShortCourses"")",Chrome 128.0.0.0,,,19-09-2024 08:56:11,19-09-2024 08:56:11,0.002s,PASSED
+mouseOver(buttonObject),Chrome 128.0.0.0,,,19-09-2024 08:56:11,19-09-2024 08:56:13,2.014s,FAILED
