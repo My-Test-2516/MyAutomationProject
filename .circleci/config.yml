@@ -1,0 +1,13 @@
+Version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: katalonstudio/katalon
+    steps:
+      - checkout
+      - run:
+          name: Run Katalon tests
+          command: |
+            # Run your Katalon tests here
+            katalon-execute.sh -projectPath="/Keypath_Automation_Testing" -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Keypath_Testsuite" -apiKey="d99a60e0-acd2-4b70-bce5-291b03f40787"
